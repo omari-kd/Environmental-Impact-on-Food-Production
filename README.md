@@ -11,32 +11,32 @@ The analysis followed the CRISP-DM methodology, which includes the following sta
 
 Business Understanding
 
-a. Define the project objectives and business goals.
+a. Define the project objectives and business goals
 
-b. Identify key questions that need to be answered. 
+b. Identify key questions that need to be answered
 
 Data Understanding 
 
-a. Collect data from various sources.
+a. Collect data from various sources
 
-b. Explore the data (e.g., summary statistics, missing values, patterns).
+b. Explore the data (e.g., summary statistics, missing values, patterns)
 
 c. Identify potential issues like inconsistencies, duplicates and outliers
 
 Data Preparation
 
-a. Clean and preprocess the data.
+a. Clean and preprocess the data
 
-b. Handle missing values and inconsistencies.
+b. Handle missing values and inconsistencies
 
-c. Transform data into the right format for analysis.
+c. Transform data into the right format for analysis
 
 
 Analysis and Visualisation
 
-a. Exploratory Data Analysis.
+a. Exploratory Data Analysis
 
-b. Confirmatory Data Analysis.
+b. Confirmatory Data Analysis
 
 Recommendations
 
@@ -45,11 +45,11 @@ Recommendations
 The objectives were defined below, followed by the formulation of analytic questions to guide the analysis.
 
 Objectives 
-- Assess the environmental impact of food production: Analyse the environmental impact of these different food products based on key metrics such as water usage, land use, carbon emissions.
-- Compare food production methods: Evaluate how various farming techniques (plant based versus animal based) affect environmental sustainability.
+- Assess the environmental impact of food production: Analyse the environmental impact of these different food products based on key metrics such as water usage, land use, carbon emissions
+- Compare food production methods: Evaluate how various farming techniques (plant based versus animal based) affect environmental sustainability
 - Identify high-impact food products: Determine which foods contribute the most to environmental degradation and assess their sustainability
-- Provide data-driven insights: Develop actionable recommendations to reduce the footprint of food production, targeting policy-makers, food producers and consumers.
-- Promote sustainable food systems: Suggest strategies to transition toward more sustainable agricultural practices that minimise environmental harm.
+- Provide data-driven insights: Develop actionable recommendations to reduce the footprint of food production, targeting policy-makers, food producers and consumers
+- Promote sustainable food systems: Suggest strategies to transition toward more sustainable agricultural practices that minimise environmental harm
 
 Analytic Questions: 
 - What is the correlation between land use and carbon emissions for different food products?
@@ -87,9 +87,9 @@ These represent greenhouse gas emissions per kg of food product(Kg CO2 - equival
 To ensure the data was ready for analysis, a meticulous data preparation process was carried out as follows: 
 
 - Cleaning of column names: The column names were cleaned to ensure standardisation and consistency
-- Correction of column names: The column name packging was corrected to packaging.
-- Checking data structure: The overall structure of the dataset was examined.
-- Duplicate check: No duplicate entries were found.
+- Correction of column names: The column name packging was corrected to packaging
+- Checking data structure: The overall structure of the dataset was examined
+- Duplicate check: No duplicate entries were found
 - Handling Missing Values:
 
 ![image](https://github.com/user-attachments/assets/658c46d5-e994-426c-93da-3530661ccb7c) 
