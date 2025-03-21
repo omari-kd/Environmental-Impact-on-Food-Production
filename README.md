@@ -193,6 +193,29 @@ Both categories have extremely high land use outliers. The highest land use (abo
 Some plant-based food also have a high land use, possibly dark chocolate.
 
 
+#### Investigating the Outliers Further 
+
+![image](https://github.com/user-attachments/assets/9a257097-ddfc-4237-bdfc-a16d53f2748b) 
+
+Outliers in Greenhouse Gas Emissions
+
+Dark Chocolate has the highest emissions, even more than beef. Which is likely due to deforestation (for cocoa plantations), transport emissions and processing.
+
+Beef (beef herd) is known for methane emissions from cattle digestion. Coffee is possibly due to deforestation, water use and energy-intensive processing. 
+
+Coffee production has a significant environmental impact, including deforestation, water pollution and carbon emissions, but sustainable practices like shade-grown coffee and organic farming can mitigate these issues (Green Coffee Bean, 2025).
+
+From a climate point of view, deforestation is catastrophic. Burning timber releases CO2, but beyond that, it also frees carbon stored in the soil and limits the forest's ability to absorb carbon in the future. This explains why deforestation accounts for roughly 95% of the greenhouse gas emissions linked to cocoa beans. At the same time, it also poses a major threat to biodiversity (Le Monde, 2025).
+
+Next, emissions from chocolate processing need to be taken into account – especially for highly processed products such as chocolate-covered biscuits or chocolate spreads. And finally, there is transport, though its impact is relatively minor in comparison (Le Monde, 2025).
+
+![image](https://github.com/user-attachments/assets/1384d580-6d5a-4876-a31f-77cbe44660d8) 
+
+Outliers in Land Use 
+
+Lamb & Mutton require even more land than beef.  Beef (beef herd) is high due to the large land area needed for grazing and feed production. Dark Chocolate again appears as a high-impact product, reflecting the land-intensive nature of cocoa farming.
+
+
 
 # Recommendations & Conclusion
 
@@ -202,4 +225,6 @@ Some plant-based food also have a high land use, possibly dark chocolate.
 - World Wildlife Fund. (2025). Beef production and its environmental impact. Retrieved from https://www.worldwildlife.org/industries/beef#:~:text=Beef%20production%20has%20a%20considerable,emissions%20from%20human%2Drelated%20activities.
 - Rosie's Farm Sanctuary. (2025). Environmental impact of beef production. Retrieved from https://rosiesfarmsanctuary.org/learn/environment/#:~:text=Beef%20production%20alone%20contributes%2041%%20of%20all,by%20an%20ever%2Drising%20international%20demand%20for%20beef.
 - Global Food Institute. (2025). Environmental impacts of alternative proteins. Retrieved from https://gfi.org/resource/environmental-impacts-of-alternative-proteins/
+- Green Bean Coffee. (2025). Sustainability and the environmental impacts of coffee. Retrieved from https://www.greenbeancoffee.com.au/blogs/news/sustainability-and-the-environmental-impacts-of-coffee#:~:text=Organic%20coffee%20cultivation%20offers%20numerous,depends%20on%20your%20individual%20tastes.
+- Le Monde. (2025). What is chocolate's carbon footprint? Retrieved from https://www.lemonde.fr/en/environment/article/2025/02/14/what-is-chocolate-s-carbon-footprint_6738165_114.html#:~:text=Three%20key%20stages%20drive%20the,chemical%20inputs%2C%20deplete%20soil%20quality.
 
