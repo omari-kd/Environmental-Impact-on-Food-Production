@@ -107,7 +107,7 @@ To maintain data integrity and avoid biased imputations the missing values were 
 #### Exploratory Data Analysis 
 
 
-#### Data visualisation of the top ten total emissions by food products 
+#### Data visualisation of the top ten total emissions (Kg CO2) by food products
 
 ![image](https://github.com/user-attachments/assets/d499da2c-4c92-40a1-9ad1-beffc2c19e5a)
 
@@ -128,7 +128,7 @@ Cattle waste, if not properly managed, can pollute water sources with nitrates, 
 Cattle ranching is a major driver of deforestation especially in regions like the Amazon rainforest where land is cleared to create grazing pastures. Deforestation contributes to climate change, biodiversity loss and soil degradation (Rosie's Farm Sanctuary, 2025).
 
 
-#### Data visualisation of plant-based and animal based on land use versus greenhouse gas emissions
+#### Data visualisation of plant-based and animal-based on land use (m² per 100g protein) versus greenhouse gas emissions (kg CO2-eq per 100g protein)
 
 ![image](https://github.com/user-attachments/assets/13ee8e1d-e8f7-4d2b-adce-13de8b59d545) 
 
@@ -175,14 +175,14 @@ Mean: Again, much higher than the median, indicating a some food products take u
 Maximum: Food products require almost 185 m² per 100g protein which is massively higher than the rest (likely beef).
 
 
-#### Box plot to detect outliers in Greenhouse Gas Emissions 
+#### Box plot to detect outliers in Greenhouse Gas Emissions (kg CO₂-eq per 100g protein)
 
 ![image](https://github.com/user-attachments/assets/e7c25b8d-f17a-4e3f-bf7f-be323bb1fad1)
 
 The box plot compares greenhouse gas emissions by category. The box is for animal and plant-based foods that are quite similar. Both categories have high emission outliers, but the most extreme values is in the plant-based category (one point above 70 kg CO₂-eq). There's also an outlier in the animal-based category at 50 kg CO₂-eq.
 
 
-#### Box plot to detect outliers in Land Use  
+#### Box plot to detect outliers in Land Use (m² per 100g protein) 
 
 ![image](https://github.com/user-attachments/assets/2ec361f2-dc85-4ec1-999f-b776a8f67cbd)
 
@@ -197,7 +197,7 @@ Some plant-based food also have a high land use, possibly dark chocolate.
 
 ![image](https://github.com/user-attachments/assets/9a257097-ddfc-4237-bdfc-a16d53f2748b) 
 
-Outliers in Greenhouse Gas Emissions
+#### Outliers in Greenhouse Gas Emissions (kg CO₂-eq per 100g protein)
 
 Dark Chocolate has the highest emissions, even more than beef. Which is likely due to deforestation (for cocoa plantations), transport emissions and processing.
 
@@ -211,9 +211,38 @@ Next, emissions from chocolate processing need to be taken into account – espe
 
 ![image](https://github.com/user-attachments/assets/1384d580-6d5a-4876-a31f-77cbe44660d8) 
 
-Outliers in Land Use 
+#### Outliers in Land Use (m² per 100g protein)
 
 Lamb & Mutton require even more land than beef.  Beef (beef herd) is high due to the large land area needed for grazing and feed production. Dark Chocolate again appears as a high-impact product, reflecting the land-intensive nature of cocoa farming.
+
+
+
+#### Exploratory Data Analysis On Water Use (Freshwater Withdrawals & Scarcity-Weighted Water Use) 
+
+#### Data Visualisation on top freshwater consuming food products litres per 1000kcal
+
+![image](https://github.com/user-attachments/assets/1a94aa27-2668-4e30-bd2a-5db1725cf107) 
+
+The bar chart depicts the distribution of the top ten water-consuming food products. Farmed fish is the highest water consumer, followed by Tomatoes and Cheese. Rice and Nuts are also water consumers. 
+
+Cheese, Milk, Beef (dairy herd), Pig, Milk and Farmed Fish are the most water-intensive animal-based food products in this ranking. 
+
+While all food production requires water, plant-based foods generally require significantly less water than animal products, making them a more water-efficient choice (Colorado Sun, 2022). Animal agriculture consumes high amounts of water and pollutes freshwater ecosystems (Livvie, 2025) also, raising livestock, especially beef, requires vast amounts of water for feed production, drinking water, and cleaning (Livvie, 2025).
+
+From the chart, tomatoes are the most water-consuming plant-based food product, which is supported by EOS (2025), stating that tomato cultivation can be water-intensive, with some studies suggesting that producing 1 kg of tomatoes can require anywhere from 4 to 300 liters of water, depending on the growing method and efficiency.
+
+
+#### Box plot on plant-based versus animal-based freshwater use litres per 1000kcal
+
+![image](https://github.com/user-attachments/assets/2730de17-d78c-4b46-82d4-c5c7587b932e)
+
+
+The box plot compares freshwater use by food category. Animal-based food has a higher median land use than plant-based food per 1000kcal. Plant-based food exhibit a wider range, with some food product requiring very little water, while others require more. Outliers in both categories suggest extreme water consumption for specific food products.
+
+
+#### Scatter Plot: Freshwater Withdrawals (litres per 1000kcal) versus Scarcity-Weighted Water Use (litres per 1000kcal)
+
+![image](https://github.com/user-attachments/assets/b8b48290-4dcc-4e27-a69d-b83f3fab5d70)
 
 
 
@@ -227,4 +256,7 @@ Lamb & Mutton require even more land than beef.  Beef (beef herd) is high due to
 - Global Food Institute. (2025). Environmental impacts of alternative proteins. Retrieved from https://gfi.org/resource/environmental-impacts-of-alternative-proteins/
 - Green Bean Coffee. (2025). Sustainability and the environmental impacts of coffee. Retrieved from https://www.greenbeancoffee.com.au/blogs/news/sustainability-and-the-environmental-impacts-of-coffee#:~:text=Organic%20coffee%20cultivation%20offers%20numerous,depends%20on%20your%20individual%20tastes.
 - Le Monde. (2025). What is chocolate's carbon footprint? Retrieved from https://www.lemonde.fr/en/environment/article/2025/02/14/what-is-chocolate-s-carbon-footprint_6738165_114.html#:~:text=Three%20key%20stages%20drive%20the,chemical%20inputs%2C%20deplete%20soil%20quality.
+- Colorado Sun. (2022). Water, drought and the environmental impact of agriculture: The food we produce matters. Retrieved from https://coloradosun.com/2022/09/07/water-drought-agriculture-food-production-meat-plants-opinion/#:~:text=While%20any%20plant%2Dbased%20food,only%20uses%20about%20one%20gallon.
+- Livvie. (2025). Save water with a vegetarian or vegan diet. Retrieved from https://www.livvie.co/save-water-with-a-vegetarian-or-vegan-diet/#:~:text=How%20Vegetarian%20and%20Vegan%20Diets,for%20more%20information%20and%20sources.
+- EOS. (2025). How to grow tomatoes. Retrieved from https://eos.com/blog/how-to-grow-tomatoes/#:~:text=Water,them%20less%20susceptible%20to%20drought.
 
