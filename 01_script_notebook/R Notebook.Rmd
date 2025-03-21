@@ -10,3 +10,155 @@ Food production is one of the most significant contributors to environmental deg
 
 The goal of this project is to assess the environmental impact of food production at both macro and micro levels and propose data-driven insights to mitigate the negative effects of food production on the environment. This will help policy-makers, environmentalists, food producers and consumers make more informed decisions that support sustainability.
 :::
+
+## **Crisp DM Framework**
+
+::: {style="text-align: justify"}
+The analyses followed the CRISP-DM methodology, which includes the following stages:
+
+1.  **Business Understanding:**
+
+    The objectives were defined below, followed by the formulation of analytic questions to guide the analysis:
+
+    a\. Assess the environmental impact of food production: Analyse the environmental impact of these different food products based on key metrics such as water usage, land use, carbon emissions.
+
+    b\. Compare food production methods: Evaluate how various farming techniques (plant based versus animal based) affect environmental sustainability.
+
+    c\. Identify high-impact food products: Determine which foods contribute the most to environmental degradation and assess their sustainability
+
+    d\. Provide data-driven insights: Develop actionable recommendations to reduce the footprint of food production, targeting policy-makers, food producers and consumers.
+
+    e\. Promote sustainable food systems: Suggest strategies to transition toward more sustainable agricultural practices that minimise environmental harm.
+
+    Analytic questions:
+
+    I. What is the correlation between land use and carbon emissions for different food products?
+
+    II\. How does eutrophication (nutrient run-off) vary among different types of food production?
+
+    III\. How do plant-based and animal-based foods compare in terms of total carbon emissions per kg of product?
+
+    IV\. Which food products have the highest total greenhouse gas emissions per kg of food product?
+
+    V. Which food products have the highest eutrophication potential (nutrient runoff) per kg of product?
+
+    VI\.
+
+    VII\. What are the main contributors to greenhouse gas emissions in food production and how can they be reduced?
+
+    VIII\. What policy interventions (e.g., carbon taxes, incentives for sustainable farming) could help reduce the environmental footprint of food production?
+
+2.  **Data Understanding:** The dataset contains most 43 most common foods grown across the globe and 23 columns as their respective land, water usage and carbon footprints. Variables include:
+
+    a\. Land use change - Kg CO2 - equivalents per kg product
+
+    b\. Animal Feed - Kg CO2 - equivalents per kg product
+
+    c\. Farm - Kg CO2 - equivalents per kg product
+
+    d\. Processing - Kg CO2 - equivalents per kg product
+
+    e\. Transport - Kg CO2 - equivalents per kg product
+
+    f\. Packaging - Kg CO2 - equivalents per kg product
+
+    g\. Retail - Kg CO2 - equivalents per kg product
+
+    These represent greenhouse gas emissions per kg of food product(Kg CO2 - equivalents per kg product) across different stages in the life-cycle of food production.
+
+3.  **Data Preparation**
+
+    ```{r}
+    # Load libraries
+    library(janitor)
+    library(dplyr)
+    library(ggplot2)
+    library(naniar)
+    ```
+
+    ```{r}
+    # Read Food_Production.csv
+    df <- read.csv("./00_raw_data/Food_Production.csv")
+    ```
+
+    ```{r}
+    # Clean column names
+    df <- df %>% clean_names()
+
+    # Rename packging to packaging
+    df <- df %>% rename(packaging = packging)
+    ```
+
+    ```{r}
+    # Check the structure
+    str(df) # The data looks structured
+
+    # Check for duplicates
+    sum(duplicated(df)) # No duplicates found
+    ```
+
+    ```{r}
+    # Check for NA's 
+    colSums(is.na(df))
+    ```
+
+    ```{r}
+    # Visualising missing data
+    # This shows the amount of missing data for each variable
+    gg_miss_var(df)
+    ```
+
+    The bar chart displays the number of missing values for different variables in a dataset. The x-axis represents the number of missing values while the y-axis lists the variables.
+
+    From the chart, the variables related to water use, land use, greenhouse gas emissions and eutrophying emissions per 100g protein or per 1000kcal have the most missing values, with some having close to 18 missing entries. On the other hand, variables related to food production stages such as transport, retail, processing, packaging, farm and animal feed no missing data.
+
+    This suggests that the dataset is more complete for food production stages or processes but has gaps in environmental impact data, especially for nutrient-based metrics.
+
+    To maintain data integrity and avoid biased imputations, the missing values are dropped.
+
+    ```{r}
+    # Remove missing values
+    df <- na.omit(df)
+    ```
+
+4.  **Analysis and Visualisation**
+
+    Summary Statistics
+
+    ```{r}
+    # Summary Statistics
+    summary(df$total_emissions)
+    ```
+
+    The minimum total emission is 0.200 and the maximum total emission is 59.600.
+
+    1St Quartile: 25% of the total emission falls under 0.850.
+
+    3Rd Quartile: 25% of the total emission is above 6.000 or 75% of the total emission falls under 6.000.
+
+    Skewness: The median (1.600) and mean(5.972) indicates, the distribution is skewed. The mean being greater than the median shows a positive skewness, that is, skewed to the right or right skewed.
+
+    Exploratory Data Analysis
+
+    A data visualisation of the top ten total emissions by food products
+
+    ```{r message=F}
+    # Group the data by the food product variable
+    food_product_data <- df %>% 
+      group_by(food_product) %>% 
+      summarise(total_emissions = sum(total_emissions))
+
+    # Limit to top ten
+    food_product_data <- head(food_product_data, 10)
+
+    # Visualise the data  
+    ggplot(food_product_data, aes(x = food_product, y = total_emissions, fill = food_product)) +
+      geom_bar(stat = "identity", position = "dodge") +
+      labs(title = "Top Ten Total Emissions by Food Product", x = "Food Product", y
+           = "Total Emissions (Kg CO2)") +
+      theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+      scale_fill_discrete(name = "Food Product")
+    ```
+
+5.  **Recommendations / Conclusion**
+:::
