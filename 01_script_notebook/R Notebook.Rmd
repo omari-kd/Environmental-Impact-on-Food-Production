@@ -160,5 +160,21 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
       scale_fill_discrete(name = "Food Product")
     ```
 
+    1.  The bar chart shows the distribution of the top ten total emission by food products. The y-axis represents total emissions while the x-axis lists the different food products. Each food product is represented by a different colour in the legend on the right.
+
+        From the chart, Beef (beef herd) has the highest emissions by a large margin followed by Beef (dairy herd) which also has significant emissions but much lower in comparison. The remaining food products have relatively small emissions in comparison to beef. Cane Sugar and Beet Sugar have slightly higher emissions than most of the other products apart from beef but they are still much lower overall.
+
+        This suggests that beef production has a significantly higher environmental impact in terms of emissions compared to other food products.
+
+        Beef production has a higher environmental impact than other food sources due to factors like land use for grazing and crop production, greenhouse gas emissions from cattle and water pollution from waste run-off, as well as deforestation from cattle ranching.
+
+        As stated by the Beef Research Council, Beef production requires vast amounts of land, both for grazing cattle and for growing feed crops. Globally, a significant portion of agricultural land is used for livestock including cattle and a large area of rainforests is destroyed to create grazing land.
+
+        Cattle are a major source of greenhouse gas emissions, particularly methane, which is a potent greenhouse gas. Methane is released during the digestive process of cattle and also from manure management. The production of feed crops for cattle also contributes to greenhouse gas emissions.
+
 5.  **Recommendations / Conclusion**
 :::
+
+## References
+
+1.  Beef Research Council. (n.d.). *Environmental footprint of beef production*. Retrieved from <https://www.beefresearch.ca/topics/environmental-footprint-of-beef-production/#:~:text=The%20beef%20environmental%20footprint%20has,produced%20by%20plants%20and%20animals>.
