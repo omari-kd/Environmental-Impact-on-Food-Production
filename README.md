@@ -1,7 +1,7 @@
 # Overview
 Food production is one of the most significant contributors to environmental degradation, including issues such as climate change, water scarcity and biodiversity loss. The agricultural sector's environmental footprint varies widely across different food products, farming methods and geographical locations. Understanding the environmental impacts of food production is essential for developing more sustainable practices, reducing ecological footprints and making informed policy and consumer choices. 
 
-This project focuses on analysing the environmental impact of food production, with an emphasis on key metrics such as carbon emissions, water usage, land use and biodiversity loss. By leveraging data on food production and environmental factors, this analysis aims to uncover patterns and provide actionable recommendations for more sustainable food systems. 
+This project focuses on analysing the environmental impact of food production, emphasising key metrics such as carbon emissions, water usage, land use and biodiversity loss. This analysis aims to uncover patterns and provide actionable recommendations for more sustainable food systems, by leveraging data on food production and environmental factors
 
 The goal of this project is to assess the environmental impact of food production at both macro and micro levels and propose data-driven insights to mitigate the negative effects of food production on the environment. This will help policymakers, environmentalists, food producers and consumers make more informed decisions that support sustainability.
 
@@ -113,9 +113,7 @@ To maintain data integrity and avoid biased imputations the missing values were 
 
 The bar chart depicts the distribution of the top ten total emissions by food products. The y-axis shows total emissions whilst the x-axis lists different food products. Each food product is represented by a unique colour in the legend on the right.
 
-From the chart, Beef (beef herd) demonstrates the highest emissions by a considerable margin followed by Beef (dairy herd) which also has significant emissions but substantially lower in comparison. The remaining food products have relatively minor emissions compared to beef. Cane Sugar and Beet Sugar have slightly elevated emissions than most other products apart from beef but remain much lower overall.
-
-This indicates that beef production has a significantly higher environmental impact regarding emissions compared to other food products.
+From the chart, Beef (beef herd) demonstrates the highest emissions by a considerable margin followed by Beef (dairy herd) which also has significant emissions but substantially lower in comparison. The remaining food products have relatively minor emissions compared to beef. This indicates that beef production has a significantly higher environmental impact regarding emissions compared to other food products.
 
 According to the World Wildlife Fund (2025), Beef production has a higher environmental impact than other food sources due to factors like land use for grazing and crop production, greenhouse gas emissions from cattle and water pollution from waste run-off as well as deforestation from cattle ranching.
 
