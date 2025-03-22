@@ -270,7 +270,7 @@ Both plant-based and animal-based foods show variation in how their water use tr
 
 # Recommendations & Conclusion
 
-## Strategies for land use & greenhouse emission of beef food product
+## Strategies for reducing land use & greenhouse emission of beef food product
 
 Global Food Institute (2025), states that using alternative proteins helps reduce air and water pollution significantly. With the use of plants, fermentation and cell cultivation instead of livestock, the production of alternative proteins does not emit the toxic air pollutants including ammonia, hydrogen sulfide and particulate matter as conventional meat production. Also ,there will be no discharge of animal waste. The discharge of nitrogen and phosphorus which stimulates the growth of algal blooms that impair water  quality is reduced by using alternative proteins.
 
