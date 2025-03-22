@@ -220,9 +220,9 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 
     This scatter plot shows the relationship between land use(x-axis) and greenhouse gas emissions (y-axis) for different food categories, split into animal-based (red points & dashed red trend line) and plant-based food (blue points & dashed blue trend line).
 
-    Animal-based foods typically require more land and generate higher greenhouse gas emissions compared to most plant-based alternatives. The relatively flat trend line for animal-based foods suggests that within this category, increasing land use does not correspond to proportionally higher emissions.
+    Animal-based food typically require more land and generate higher greenhouse gas emissions compared to most plant-based alternatives. The relatively flat trend line for animal-based food suggests that within this category, increasing land use does not correspond to proportionally higher emissions.
 
-    Plant-based foods display greater variability in land use requirements. While most plant-based options use less land than animal-based foods, certain plant crops require significant land area. The steeper trend line for plant-based foods indicates that higher land use correlates more strongly with increased emissions in this category.
+    Plant-based food display greater variability in land use requirements. While most plant-based options use less land than animal-based food, certain plant crops require significant land area. The steeper trend line for plant-based food indicates that higher land use correlates more strongly with increased emissions in this category.
 
     **Environmental Implications**\
     This data has more plant-based products than animal-based products, but the goal to reduce greenhouse gas emissions, shift from animal-based to plant-based proteins might be beneficial. However, for land conservation, certain plant-based food could still have a significant impact, depending on the type.
@@ -587,19 +587,16 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 
     There appears to be a positive correlation between eutrophication and GHG emissions. A few food products (most likely beef (dairy and beef herd)) are extreme outliers, having both high eutrophication and high GHG emissions. Most food have relatively low eutrophication and GHG emissions, staying in the bottom-left region.
 
-5.  **Recommendations & Conclusion**
+5.  **Recommendations & Conclusion\
+    **This document outlines evidence-based strategies to reduce the environmental impact of food production systems, focusing on land use optimisation, greenhouse gas emission reduction, freshwater conservation, water scarcity, eutrophication. These recommendations address the most resource-intensive food categories and propose sustainable alternatives.
 
-    **Strategies for land use & greenhouse emission of beef food product**
-
-    Global Food Institute (2025), states that using alternative proteins helps reduce air and water pollution significantly. With the use of plants, fermentation and cell cultivation instead of livestock, the production of alternative proteins does not emit the toxic air pollutants including ammonia, hydrogen sulfide and particulate matter as conventional meat production. Also ,there will be no discharge of animal waste. The discharge of nitrogen and phosphorus which stimulates the growth of algal blooms that impair water quality is reduced by using alternative proteins.
+    **Strategies for land use & greenhouse emission of beef food product\
+    **Global Food Institute (2025), states that using alternative proteins helps reduce air and water pollution significantly. With the use of plants, fermentation and cell cultivation instead of livestock, the production of alternative proteins does not emit the toxic air pollutants including ammonia, hydrogen sulfide and particulate matter as conventional meat production. Also ,there will be no discharge of animal waste. The discharge of nitrogen and phosphorus which stimulates the growth of algal blooms that impair water quality is reduced by using alternative proteins.
 
     Moving towards alternative proteins will promote clean water and air as well as improving ecosystems and the health of communities as it also meets increasing protein demand.
 
-    Policy-makers should invest in alternative proteins for a secure, sustainable food supply. The support of alternative protein innovation and commercialisation, will increase food security (Global Food Institute, 2025).
-
-    **Alternative Proteins**
-
-    Science Direct (2025) states that alternative proteins are healthier, more sustainable and environmentally friendly. Alternative proteins are food products, often meat substitutes, derived from sources other than traditional animal-based proteins, like plant-based proteins, cultured meat or fermented products, aiming to be healthier and more sustainable.
+    **Alternative Proteins\
+    **Science Direct (2025) states that alternative proteins are healthier, more sustainable and environmentally friendly. Alternative proteins are food products, often meat substitutes, derived from sources other than traditional animal-based proteins, like plant-based proteins, cultured meat or fermented products, aiming to be healthier and more sustainable.
 
     Alternative Proteins are gaining popularity due to concerns about the environmental impact of traditional meat production, as well as growing interest in plant-based diets and healthier eating habits (Liu, 2018).
 
@@ -621,20 +618,36 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 
     -   Ethical considerations: For those who choose to avoid animal products, alternative proteins offer a way to meet their protein needs without consuming animal products (Science Direct, 2025).
 
-    **Strategies for reducing environmental impact of coffee**
+    -   Resource Efficiency: Plant-based meat production uses 72-99% less water, 47-99% less land, causes 51-91% less water pollution, and emits 30-90% less greenhouse gases (Good Food Institute, n.d.)
 
-    Implementing sustainable agricultural methods represents a crucial approach to minimizing the environmental impact of coffee production. One notable example is shade-grown cultivation, where coffee plants are grown beneath a forest canopy. This technique serves the dual purpose of preventing deforestation while fostering biodiversity and ecological health. The trees provide a natural habitat for a wide variety of species, helping preserve biodiversity. Additionally, they assist in preventing soil erosion and maintaining soil health, which can otherwise be severely compromised due to excessive coffee farming (Green Bean Coffee, 2025).
+    **Sustainable Coffee Production Strategies**
 
+    **Shade-Grown Cultivation\
+    **Implementing sustainable agricultural methods represents a crucial approach to minimizing the environmental impact of coffee production. One notable example is shade-grown cultivation, where coffee plants are grown beneath a forest canopy. This technique serves the dual purpose of preventing deforestation while fostering biodiversity and ecological health. The trees provide a natural habitat for a wide variety of species, helping preserve biodiversity. Additionally, they assist in preventing soil erosion and maintaining soil health, which can otherwise be severely compromised due to excessive coffee farming (Green Bean Coffee, 2025).
+
+    **Organic Farming Practices**\
     Another sustainable practice is organic coffee bean farming, that can drastically reduce coffee's environmental impact. Organic methods avoid the use of synthetic fertilisers and pesticides, unlike traditional coffee farming. According to Green Bean Coffee (2025), these chemicals pose a threat to aquatic life and contaminate water bodies. Organic farming not only protect the ecological balance of the various areas coffee is grown in but also helps to preserves our water sources.
 
-    **Strategies for freshwater use**
+    **Freshwater Conservation Strategies**
 
-    A shift towards a plant-based diet helps alleviate the strain on freshwater resources. Conserving water by adopting a plant-based diet can contribute to the preservation of freshwater ecosystems and ensure adequate supplies for future generation. By embracing a plant-based diet, you can make a positive impact on water conservation efforts and play a role in mitigating the environmental challenges associated with water scarcity (Nussli118, n.d.).
+    **Plant-Based Diet Transition\
+    **Shifting toward a plant-based diet helps alleviate the strain on freshwater resources. Conserving water by adopting a plant-based diet can contribute to the preservation of freshwater ecosystems and ensure adequate supplies for future generations. By embracing a plant-based diet, individuals can positively impact water conservation efforts and help mitigate environmental challenges associated with water scarcity (Nussli118, n.d.).\
 
-    Also Good Food Institute (n.d) stated that plant-based meat production uses 72-99 percent less water and 47-99 percent less land and causes 51-91 percent less water pollution and emits 30-90 percent less greenhouse gas emissions.\
+    **Sustainable Fish Farming Practices**\
+    According to Food and Agriculture Organisation (FAO), sustainable fish farming requires careful water management focused on:
 
-    **Strategies for fresh water withdrawal for fish farming**\
-    According to Food and Agriculture Organisation (FAO), sustainability fish farming requires careful water management, focusing on minimising water withdrawal and maximising water reuse through practices like recirculating aquaculture systems and water treatment, while also considering the environmental impact of different farming methods
+    Water Treatment: Implementing effective water treatment technologies and practices is crucial for minimising environmental impact and ensuring fish health.
+
+    Water Reuse: Exploring responsible water reuse opportunites, such as using treated waste water, can help reduce the demand on freshwater sources.
+
+    Selection of Sustainable Species and Farming Methods: Prioritising the cultivation of species that are native to the region and using less water-intensive farming methods can help reduce the overall environmental footprint.
+
+    Polyculture: Farming multiple species together to improve water use efficiency and reduce environmental impact.
+
+    Promoting Awareness: Educating fish farmers and the public about the importance of sustainable water management. 
+
+    **Policy Recommendations\
+    **Policy-makers should invest in alternative protein development for a secure, sustainable food supply. Supporting alternative protein innovation and commercialization will increase food security while reducing environmental impacts (Global Food Institute, 2025).
 :::
 
 ## References

@@ -47,14 +47,14 @@ The objectives were defined below, followed by the formulation of analytic quest
 Objectives 
 - Assess the environmental impact of food production: Analyse the environmental impact of these different food products based on key metrics such as water usage, land use, carbon emissions
 - Compare food production methods: Evaluate how various farming techniques (plant based versus animal based) affect environmental sustainability
-- Identify high-impact food products: Determine which foods contribute the most to environmental degradation and assess their sustainability
+- Identify high-impact food products: Determine which food contribute the most to environmental degradation and assess their sustainability
 - Provide data-driven insights: Develop actionable recommendations to reduce the footprint of food production, targeting policy-makers, food producers and consumers
 - Promote sustainable food systems: Suggest strategies to transition toward more sustainable agricultural practices that minimise environmental harm
 
 Analytic Questions: 
 - What is the correlation between land use and carbon emissions for different food products?
 - How does eutrophication (nutrient run-off) vary among different types of food production?
-- How do plant-based and animal-based foods compare in terms of total carbon emissions per kg of product?
+- How do plant-based and animal-based food compare in terms of total carbon emissions per kg of product?
 - Which food products have the highest total greenhouse gas emissions per kg of food product?
 -  Which food products have the highest eutrophication potential (nutrient runoff) per kg of product?
 -  
@@ -64,7 +64,7 @@ Analytic Questions:
 
 ### 2. Data Understanding:
 
- The dataset contains most 43 most common foods grown across the globe and 23 columns as their respective land, water usage and carbon footprints. Variables include:
+ The dataset contains most 43 most common food grown across the globe and 23 columns as their respective land, water usage and carbon footprints. Variables include:
 
 a. Land use change - Kg CO2 - equivalents per kg product
 
@@ -143,9 +143,9 @@ Cattle ranching is a major driver of deforestation especially in regions like th
 
 This scatter plot shows the relationship between land use(x-axis) and greenhouse gas emissions (y-axis) for different food categories, split into animal-based (red points & dashed red trend line) and plant-based food (blue points & dashed blue trend line).
 
-Animal-based foods typically require more land and generate higher greenhouse gas emissions compared to most plant-based alternatives. The relatively flat trend line for animal-based foods suggests that within this category, increasing land use does not correspond to proportionally higher emissions.
+Animal-based food typically require more land and generate higher greenhouse gas emissions compared to most plant-based alternatives. The relatively flat trend line for animal-based food suggests that within this category, increasing land use does not correspond to proportionally higher emissions.
 
-Plant-based foods display greater variability in land use requirements. While most plant-based options use less land than animal-based foods, certain plant crops require significant land area. The steeper trend line for plant-based foods indicates that higher land use correlates more strongly with increased emissions in this category.
+Plant-based food display greater variability in land use requirements. While most plant-based options use less land than animal-based food, certain plant crops require significant land area. The steeper trend line for plant-based food indicates that higher land use correlates more strongly with increased emissions in this category.
 
 #### Environmental Implications
 
@@ -166,13 +166,13 @@ The minimum greenhouse gas emission is 0.26, which is very low in CO2 emissions.
 
 Median: Half of the food products have emissions is 7.05 kg CO₂-eq.
 
-Skewness: The Mean is higher than the median, suggesting a right-skewed distribution (some foods have extremely high emissions)
+Skewness: The Mean is higher than the median, suggesting a right-skewed distribution (some food have extremely high emissions)
 
-3Rd Quartile:  75% of the foods have emissions of about 15.69 kg CO₂-eq.
+3Rd Quartile:  75% of the food have emissions of about 15.69 kg CO₂-eq.
 
 Maximum: The highest emission food products produces 93.3 kg CO₂-eq  which is far above the mean, confirming outliers.
 
-Most foods have emissions below 16 kg CO₂-eq, but a few high-impact foods (an example is beef) push the mean much higher.
+Most food have emissions below 16 kg CO₂-eq, but a few high-impact food (an example is beef) push the mean much higher.
 
 
 #### Summary Land Use (m² per 100g protein) 
@@ -185,7 +185,7 @@ Median: Half of the food product needs 9.33 m².
 
 Mean: Again, much higher than the median, indicating a some food products take up a lot of land.
 
-3Rd Quartile: 75% of foods require 24.83 m² 
+3Rd Quartile: 75% of food require 24.83 m² 
 
 Maximum: Food products require almost 185 m² per 100g protein which is massively higher than the rest (likely beef).
 
@@ -194,7 +194,7 @@ Maximum: Food products require almost 185 m² per 100g protein which is massivel
 
 ![image](https://github.com/user-attachments/assets/e7c25b8d-f17a-4e3f-bf7f-be323bb1fad1)
 
-The box plot compares greenhouse gas emissions by category. The box is for animal and plant-based foods that are quite similar. Both categories have high emission outliers, but the most extreme values is in the plant-based category (one point above 70 kg CO₂-eq). There's also an outlier in the animal-based category at 50 kg CO₂-eq.
+The box plot compares greenhouse gas emissions by category. The box is for animal and plant-based food that are quite similar. Both categories have high emission outliers, but the most extreme values is in the plant-based category (one point above 70 kg CO₂-eq). There's also an outlier in the animal-based category at 50 kg CO₂-eq.
 
 
 #### Box plot to detect outliers in Land Use (m² per 100g protein) 
@@ -242,7 +242,7 @@ The bar chart depicts the distribution of the top ten water-consuming food produ
 
 Cheese, Milk, Beef (dairy herd), Pig, Milk and Farmed Fish are the most water-intensive animal-based food products in this ranking. 
 
-While all food production requires water, plant-based foods generally require significantly less water than animal products, making them a more water-efficient choice (Colorado Sun, 2022). Animal agriculture consumes high amounts of water and pollutes freshwater ecosystems (Livvie, 2025) also, raising livestock, especially beef, requires vast amounts of water for feed production, drinking water, and cleaning (Livvie, 2025).
+While all food production requires water, plant-based food generally require significantly less water than animal products, making them a more water-efficient choice (Colorado Sun, 2022). Animal agriculture consumes high amounts of water and pollutes freshwater ecosystems (Livvie, 2025) also, raising livestock, especially beef, requires vast amounts of water for feed production, drinking water, and cleaning (Livvie, 2025).
 
 From the chart, tomatoes are the most water-consuming plant-based food product, which is supported by EOS (2025), stating that tomato cultivation can be water-intensive, with some studies suggesting that producing 1 kg of tomatoes can require anywhere from 4 to 300 liters of water, depending on the growing method and efficiency.
 
@@ -290,21 +290,24 @@ The scatter plot shows a distribution of freshwater withdrawals versus scarcity 
 
 Freshwater withdrawals (litres per 1000kcal) measures the total amount of water taken from sources, while scarcity-weighted water use (litres per 1000kcal) considers the water's availability and stress levels in the region where it's used. 
 
-Both plant-based and animal-based foods show variation in how their water use translates into environmental stress.
+Both plant-based and animal-based food show variation in how their water use translates into environmental stress.
 
 
-# Recommendations & Conclusion
+# Recommendations & Conclusion 
 
-## Strategies for reducing land use & greenhouse emission of beef food product
+This document outlines evidence-based strategies to reduce the environmental impact of food production systems, focusing on land use optimisation, greenhouse gas emission reduction, freshwater conservation, water scarcity, eutrophication. These recommendations address the most resource-intensive food categories and propose sustainable alternatives.
 
-Global Food Institute (2025), states that using alternative proteins helps reduce air and water pollution significantly. With the use of plants, fermentation and cell cultivation instead of livestock, the production of alternative proteins does not emit the toxic air pollutants including ammonia, hydrogen sulfide and particulate matter as conventional meat production. Also ,there will be no discharge of animal waste. The discharge of nitrogen and phosphorus which stimulates the growth of algal blooms that impair water  quality is reduced by using alternative proteins.
+## 1. Reducing Environmental Impact of Animal Products
+
+### 1.1 Beef Production
+
+Beef production contributes significantly to global greenhouse gas emissions and requires extensive land use. Global Food Institute (2025), states that using alternative proteins helps reduce air and water pollution significantly. With the use of plants, fermentation and cell cultivation instead of livestock, the production of alternative proteins does not emit the toxic air pollutants including ammonia, hydrogen sulfide and particulate matter as conventional meat production. Also ,there will be no discharge of animal waste. The discharge of nitrogen and phosphorus which stimulates the growth of algal blooms that impair water  quality is reduced by using alternative proteins.
 
 Moving towards alternative proteins will promote clean water and air as well as improving ecosystems and the health of communities as it also meets increasing protein demand. 
 
-Policy-makers should invest in alternative proteins for a secure, sustainable food supply. The support of alternative protein innovation and commercialisation, will increase food security (Global Food Institute, 2025).
 
 
-### Alternative Proteins
+### 1.2 Alternative Proteins
 
 Science Direct (2025) states that alternative proteins are healthier, more sustainable and environmentally friendly. Alternative proteins are food products, often meat substitutes, derived from sources other than traditional animal-based proteins, like plant-based proteins, cultured meat or fermented products, aiming to be healthier and more sustainable. 
 
@@ -329,18 +332,62 @@ Health: Many plant-based proteins are lower in saturated fat and cholesterol tha
 
 Ethical considerations: For those who choose to avoid animal products, alternative proteins offer a way to meet their protein needs without consuming animal products (Science Direct, 2025).
 
+Resource Efficiency: Plant-based meat production uses 72-99% less water, 47-99% less land, causes 51-91% less water pollution, and emits 30-90% less greenhouse gases (Good Food Institute, n.d.)
 
-## Strategies for reducing environmental impact of coffee
+## 2. Sustainable Coffee Production Strategies
+
+### 2.1 Shade-Grown Cultivation
 
 Implementing sustainable agricultural methods represents a crucial approach to minimizing the environmental impact of coffee production. One notable example is shade-grown cultivation, where coffee plants are grown beneath a forest canopy. This technique serves the dual purpose of preventing deforestation while fostering biodiversity and ecological health. The trees provide a natural habitat for a wide variety of species, helping preserve biodiversity. Additionally, they assist in preventing soil erosion and maintaining soil health, which can otherwise be severely compromised due to excessive coffee farming (Green Bean Coffee, 2025)
+
+### 2.2 Organic Farming Practices 
 
 Another sustainable practice is organic coffee bean farming, that can drastically reduce coffee's environmental impact. Organic methods avoid the use of synthetic fertilisers and pesticides, unlike traditional coffee farming. According to Green Bean Coffee (2025), these chemicals pose a threat to aquatic life and contaminate water bodies. Organic farming not only protect the ecological balance of the various areas coffee is grown in but also helps to preserves our water sources.
 
 
+## 3. Freshwater Conservation Strategies
 
-## Strategies for fresh water withdrawal for fish farming
+### 3.1 Plant-Based Diet Transition
+
+Shifting toward a plant-based diet helps alleviate the strain on freshwater resources. Conserving water by adopting a plant-based diet can contribute to the preservation of freshwater ecosystems and ensure adequate supplies for future generations. By embracing a plant-based diet,  individuals can positively impact water conservation efforts and help mitigate environmental challenges associated with water scarcity  (Nussli118, n.d.).
+
+### 3.2 Sustainable Fish Farming Practices 
+
+According to Food and Agriculture Organisation (FAO), sustainable fish farming requires careful water management focused on:
+
+Water Treatment: Implementing effective water treatment technologies and practices is crucial for minimising environmental impact and ensuring fish health.
+
+Water Reuse: Exploring responsible water reuse opportunites, such as using treated waste water, can help reduce the demand on freshwater sources.
+
+Selection of Sustainable Species and Farming Methods: Prioritising the cultivation of species that are native to the region and using less water-intensive farming methods can help reduce the overall environmental footprint.
+
+Polyculture: Farming multiple species together to improve water use efficiency and reduce environmental impact.
+
+Promoting Awareness: Educating fish farmers and the public about the importance of sustainable water management.
+
+
+
+### Sustainable Fish Farming Practices
 
 According to Food and Agriculture Organisation (FAO), sustainability fish farming requires careful water management, focusing on minimising water withdrawal and maximising water reuse through practices like recirculating aquaculture systems and water treatment, while also considering the environmental impact of different farming methods
+
+Water Treatment: Implementing effective water treatment technologies and practices is crucial for minimizing environmental impact and ensuring fish health.
+
+Water Reuse: Exploring opportunities for responsible water reuse, such as using treated waste water, can help reduce the demand on freshwater sources.
+
+Choosing Sustainable Species and Farming Methods: Prioritising the cultivation of species that are native to the region and using less water-intensive farming methods can help reduce the overall environmental footprint.
+
+Polyculture: Farming multiple species together can improve water use efficiency and reduce the overall environmental impact.
+
+Promoting Awareness: Educating fish farmers and the public about the importance of sustainable water management is crucial for long-term success. 
+
+
+## Policy Recommendations
+
+Policy-makers should invest in alternative protein development for a secure, sustainable food supply. Supporting alternative protein innovation and commercialization will increase food security while reducing environmental impacts (Global Food Institute, 2025).
+
+
+
 
 # References 
 - Beef Research Council. (n.d.). Environmental footprint of beef production. Retrieved from https://www.beefresearch.ca/topics/environmental-footprint-of-beef-production/#:~:text=The%20beef%20environmental%20footprint%20has,produced%20by%20plants%20and%20animals.
