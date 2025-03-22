@@ -266,7 +266,7 @@ This visualisation highlights the outliers in freshwater withdrawals (litres per
 
 Excessive freshwater withdrawal can lead to depletion of water sources that is reduced water availability for other uses and ecosystems. It can also lead to  water quality degradation; pollution from fish farm effluent (waste) can contaminate water sources. Changes in flow of water and quality can harm aquatic habitats and species which can lead to ecosystem disruption.
 
-*** Supporting Research ***
+#### Supporting Research
 
 Fish farming relies heavily on freshwater resources and the intensity of freshwater withdrawal is an important factor in the sustainability of this industry (Leroy Seafood, 2021). 
 
