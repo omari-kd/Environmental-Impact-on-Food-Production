@@ -141,15 +141,20 @@ Cattle ranching is a major driver of deforestation especially in regions like th
 
 ![image](https://github.com/user-attachments/assets/13ee8e1d-e8f7-4d2b-adce-13de8b59d545) 
 
-This scatter plot shows the relationship between land use(x-axis) and greenhouse gas emissions (y-axis) for different food categories, split into animal-based (red points & dashed red trend line) and plant-based foods (blue points & dashed blue trend line). 
+This scatter plot shows the relationship between land use(x-axis) and greenhouse gas emissions (y-axis) for different food categories, split into animal-based (red points & dashed red trend line) and plant-based food (blue points & dashed blue trend line).
 
-The animal-based foods generally do have lower land use. The trend line is relatively flat, suggesting that increasing land use does not significantly increase emissions within this category.
+Animal-based foods typically require more land and generate higher greenhouse gas emissions compared to most plant-based alternatives. The relatively flat trend line for animal-based foods suggests that within this category, increasing land use does not correspond to proportionally higher emissions.
 
-The plant-based foods show a wider range of land use, with one food product using significantly more land. The trend line is much steeper, indicating that higher land use is strongly associated with higher emission in this category.
+Plant-based foods display greater variability in land use requirements. While most plant-based options use less land than animal-based foods, certain plant crops require significant land area. The steeper trend line for plant-based foods indicates that higher land use correlates more strongly with increased emissions in this category.
 
-This data has more plant-based products than animal-based products, but the goal to reduce greenhouse gas emissions, shift from animal-based to plant-based proteins might be beneficial. However, for land conservation, certain plant-based foods could still have a significant impact, depending on the type.
+#### Environmental Implications
+
+This data has more plant-based products than animal-based products, but the goal to reduce greenhouse gas emissions, shift from animal-based to plant-based proteins might be beneficial. However, for land conservation, certain plant-based food could still have a significant impact, depending on the type.
+
+#### Supporting Research
 
 Global Food Institute stated that, by using plants, fermentation or cell cultivation instead of livestock, the production of alternative proteins does not emit the same toxic air pollutants that is, ammonia, particulate matter and hydrogen sulfide; as conventional meat production. Similarly, because there is no animal waste to discharge and fewer crops and fertilisers are needed, alternative proteins reduce the discharge of nitrogen and phosphorus, which stimulate the growth of algal blooms that impair water quality. A shift toward alternative proteins can keep our air and water clean, improving the health of communities and ecosystems while meeting increasing protein demand.
+
 
 
 
