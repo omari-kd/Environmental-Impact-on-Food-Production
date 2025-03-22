@@ -270,6 +270,8 @@ Both plant-based and animal-based foods show variation in how their water use tr
 
 # Recommendations & Conclusion
 
+## Strategies for land use & greenhouse emission of beef food product
+
 Global Food Institute (2025), states that using alternative proteins helps reduce air and water pollution significantly. With the use of plants, fermentation and cell cultivation instead of livestock, the production of alternative proteins does not emit the toxic air pollutants including ammonia, hydrogen sulfide and particulate matter as conventional meat production. Also ,there will be no discharge of animal waste. The discharge of nitrogen and phosphorus which stimulates the growth of algal blooms that impair water  quality is reduced by using alternative proteins.
 
 Moving towards alternative proteins will promote clean water and air as well as improving ecosystems and the health of communities as it also meets increasing protein demand. 
@@ -303,7 +305,7 @@ Health: Many plant-based proteins are lower in saturated fat and cholesterol tha
 Ethical considerations: For those who choose to avoid animal products, alternative proteins offer a way to meet their protein needs without consuming animal products (Science Direct, 2025).
 
 
-### Strategies for reducing environmental impact of coffee
+## Strategies for reducing environmental impact of coffee
 
 Implementing sustainable agricultural methods represents a crucial approach to minimizing the environmental impact of coffee production. One notable example is shade-grown cultivation, where coffee plants are grown beneath a forest canopy. This technique serves the dual purpose of preventing deforestation while fostering biodiversity and ecological health. The trees provide a natural habitat for a wide variety of species, helping preserve biodiversity. Additionally, they assist in preventing soil erosion and maintaining soil health, which can otherwise be severely compromised due to excessive coffee farming (Green Bean Coffee, 2025)
 

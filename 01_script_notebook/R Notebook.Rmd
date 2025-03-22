@@ -579,6 +579,8 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 
 5.  **Recommendations & Conclusion**
 
+    **Strategies for land use & greenhouse emission of beef food product**
+
     Global Food Institute (2025), states that using alternative proteins helps reduce air and water pollution significantly. With the use of plants, fermentation and cell cultivation instead of livestock, the production of alternative proteins does not emit the toxic air pollutants including ammonia, hydrogen sulfide and particulate matter as conventional meat production. Also ,there will be no discharge of animal waste. The discharge of nitrogen and phosphorus which stimulates the growth of algal blooms that impair water quality is reduced by using alternative proteins.
 
     Moving towards alternative proteins will promote clean water and air as well as improving ecosystems and the health of communities as it also meets increasing protein demand.
