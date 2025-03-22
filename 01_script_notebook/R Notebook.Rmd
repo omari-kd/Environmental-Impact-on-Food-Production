@@ -644,7 +644,7 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 
     Polyculture: Farming multiple species together to improve water use efficiency and reduce environmental impact.
 
-    Promoting Awareness: Educating fish farmers and the public about the importance of sustainable water management. 
+    Promoting Awareness: Educating fish farmers and the public about the importance of sustainable water management.
 
     **Policy Recommendations\
     **Policy-makers should invest in alternative protein development for a secure, sustainable food supply. Supporting alternative protein innovation and commercialization will increase food security while reducing environmental impacts (Global Food Institute, 2025).
