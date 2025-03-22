@@ -366,22 +366,6 @@ Polyculture: Farming multiple species together to improve water use efficiency a
 Promoting Awareness: Educating fish farmers and the public about the importance of sustainable water management.
 
 
-
-### Sustainable Fish Farming Practices
-
-According to Food and Agriculture Organisation (FAO), sustainability fish farming requires careful water management, focusing on minimising water withdrawal and maximising water reuse through practices like recirculating aquaculture systems and water treatment, while also considering the environmental impact of different farming methods
-
-Water Treatment: Implementing effective water treatment technologies and practices is crucial for minimizing environmental impact and ensuring fish health.
-
-Water Reuse: Exploring opportunities for responsible water reuse, such as using treated waste water, can help reduce the demand on freshwater sources.
-
-Choosing Sustainable Species and Farming Methods: Prioritising the cultivation of species that are native to the region and using less water-intensive farming methods can help reduce the overall environmental footprint.
-
-Polyculture: Farming multiple species together can improve water use efficiency and reduce the overall environmental impact.
-
-Promoting Awareness: Educating fish farmers and the public about the importance of sustainable water management is crucial for long-term success. 
-
-
 ## Policy Recommendations
 
 Policy-makers should invest in alternative protein development for a secure, sustainable food supply. Supporting alternative protein innovation and commercialization will increase food security while reducing environmental impacts (Global Food Institute, 2025).
