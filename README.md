@@ -254,6 +254,7 @@ From the chart, tomatoes are the most water-consuming plant-based food product, 
 
 The box plot compares freshwater use by food category. Animal-based food has a higher median land use than plant-based food per 1000kcal. Plant-based food exhibit a wider range, with some food product requiring very little water, while others require more. Outliers in both categories suggest extreme water consumption for specific food products.
 
+Animal-based food production uses significantly more freshwater than plant-based food production, with studies showing that shifting to a plant-based diet could reduce water consumption by up to 50% (Humane World, 2019).
 
 #### Investigating the Outliers Further in Freshwater Withdrawals (litres per 1000 kcal)
 
@@ -261,6 +262,13 @@ The box plot compares freshwater use by food category. Animal-based food has a h
 
 This visualisation highlights the outliers in freshwater withdrawals (litres per 1000 kcal). Fish (farmed) is the highest outlier among animal-based food product. Tomatoes is the highest outlier among plant-based food product. Both require significantly more water than the median food product.
 
+#### Environmental Impact
+
+Excessive freshwater withdrawal can lead to depletion of water sources that is reduced water availability for other uses and ecosystems. It can also lead to  water quality degradation; pollution from fish farm effluent (waste) can contaminate water sources. Changes in flow of water and quality can harm aquatic habitats and species which can lead to ecosystem disruption.
+
+*** Supporting Research ***
+
+Fish farming relies heavily on freshwater resources and the intensity of freshwater withdrawal is an important factor in the sustainability of this industry (Leroy Seafood, 2021). 
 
 #### Box plot on plant-based versus animal-based scarcity- weighted use litres per 1000kcal
 
@@ -329,6 +337,11 @@ Implementing sustainable agricultural methods represents a crucial approach to m
 Another sustainable practice is organic coffee bean farming, that can drastically reduce coffee's environmental impact. Organic methods avoid the use of synthetic fertilisers and pesticides, unlike traditional coffee farming. According to Green Bean Coffee (2025), these chemicals pose a threat to aquatic life and contaminate water bodies. Organic farming not only protect the ecological balance of the various areas coffee is grown in but also helps to preserves our water sources.
 
 
+
+## Strategies for fresh water withdrawal for fish farming
+
+According to Food and Agriculture Organisation (FAO), sustainability fish farming requires careful water management, focusing on minimising water withdrawal and maximising water reuse through practices like recirculating aquaculture systems and water treatment, while also considering the environmental impact of different farming methods
+
 # References 
 - Beef Research Council. (n.d.). Environmental footprint of beef production. Retrieved from https://www.beefresearch.ca/topics/environmental-footprint-of-beef-production/#:~:text=The%20beef%20environmental%20footprint%20has,produced%20by%20plants%20and%20animals.
 - World Wildlife Fund. (2025). Beef production and its environmental impact. Retrieved from https://www.worldwildlife.org/industries/beef#:~:text=Beef%20production%20has%20a%20considerable,emissions%20from%20human%2Drelated%20activities.
@@ -346,6 +359,11 @@ Another sustainable practice is organic coffee bean farming, that can drasticall
 - Finnigan, T. (2011). The nutritional properties of mycoprotein are essential for meat alternative development. ScienceDirect. Retrieved from https://www.sciencedirect.com/science/article/abs/pii/S0308814624031868#:~:text=The%20nutritional%20properties%20of%20mycoprotein%20are%20essential,the%20structure%20of%20meat%20myofibers%20(Finnigan%2C%202011).
 - Learn About Ag. (n.d.). Alternative protein sources. Retrieved from https://learnaboutag.org/matrix/lesson/print/709/
 - FoodNavigator. (2024, January 17). Diversified protein sourcing and the path to mainstream adoption. Retrieved from https://www.foodnavigator.com/Article/2024/01/17/diversified-protein-sourcing-and-the-path-to-mainstream-adoption/#:~:text=Alternative%20sources%20of%20protein%20emerging,as%20animal%20and%20plant%20proteins.
+- Humane World. (2019, March 22). Eight reasons to eat plant-based and save water this World Water Day. Retrieved from https://www.humaneworld.org/en/news/eight-reasons-eat-plant-based-and-save-water-world-water-day-2019#:~:text=Farming%20(animal%20and%20plant)%20accounts%20for%20about,and%20growing%20crops%20to%20feed%20to%20animals.&text=Studies%20show%20that%20a%20healthy%20meat%2Dfree%20diet,our%20water%20footprint%20by%20up%20to%2055%.
+- Nussli118. (n.d.). Plant-based diets: A key to water conservation. Retrieved from https://nussli118.com/blogs/the-nussli118-blog-for-healthy-living/plant-based-diets-a-key-to-water-conservation#:~:text=Shifting%20towards%20a%20plant%2Dbased%20diet%20helps%20alleviate,and%20ensure%20adequate%20supplies%20for%20future%20generations.
+- Good Food Institute. (n.d.). Plant-based. Retrieved from https://gfi.org/plant-based/
+- Leroy Seafood. (2021). Freshwater use. Retrieved from https://www.leroyseafood.com/en/sustainability/sustainability-library-2021/kpi/kpi-freshwater/#:~:text=Freshwater%20is%20a%20major%20resource%20in%20fish,a%20long%20term%20perspective%20freshwater%20availability%20for.
+
 
 
 

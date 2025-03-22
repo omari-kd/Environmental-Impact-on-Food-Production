@@ -408,8 +408,6 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
     **Investigating the Outliers Further in Freshwater Withdrawals (litres per 1000 kcal)**
 
     ```{r}
-    library(ggplot2)
-    library(dplyr)
 
     # Define a function to identify outliers using the 1.5x IQR rule
     identify_outliers <- function(data, column) {
@@ -437,6 +435,14 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
     ```
 
     This visualisation highlights the outliers in freshwater withdrawals (litres per 1000 kcal). Fish (farmed) is the highest outlier among animal-based food product. Tomatoes is the highest outlier among plant-based food product. Both require significantly more water than the median food product.
+
+    **Environmental Impact**
+
+    Excessive freshwater withdrawal can lead to depletion of water sources that is reduced water availability for other uses and ecosystems. It can also lead to water quality degradation; pollution from fish farm effluent (waste) can contaminate water sources. Changes in flow of water and quality can harm aquatic habitats and species which can lead to ecosystem disruption.
+
+    **Supporting Research**
+
+    Fish farming relies heavily on freshwater resources and the intensity of freshwater withdrawal is an important factor in the sustainability of this industry (Leroy Seafood, 2021).
 
     **Box plot on plant-based versus animal-based scarcity- weighted use litres per 1000kcal**
 
@@ -625,7 +631,10 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 
     A shift towards a plant-based diet helps alleviate the strain on freshwater resources. Conserving water by adopting a plant-based diet can contribute to the preservation of freshwater ecosystems and ensure adequate supplies for future generation. By embracing a plant-based diet, you can make a positive impact on water conservation efforts and play a role in mitigating the environmental challenges associated with water scarcity (Nussli118, n.d.).
 
-    Also Good Food Institute (n.d) stated that plant-based meat production uses 72-99 percent less water and 47-99 percent less land and causes 51-91 percent less water pollution and emits 30-90 percent less greenhouse gas emissions.
+    Also Good Food Institute (n.d) stated that plant-based meat production uses 72-99 percent less water and 47-99 percent less land and causes 51-91 percent less water pollution and emits 30-90 percent less greenhouse gas emissions.\
+
+    **Strategies for fresh water withdrawal for fish farming**\
+    According to Food and Agriculture Organisation (FAO), sustainability fish farming requires careful water management, focusing on minimising water withdrawal and maximising water reuse through practices like recirculating aquaculture systems and water treatment, while also considering the environmental impact of different farming methods
 :::
 
 ## References
@@ -649,3 +658,4 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 17. Humane World. (2019, March 22). *Eight reasons to eat plant-based and save water this World Water Day*. Retrieved from [https://www.humaneworld.org/en/news/eight-reasons-eat-plant-based-and-save-water-world-water-day-2019#:\~:text=Farming%20(animal%20and%20plant)%20accounts%20for%20about,and%20growing%20crops%20to%20feed%20to%20animals.&text=Studies%20show%20that%20a%20healthy%20meat%2Dfree%20diet,our%20water%20footprint%20by%20up%20to%2055%.](https://www.humaneworld.org/en/news/eight-reasons-eat-plant-based-and-save-water-world-water-day-2019#:~:text=Farming%20(animal%20and%20plant)%20accounts%20for%20about,and%20growing%20crops%20to%20feed%20to%20animals.&text=Studies%20show%20that%20a%20healthy%20meat%2Dfree%20diet,our%20water%20footprint%20by%20up%20to%2055%.)
 18. Nussli118. (n.d.). *Plant-based diets: A key to water conservation*. Retrieved from <https://nussli118.com/blogs/the-nussli118-blog-for-healthy-living/plant-based-diets-a-key-to-water-conservation#:~:text=Shifting%20towards%20a%20plant%2Dbased%20diet%20helps%20alleviate,and%20ensure%20adequate%20supplies%20for%20future%20generations>.
 19. Good Food Institute. (n.d.). *Plant-based*. Retrieved from <https://gfi.org/plant-based/>
+20. Leroy Seafood. (2021). *Freshwater use*. Retrieved from <https://www.leroyseafood.com/en/sustainability/sustainability-library-2021/kpi/kpi-freshwater/#:~:text=Freshwater%20is%20a%20major%20resource%20in%20fish,a%20long%20term%20perspective%20freshwater%20availability%20for>.
