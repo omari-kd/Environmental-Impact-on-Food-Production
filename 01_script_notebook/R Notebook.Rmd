@@ -186,7 +186,7 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 
     **Data visualisation of plant-based and animal-based on land use (m² per 100g protein) versus greenhouse gas emissions (kg CO2-eq per 100g protein)**
 
-    ```{r message=FALSE}
+    ```{r message=FALSE, warning=FALSE}
     # Define the plant-based products
     plant_products <- c("Oatmeal", "Rice", "Potatoes", "Nuts", "Groundnuts", 
                         "Tomatoes", "Onions & Leeks", "Root Vegetables", 
@@ -359,7 +359,7 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
     **Outliers in Land Use (m² per 100g protein)**\
     Lamb & Mutton require even more land than beef. Beef (beef herd) is high due to the large land area needed for grazing and feed production. Dark Chocolate again appears as a high-impact product, reflecting the land-intensive nature of cocoa farming.
 
-    **Exploratory Data Analysis On Water Use (Freshwater Withdrawals & Scarcity-Weighted Water Use)**
+    **Exploratory Data Analysis (EDA) On Water Use (Freshwater Withdrawals & Scarcity-Weighted Water Use)**
 
     **Data Visualisation on top freshwater consuming food products litres per 1000kcal**
 
@@ -474,6 +474,109 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 
     Both plant-based and animal-based food show variation in how their water use translates into environmental stress.
 
+    **Exploratory Data Analysis (EDA) on Eutrophication (g PO4eq per 100g protein)**
+
+    Eutrophication is the pollution of water bodies and ecosystems with excess nutrients. Eutrophication is a major environmental problem. The runoff of nitrogen and other nutrients from agricultural production systems is a leading contributor.
+
+    **Data visualisation on the top 10 Food products with the highest eutrophication impact.**
+
+    ```{r}
+    # Select the top 10 food with highest eutrophication impact
+    top10_eutro <- df %>% 
+      arrange(desc(eutrophying_emissions_per_100g_protein_g_po_eq_per_100_grams_protein)) %>% slice(1:10)
+
+    # Bar plot
+    ggplot(top10_eutro, aes(x= reorder(food_product, eutrophying_emissions_per_100g_protein_g_po_eq_per_100_grams_protein), y = eutrophying_emissions_per_100g_protein_g_po_eq_per_100_grams_protein, fill = category)) +
+      geom_bar(stat = "identity") +
+      coord_flip() +
+      labs(title = "Top 10 food with Highest Eutrophication Impact",
+           x= "Food Product",
+           y = "Eutrophication (g PO4eq per 100g protein)",
+           fill = "Category"
+           ) + 
+      theme_minimal()
+    ```
+
+    Eutrophying emissions represent run-off of excess nutrients into the surrounding environment and waterways, which affect and pollute ecosystems (Our World in Data, 2025). They are measured in grams of phosphate equivalents (PO₄eq).
+
+    This bar chart shows the top 10 food with the highest eutrophication impact, measured in g PO₄eq per 100g protein. Beef (dairy herd) has the highest eutrophication impact, making it the most significant contributor to nutrient pollution. Dark chocolate and coffee, both plant-based, rank among the top contributors, indicating that some plant food also have high eutrophication footprint.
+
+    Beef (beef herd) and farmed fish continue to show high impacts, reinforcing the significant role of animal-based products.
+
+    Tomatoes, berries & grapes, rice and apples highlight that certain crops also have notable eutrophication impacts, likely due to fertilizer use.
+
+    **Box plot to assess the impact of eutrophication (g PO4eq per 100g protein) by food category**
+
+    ```{r}
+    ggplot(df, aes(x = category, y = eutrophying_emissions_per_100g_protein_g_po_eq_per_100_grams_protein, fill = category)) + geom_boxplot() +
+      labs(title = "Eutrophication Impact by Food Category",
+           x = "Food Category",
+           y = "Eutrophication (g PO4eq per 100g protein)",
+           fill = "category"
+           ) +
+      theme_minimal()
+    ```
+
+    This boxplot compares eutrophication impact between animal-based and plant-based food, measured in g PO₄eq per 100g protein. Animal-based food have a higher median eutrophication impact than plant-based food. The interquartile range (IQR) for animal-based food is wider, indicating greater variability in eutrophication impact.
+
+    Outliers in plant-based food suggest that certain plant products, have exceptionally high eutrophication impacts.
+
+    The maximum values for animal-based food are higher, detailing that livestock farming is a key contributor to eutrophication.
+
+    **Visualisation Eutrophication (g PO4eq per 100g protein) Outliers**
+
+    ```{r}
+    # Identify outliers (using 1.5*IQR method)
+    q1 <- quantile(df$eutrophying_emissions_per_100g_protein_g_po_eq_per_100_grams_protein, 0.25)
+    q3 <- quantile(df$eutrophying_emissions_per_100g_protein_g_po_eq_per_100_grams_protein, 0.75)
+    iqr <- q3 - q1
+    lower_bound <- q1 - 1.5 * iqr
+    upper_bound <- q3 + 1.5 * iqr
+
+    outliers <- df %>%
+      filter(eutrophying_emissions_per_100g_protein_g_po_eq_per_100_grams_protein < lower_bound | eutrophying_emissions_per_100g_protein_g_po_eq_per_100_grams_protein > upper_bound)
+
+    # Bar plot for outliers
+    ggplot(outliers, aes(x = reorder(food_product, eutrophying_emissions_per_100g_protein_g_po_eq_per_100_grams_protein), 
+                         y = eutrophying_emissions_per_100g_protein_g_po_eq_per_100_grams_protein, fill = category)) +
+      geom_bar(stat = "identity") +
+      coord_flip() +
+      labs(title = "Outliers in Eutrophication Impact",
+           x = "Food Product",
+           y = "Eutrophication (g PO4eq per 100g protein)",
+           fill = "Category") +
+      theme_minimal()
+
+    ```
+
+    This bar chart highlights specific food items that are outliers in eutrophication impact, measured in g PO₄eq per 100g protein.
+
+    Beef (dairy herd) – Highest eutrophication impact among all food.
+
+    Dark Chocolate – A plant-based food with an impact comparable to high-impact animal products.
+
+    Beef (beef herd) – Another major contributor, indicating the environmental burden of beef production\
+
+    Coffee – A plant-based outlier, indicating that coffee cultivation has a significant eutrophication footprint.
+
+    ### 
+
+    **Scatter Plot on Eutrophication (g PO4eq per 100g protein) versus Greenhouse Gas Emissions (kg CO₂-eq per 100g protein)**
+
+    ```{r}
+    ggplot(df, aes(x = greenhouse_gas_emissions_per_100g_protein_kg_co_eq_per_100g_protein, y = eutrophying_emissions_per_100g_protein_g_po_eq_per_100_grams_protein)) + 
+      geom_point(size = 3, alpha = 0.7) +
+      labs(title = "Eutrophication versus Greehouse Gas Emissions",
+           x = "Greenhouse Gas Emissions (kg CO₂-eq per 100g protein)",
+           y = "Eutrophication (g PO4eq per 100g protein)",
+           color = "Category"
+           ) + theme_minimal()
+    ```
+
+    The scatter plot shows the relationship between Eutrophication (g PO₄eq per 100g protein) and Greenhouse Gas (GHG) Emissions (kg CO₂-eq per 100g protein).
+
+    There appears to be a positive correlation between eutrophication and GHG emissions. A few food products (most likely beef (dairy and beef herd)) are extreme outliers, having both high eutrophication and high GHG emissions. Most food have relatively low eutrophication and GHG emissions, staying in the bottom-left region.
+
 5.  **Recommendations & Conclusion**
 
     Global Food Institute (2025), states that using alternative proteins helps reduce air and water pollution significantly. With the use of plants, fermentation and cell cultivation instead of livestock, the production of alternative proteins does not emit the toxic air pollutants including ammonia, hydrogen sulfide and particulate matter as conventional meat production. Also ,there will be no discharge of animal waste. The discharge of nitrogen and phosphorus which stimulates the growth of algal blooms that impair water quality is reduced by using alternative proteins.
@@ -481,28 +584,53 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
     Moving towards alternative proteins will promote clean water and air as well as improving ecosystems and the health of communities as it also meets increasing protein demand.
 
     Policy-makers should invest in alternative proteins for a secure, sustainable food supply. The support of alternative protein innovation and commercialisation, will increase food security (Global Food Institute, 2025).
+
+    **Alternative Proteins**
+
+    Science Direct (2025) states that alternative proteins are healthier, more sustainable and environmentally friendly. Alternative proteins are food products, often meat substitutes, derived from sources other than traditional animal-based proteins, like plant-based proteins, cultured meat or fermented products, aiming to be healthier and more sustainable.
+
+    Alternative Proteins are gaining popularity due to concerns about the environmental impact of traditional meat production, as well as growing interest in plant-based diets and healthier eating habits (Liu, 2018).
+
+    **Types of Alternative Proteins:**
+
+    -   Plant-based Proteins: These are derived from plants and include plants like legumes, soy, nuts and seeds, grains, mycoprotein (derived from fungi for its meat-like texture) (Finnigan, 2011)
+
+    -   Cultured Meat: Also known as lab-grown meat, this meat is produced from animal cells in a lab, rather than slaughtering animals (Learn About Ag, n.d.).
+
+    -   Fermented Proteins: These are proteins produced through fermentation such as mycoprotein or certain plant-based proteins (FoodNavigator, 2024).
+
+    -   Algae and Insects: There are are emerging as potential sources of alternative protein (Lui, 2018).
+
+    **Benefits of Alternative Proteins:**
+
+    -   Sustainability: Alternative Proteins often require less land, water and resources to produce compared to traditional meat production (Lui, 2018).
+
+    -   Health: Many plant-based proteins are lower in saturated fat and cholesterol than animal-based proteins and can be a good source of fiber and other nutrients (Science Direct, 2025).
+
+    -   Ethical considerations: For those who choose to avoid animal products, alternative proteins offer a way to meet their protein needs without consuming animal products (Science Direct, 2025).
+
+    **Strategies for reducing environmental impact of coffee**
+
+    Implementing sustainable agricultural methods represents a crucial approach to minimizing the environmental impact of coffee production. One notable example is shade-grown cultivation, where coffee plants are grown beneath a forest canopy. This technique serves the dual purpose of preventing deforestation while fostering biodiversity and ecological health. The trees provide a natural habitat for a wide variety of species, helping preserve biodiversity. Additionally, they assist in preventing soil erosion and maintaining soil health, which can otherwise be severely compromised due to excessive coffee farming (Green Bean Coffee, 2025)
+
+    Another sustainable practice is organic coffee bean farming, that can drastically reduce coffee's environmental impact. Organic methods avoid the use of synthetic fertilisers and pesticides, unlike traditional coffee farming. According to Green Bean Coffee (2025), these chemicals pose a threat to aquatic life and contaminate water bodies. Organic farming not only protect the ecological balance of the various areas coffee is grown in but also helps to preserves our water sources.
 :::
 
 ## References
 
 1.  Beef Research Council. (n.d.). *Environmental footprint of beef production*. Retrieved from <https://www.beefresearch.ca/topics/environmental-footprint-of-beef-production/#:~:text=The%20beef%20environmental%20footprint%20has,produced%20by%20plants%20and%20animals>.
-
 2.  World Wildlife Fund. (2025). *Beef production and its environmental impact*. Retrieved from <https://www.worldwildlife.org/industries/beef#:~:text=Beef%20production%20has%20a%20considerable,emissions%20from%20human%2Drelated%20activities>.
-
 3.  Rosie's Farm Sanctuary. (2025). *Environmental impact of beef production*. Retrieved from [https://rosiesfarmsanctuary.org/learn/environment/#:\~:text=Beef%20production%20alone%20contributes%2041%%20of%20all,by%20an%20ever%2Drising%20international%20demand%20for%20beef](https://rosiesfarmsanctuary.org/learn/environment/#:~:text=Beef%20production%20alone%20contributes%2041%%20of%20all,by%20an%20ever%2Drising%20international%20demand%20for%20beef).
-
 4.  Global Food Institute. (2025). *Environmental impacts of alternative proteins*. Retrieved from <https://gfi.org/resource/environmental-impacts-of-alternative-proteins/>
-
 5.  Green Bean Coffee. (2025). *Sustainability and the environmental impacts of coffee*. Retrieved from <https://www.greenbeancoffee.com.au/blogs/news/sustainability-and-the-environmental-impacts-of-coffee#:~:text=Organic%20coffee%20cultivation%20offers%20numerous,depends%20on%20your%20individual%20tastes>.
-
 6.  Le Monde. (2025). *What is chocolate's carbon footprint?* Retrieved from <https://www.lemonde.fr/en/environment/article/2025/02/14/what-is-chocolate-s-carbon-footprint_6738165_114.html#:~:text=Three%20key%20stages%20drive%20the,chemical%20inputs%2C%20deplete%20soil%20quality>.
-
 7.  Colorado Sun. (2022). *Water, drought and the environmental impact of agriculture: The food we produce matters*. Retrieved from <https://coloradosun.com/2022/09/07/water-drought-agriculture-food-production-meat-plants-opinion/#:~:text=While%20any%20plant%2Dbased%20food,only%20uses%20about%20one%20gallon>.
-
 8.  Livvie. (2025). *Save water with a vegetarian or vegan diet*. Retrieved from <https://www.livvie.co/save-water-with-a-vegetarian-or-vegan-diet/#:~:text=How%20Vegetarian%20and%20Vegan%20Diets,for%20more%20information%20and%20sources>.
-
 9.  EOS. (2025). *How to grow tomatoes*. Retrieved from <https://eos.com/blog/how-to-grow-tomatoes/#:~:text=Water,them%20less%20susceptible%20to%20drought>.
-
 10. Our World in Data. (2025). *Water use and stress in global food production*. Retrieved from <https://ourworldindata.org/water-use-stress#:~:text=Water%20use%20of%20food%20products%20Globally%2C%2070,1000%20kilocalories%2C%20and%20100%20grams%20of%20protein>.
-
-11. 
+11. Our World in Data. (2025). *Eutrophying emissions per protein*. Retrieved from <https://ourworldindata.org/grapher/eutrophying-emissions-protein>.
+12. ScienceDirect. (2025). *Alternate proteins (APs): Healthier, sustainable, and climate-friendly food alternatives*. Retrieved from [https://www.sciencedirect.com/science/article/pii/S096399692301027X#:\~:text=Alternate%20proteins%20(APs)%20are%20healthier,bioavailability%2C%20nutritional%20equivalency%20and%20digestibility.](https://www.sciencedirect.com/science/article/pii/S096399692301027X#:~:text=Alternate%20proteins%20(APs)%20are%20healthier,bioavailability%2C%20nutritional%20equivalency%20and%20digestibility.)
+13. Liu, W. (2018). *Fact Sheet: Alternative Protein*. University of Nottingham. Retrieved from <https://www.nottingham.ac.uk/biosciences/documents/business/food-innovation-centre/food-waste-alternative-protein-event-2018/fact-sheet-alternative-protein-dr-wentao-liu.pdf>.
+14. Finnigan, T. (2011). *The nutritional properties of mycoprotein are essential for meat alternative development*. ScienceDirect. Retrieved from [https://www.sciencedirect.com/science/article/abs/pii/S0308814624031868#:\~:text=The%20nutritional%20properties%20of%20mycoprotein%20are%20essential,the%20structure%20of%20meat%20myofibers%20(Finnigan%2C%202011).](https://www.sciencedirect.com/science/article/abs/pii/S0308814624031868#:~:text=The%20nutritional%20properties%20of%20mycoprotein%20are%20essential,the%20structure%20of%20meat%20myofibers%20(Finnigan%2C%202011).)
+15. Learn About Ag. (n.d.). *Alternative protein sources*. Retrieved from <https://learnaboutag.org/matrix/lesson/print/709/>
+16. FoodNavigator. (2024, January 17). *Diversified protein sourcing and the path to mainstream adoption*. Retrieved from <https://www.foodnavigator.com/Article/2024/01/17/diversified-protein-sourcing-and-the-path-to-mainstream-adoption/#:~:text=Alternative%20sources%20of%20protein%20emerging,as%20animal%20and%20plant%20proteins>.

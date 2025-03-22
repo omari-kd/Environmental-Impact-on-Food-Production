@@ -277,6 +277,38 @@ Moving towards alternative proteins will promote clean water and air as well as 
 Policy-makers should invest in alternative proteins for a secure, sustainable food supply. The support of alternative protein innovation and commercialisation, will increase food security (Global Food Institute, 2025).
 
 
+### Alternative Proteins
+
+Science Direct (2025) states that alternative proteins are healthier, more sustainable and environmentally friendly. Alternative proteins are food products, often meat substitutes, derived from sources other than traditional animal-based proteins, like plant-based proteins, cultured meat or fermented products, aiming to be healthier and more sustainable. 
+
+Alternative Proteins are gaining popularity due to concerns about the environmental impact of traditional meat production, as well as growing interest in plant-based diets and healthier eating habits (Liu, 2018).
+
+### Types of Alternative Proteins: 
+
+Plant-based Proteins: These are derived from plants and include plants like legumes, soy, nuts and seeds, grains, mycoprotein (derived from fungi for its meat-like texture) (Finnigan, 2011)
+
+Cultured Meat: Also known as lab-grown meat, this meat is produced from animal cells in a lab, rather than slaughtering animals (Learn About Ag, n.d.).
+
+Fermented Proteins: These are proteins produced through fermentation such as mycoprotein or certain plant-based proteins (FoodNavigator, 2024).
+
+Algae and Insects: There are are emerging as potential sources of alternative protein (Lui, 2018).
+
+
+### Benefits of Alternative Proteins:
+
+Sustainability: Alternative Proteins often require less land, water and resources to produce compared to traditional meat production (Lui, 2018).
+
+Health: Many plant-based proteins are lower in saturated fat and cholesterol than animal-based proteins and can be a good source of fiber and other nutrients (Science Direct, 2025).
+
+Ethical considerations: For those who choose to avoid animal products, alternative proteins offer a way to meet their protein needs without consuming animal products (Science Direct, 2025).
+
+
+### Strategies for reducing environmental impact of coffee
+
+Implementing sustainable agricultural methods represents a crucial approach to minimizing the environmental impact of coffee production. One notable example is shade-grown cultivation, where coffee plants are grown beneath a forest canopy. This technique serves the dual purpose of preventing deforestation while fostering biodiversity and ecological health. The trees provide a natural habitat for a wide variety of species, helping preserve biodiversity. Additionally, they assist in preventing soil erosion and maintaining soil health, which can otherwise be severely compromised due to excessive coffee farming (Green Bean Coffee, 2025)
+
+Another sustainable practice is organic coffee bean farming, that can drastically reduce coffee's environmental impact. Organic methods avoid the use of synthetic fertilisers and pesticides, unlike traditional coffee farming. According to Green Bean Coffee (2025), these chemicals pose a threat to aquatic life and contaminate water bodies. Organic farming not only protect the ecological balance of the various areas coffee is grown in but also helps to preserves our water sources.
+
 
 # References 
 - Beef Research Council. (n.d.). Environmental footprint of beef production. Retrieved from https://www.beefresearch.ca/topics/environmental-footprint-of-beef-production/#:~:text=The%20beef%20environmental%20footprint%20has,produced%20by%20plants%20and%20animals.
@@ -288,4 +320,13 @@ Policy-makers should invest in alternative proteins for a secure, sustainable fo
 - Colorado Sun. (2022). Water, drought and the environmental impact of agriculture: The food we produce matters. Retrieved from https://coloradosun.com/2022/09/07/water-drought-agriculture-food-production-meat-plants-opinion/#:~:text=While%20any%20plant%2Dbased%20food,only%20uses%20about%20one%20gallon.
 - Livvie. (2025). Save water with a vegetarian or vegan diet. Retrieved from https://www.livvie.co/save-water-with-a-vegetarian-or-vegan-diet/#:~:text=How%20Vegetarian%20and%20Vegan%20Diets,for%20more%20information%20and%20sources.
 - EOS. (2025). How to grow tomatoes. Retrieved from https://eos.com/blog/how-to-grow-tomatoes/#:~:text=Water,them%20less%20susceptible%20to%20drought.
+- Our World in Data. (2025). Eutrophying emissions per protein. Retrieved from https://ourworldindata.org/grapher/eutrophying-emissions-protein.
+- Our World in Data. (2025). Water use and stress in global food production. Retrieved from https://ourworldindata.org/water-use-stress#:~:text=Water%20use%20of%20food%20products%20Globally%2C%2070,1000%20kilocalories%2C%20and%20100%20grams%20of%20protein.
+- ScienceDirect. (2025). Alternate proteins (APs): Healthier, sustainable, and climate-friendly food alternatives. Retrieved from https://www.sciencedirect.com/science/article/pii/S096399692301027X#:~:text=Alternate%20proteins%20(APs)%20are%20healthier,bioavailability%2C%20nutritional%20equivalency%20and%20digestibility.
+- Liu, W. (2018). Fact Sheet: Alternative Protein. University of Nottingham. Retrieved from https://www.nottingham.ac.uk/biosciences/documents/business/food-innovation-centre/food-waste-alternative-protein-event-2018/fact-sheet-alternative-protein-dr-wentao-liu.pdf.
+- Finnigan, T. (2011). The nutritional properties of mycoprotein are essential for meat alternative development. ScienceDirect. Retrieved from https://www.sciencedirect.com/science/article/abs/pii/S0308814624031868#:~:text=The%20nutritional%20properties%20of%20mycoprotein%20are%20essential,the%20structure%20of%20meat%20myofibers%20(Finnigan%2C%202011).
+- Learn About Ag. (n.d.). Alternative protein sources. Retrieved from https://learnaboutag.org/matrix/lesson/print/709/
+- FoodNavigator. (2024, January 17). Diversified protein sourcing and the path to mainstream adoption. Retrieved from https://www.foodnavigator.com/Article/2024/01/17/diversified-protein-sourcing-and-the-path-to-mainstream-adoption/#:~:text=Alternative%20sources%20of%20protein%20emerging,as%20animal%20and%20plant%20proteins.
+
+
 
