@@ -238,6 +238,25 @@ From the chart, tomatoes are the most water-consuming plant-based food product, 
 The box plot compares freshwater use by food category. Animal-based food has a higher median land use than plant-based food per 1000kcal. Plant-based food exhibit a wider range, with some food product requiring very little water, while others require more. Outliers in both categories suggest extreme water consumption for specific food products.
 
 
+#### Investigating the Outliers Further in Freshwater Withdrawals (litres per 1000 kcal)
+
+![Image](https://github.com/user-attachments/assets/9aa957e3-b2c6-4ffc-92df-00648ba81373)
+
+This visualisation highlights the outliers in freshwater withdrawals (litres per 1000 kcal). Fish (farmed) is the highest outlier among animal-based food product. Tomatoes is the highest outlier among plant-based food product. Both require significantly more water than the median food product.
+
+
+#### Box plot on plant-based versus animal-based scarcity- weighted use litres per 1000kcal
+
+![Image](https://github.com/user-attachments/assets/fe006d95-76ee-4765-b437-2f912d6d4a2f) 
+
+This box plot compares scarcity-weighted water use (litres per 1000 kcal) for animal-based and plant-based food categories.
+
+Animal-based food have a higher median and spread of scarcity-weighted water use than plant-based food.The variation within plant-based food shows relatively low water use while others have values close to animal-based food.
+
+The scarcity-weighted water use box-plot doesn't show distinct outliers. The distribution suggests that both animal-based and plant-based food have a wide range, but no extreme points that fall significantly outside the whiskers.
+
+
+
 #### Scatter Plot: Freshwater Withdrawals (litres per 1000kcal) versus Scarcity-Weighted Water Use (litres per 1000kcal)
 
 ![image](https://github.com/user-attachments/assets/b8b48290-4dcc-4e27-a69d-b83f3fab5d70)
