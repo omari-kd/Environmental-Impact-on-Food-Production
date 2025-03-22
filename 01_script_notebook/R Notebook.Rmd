@@ -140,7 +140,7 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 
     **Exploratory Data Analysis**
 
-    **Data visualisation of the top ten total emissions by food products**
+    **Data visualisation of the top ten total emissions (Kg CO2) by food products**
 
     ```{r message=F}
     # Group the data by the food product variable
@@ -162,21 +162,29 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 
     The bar chart depicts the distribution of the top ten total emissions by food products. The y-axis shows total emissions whilst the x-axis lists different food products. Each food product is represented by a unique colour in the legend on the right.
 
-    From the chart, Beef (beef herd) demonstrates the highest emissions by a considerable margin followed by Beef (dairy herd) which also has significant emissions but substantially lower in comparison. The remaining food products have relatively minor emissions compared to beef. Cane Sugar and Beet Sugar have slightly elevated emissions than most other products apart from beef but remain much lower overall.
+    From the chart, Beef (beef herd) demonstrates the highest emissions by a considerable margin followed by Beef (dairy herd) which also has significant emissions but substantially lower in comparison. The remaining food products have relatively minor emissions compared to beef.
 
     This indicates that beef production has a significantly higher environmental impact regarding emissions compared to other food products.
 
     According to the World Wildlife Fund (2025), Beef production has a higher environmental impact than other food sources due to factors like land use for grazing and crop production, greenhouse gas emissions from cattle and water pollution from waste run-off as well as deforestation from cattle ranching.
 
+    **Land Use:**
+
     As stated by the Beef Research Council, beef production requires vast amounts of land both for grazing cattle and for growing feed crops. Globally, a significant portion of agricultural land is used for livestock including cattle and a large area of rainforests is destroyed to create grazing land.
+
+    **Greenhouse Gas Emissions:**
 
     Cattle are a major source of greenhouse gas emissions particularly methane which is a potent greenhouse gas. Methane is released during the digestive process of cattle and also from manure management. The production of feed crops for cattle also contributes to greenhouse gas emissions (Beef Research Council, 2025).
 
+    **Water Pollution:**
+
     Cattle waste, if not properly managed, can pollute water sources with nitrates, phosphorus and pathogens. Water used for livestock production can also be a significant burden on water resources especially in arid regions (Beef Research Council, 2025). The Food and Agriculture Organisation has written, "The livestock sector is growing and intensifying faster than crop production in almost all countries. The associated waste including manure has serious implications for water quality (Rosie's Farm Sanctuary, 2025).
+
+    **Deforestation:**
 
     Cattle ranching is a major driver of deforestation especially in regions like the Amazon rainforest where land is cleared to create grazing pastures. Deforestation contributes to climate change, biodiversity loss and soil degradation (Rosie's Farm Sanctuary, 2025).
 
-    **Data visualisation of plant-based and animal-based on land use versus greenhouse gas emissions**
+    **Data visualisation of plant-based and animal-based on land use (m² per 100g protein) versus greenhouse gas emissions (kg CO2-eq per 100g protein)**
 
     ```{r message=FALSE}
     # Define the plant-based products
@@ -258,7 +266,7 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 
     Maximum: Food products require almost 185 m² per 100g protein which is massively higher than the rest (likely beef).
 
-    **Box plot to detect outliers in Greenhouse Gas Emissions**
+    **Box plot to detect outliers in Greenhouse Gas Emissions** **(kg CO₂-eq per 100g protein)**
 
     ```{r}
     ggplot(df, aes(x = category, y = greenhouse_gas_emissions_per_100g_protein_kg_co_eq_per_100g_protein, fill = category)) + 
@@ -271,7 +279,7 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 
     The box plot compares greenhouse gas emissions by category. The box is for animal and plant-based foods that are quite similar. Both categories have high emission outliers, but the most extreme values is in the plant-based category (one point above 70 kg CO₂-eq). There's also an outlier in the animal-based category at 50 kg CO₂-eq.
 
-    **Box plot to detect outliers in Land Use**
+    **Box plot to detect outliers in Land Use (m² per 100g protein)**
 
     ```{r}
     ggplot(df, aes(y = land_use_per_100g_protein_m_per_100g_protein, x = category, fill = category)) +
@@ -286,7 +294,142 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 
     Some plant-based food also have a high land use, possibly dark chocolate.
 
+    **Data visualisation to investigate the cause of the outlier in greenhouse gas emissions box plot**
+
+    ```{r}
+    plant_based_product <- df %>% 
+      filter(category == "Plant-based") %>% 
+      select(category, food_product, greenhouse_gas_emissions_per_100g_protein_kg_co_eq_per_100g_protein)
+
+    ggplot(plant_based_product, aes(x = food_product, y = greenhouse_gas_emissions_per_100g_protein_kg_co_eq_per_100g_protein, fill = food_product)) + 
+      geom_bar(stat = "identity") + 
+      labs(title = "Plant Based Products vs Greenhouse Emissions", x = "Plant Based Producs", y = "Greenhouse Gas Emissions (kg CO₂-eq per 100g protein)") +
+      theme_minimal() + 
+      coord_flip()
+    ```
+
+    **Investigating the Outliers Further**
+
+    ```{r}
+    # Filter out the data points that are considered outliers
+    outliers_ghg <- df %>% 
+      filter(greenhouse_gas_emissions_per_100g_protein_kg_co_eq_per_100g_protein > quantile(df$greenhouse_gas_emissions_per_100g_protein_kg_co_eq_per_100g_protein, 0.75) + 1.5 * IQR(df$greenhouse_gas_emissions_per_100g_protein_kg_co_eq_per_100g_protein) |
+             greenhouse_gas_emissions_per_100g_protein_kg_co_eq_per_100g_protein < quantile(df$greenhouse_gas_emissions_per_100g_protein_kg_co_eq_per_100g_protein, 0.25) - 1.5 * IQR(df$greenhouse_gas_emissions_per_100g_protein_kg_co_eq_per_100g_protein))
+
+    # Scatter plot to investigate the relationship between emissions and other variables
+    ggplot(outliers_ghg, aes(x = food_product, y = greenhouse_gas_emissions_per_100g_protein_kg_co_eq_per_100g_protein, color = category)) +
+      geom_point() +
+      labs(title = "Outliers in Greenhouse Gas Emissions by Food Product",
+           x = "Food Product",
+           y = "Greenhouse Gas Emissions (kg CO₂-eq per 100g protein)") +
+      theme(axis.text.x = element_text(angle = 45, hjust = 1)) + 
+      theme_minimal()
+
+    ```
+
+    **Outliers in Greenhouse Gas Emissions (kg CO₂-eq per 100g protein)**
+
+    Dark Chocolate has the highest emissions, even more than beef. Which is likely due to deforestation (for cocoa plantations), transport emissions and processing.
+
+    Beef (beef herd) is known for methane emissions from cattle digestion. Coffee is possibly due to deforestation, water use and energy-intensive processing.
+
+    Coffee production has a significant environmental impact, including deforestation, water pollution and carbon emissions, but sustainable practices like shade-grown coffee and organic farming can mitigate these issues (Green Coffee Bean, 2025).
+
+    From a climate point of view, deforestation is catastrophic. Burning timber releases CO~2~, but beyond that, it also frees carbon stored in the soil and limits the forest's ability to absorb carbon in the future. This explains why deforestation accounts for roughly 95% of the greenhouse gas emissions linked to cocoa beans. At the same time, it also poses a major threat to biodiversity (Le Monde, 2025).
+
+    Next, emissions from chocolate processing need to be taken into account – especially for highly processed products such as chocolate-covered biscuits or chocolate spreads. And finally, there is transport, though its impact is relatively minor in comparison (Le Monde, 2025).
+
+    ```{r}
+    # Filter out the data points that are considered outliers
+    outliers_lu <- df %>% 
+      filter(land_use_per_100g_protein_m_per_100g_protein > quantile(df$land_use_per_100g_protein_m_per_100g_protein, 0.75) + 1.5 * IQR(df$land_use_per_100g_protein_m_per_100g_protein) |
+             land_use_per_100g_protein_m_per_100g_protein < quantile(df$land_use_per_100g_protein_m_per_100g_protein, 0.25) - 1.5 * IQR(df$land_use_per_100g_protein_m_per_100g_protein))
+
+
+    # Scatter plot to investigate the relationship between land use and food product
+    ggplot(outliers_lu, aes(x = food_product, y = land_use_per_100g_protein_m_per_100g_protein, color = category)) +
+      geom_point() +
+      labs(title = "Outliers in Land Use by Food Product",
+           x = "Food Product",
+           y = "Land Use (m² per 100g protein)") + 
+      theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+      theme_minimal()  # Use a minimal theme for a clean look
+    ```
+
+    **Outliers in Land Use (m² per 100g protein)**\
+    Lamb & Mutton require even more land than beef. Beef (beef herd) is high due to the large land area needed for grazing and feed production. Dark Chocolate again appears as a high-impact product, reflecting the land-intensive nature of cocoa farming.
+
+    **Exploratory Data Analysis On Water Use (Freshwater Withdrawals & Scarcity-Weighted Water Use)**
+
+    **Data Visualisation on top freshwater consuming food products litres per 1000kcal**
+
+    ```{r}
+    # Select top 10 highest water-consuming food
+    top_water_food <- df %>% 
+      arrange(desc(freshwater_withdrawals_per_1000kcal_liters_per_1000kcal )) %>% 
+      slice(1:10)
+
+    # Plot bar chart
+    ggplot(top_water_food, aes(x = reorder(food_product, freshwater_withdrawals_per_1000kcal_liters_per_1000kcal), y = freshwater_withdrawals_per_1000kcal_liters_per_1000kcal, fill = category)) + 
+      geom_bar(stat = "identity") +
+      coord_flip() +
+      labs(title = "Top 10 Water-Consuming Foods",
+           x = "Food Product",
+           y = "Freshwater Withdrawals (litres per 1000kcal)",
+           fill = "Category") +
+      theme_minimal()
+    ```
+
+    The bar chart depicts the distribution of the top ten water-consuming food products. Farmed fish is the highest water consumer, followed by Tomatoes and Cheese. Rice and Nuts are also water consumers.
+
+    Farmed Fish, Cheese, Milk, Beef (dairy herd), Pig Meat are the most water-intensive animal-based food products in this ranking.
+
+    While all food production requires water, plant-based foods generally require significantly less water than animal products, making them a more water-efficient choice (Colorado Sun, 2022). Animal agriculture consumes high amounts of water and pollutes freshwater ecosystems (Livvie, 2025) also, raising livestock, especially beef, requires vast amounts of water for feed production, drinking water, and cleaning (Livvie, 2025).
+
+    From the chart, tomatoes are the most water-consuming plant-based food product, which is supported by EOS (2025), stating that tomato cultivation can be water-intensive, with some studies suggesting that producing 1 kg of tomatoes can require anywhere from 4 to 300 liters of water, depending on the growing method and efficiency.
+
+    **Box plot on plant-based versus animal-based freshwater use litres per 1000kcal**
+
+    ```{r}
+    ggplot(df, aes(x = category, freshwater_withdrawals_per_1000kcal_liters_per_1000kcal  , fill = category)) +
+      geom_boxplot(alpha = 0.7) +
+      labs(title = "Fresh Water Use by Food Category",
+           x = "Food Category",
+           y = "Freshwater Withdrawals (litres per 1000kcal)"
+           ) + theme_minimal()
+    ```
+
+    The box plot compares freshwater use by food category. Animal-based food has a higher median land use than plant-based food per 1000kcal. Plant-based food exhibit a wider range, with some food product requiring very little water, while others require more. Outliers in both categories suggest extreme water consumption for specific food product.
+
+    **Scatter Plot: Freshwater Withdrawals (litres per 1000kcal) versus Scarcity-Weighted Water Use (litres per 1000kcal)**
+
+    ```{r}
+    # Remove scientific notation
+    options(scipen = 999)
+
+    ggplot(df, aes(x = freshwater_withdrawals_per_1000kcal_liters_per_1000kcal , y = scarcity_weighted_water_use_per_1000kcal_liters_per_1000_kilocalories , colour = category)) +   
+      geom_point(size = 3, alpha = 0.7) +
+      labs(title = "Freshwater Withdrawals vs. Scarcity-Weighted Water Use",
+           x = "Freshwater Withdrawals (litres per 1000kcal)",
+           y = "Scarcity-Weighted Water Use (litres per 1000kcal)",
+           color = "Category") +
+      theme_minimal()
+      
+    ```
+
+    The scatter plot shows a distribution of freshwater withdrawals versus scarcity weighted water use.
+
+    Freshwater withdrawals (litres per 1000kcal) measures the total amount of water taken from sources, while scarcity-weighted water use (litres per 1000kcal) considers the water's availability and stress levels in the region where it's used.
+
+    Both plant-based and animal-based foods show variation in how their water use translates into environmental stress.
+
 5.  **Recommendations & Conclusion**
+
+    Global Food Institute (2025), states that using alternative proteins helps reduce air and water pollution significantly. With the use of plants, fermentation and cell cultivation instead of livestock, the production of alternative proteins does not emit the toxic air pollutants including ammonia, hydrogen sulfide and particulate matter as conventional meat production. Also ,there will be no discharge of animal waste. The discharge of nitrogen and phosphorus which stimulates the growth of algal blooms that impair water quality is reduced by using alternative proteins.
+
+    Moving towards alternative proteins will promote clean water and air as well as improving ecosystems and the health of communities as it also meets increasing protein demand.
+
+    Policy-makers should invest in alternative proteins for a secure, sustainable food supply. The support of alternative protein innovation and commercialisation, will increase food security (Global Food Institute, 2025).
 :::
 
 ## References
@@ -295,3 +438,10 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 2.  World Wildlife Fund. (2025). *Beef production and its environmental impact*. Retrieved from <https://www.worldwildlife.org/industries/beef#:~:text=Beef%20production%20has%20a%20considerable,emissions%20from%20human%2Drelated%20activities>.
 3.  Rosie's Farm Sanctuary. (2025). *Environmental impact of beef production*. Retrieved from [https://rosiesfarmsanctuary.org/learn/environment/#:\~:text=Beef%20production%20alone%20contributes%2041%%20of%20all,by%20an%20ever%2Drising%20international%20demand%20for%20beef](https://rosiesfarmsanctuary.org/learn/environment/#:~:text=Beef%20production%20alone%20contributes%2041%%20of%20all,by%20an%20ever%2Drising%20international%20demand%20for%20beef).
 4.  Global Food Institute. (2025). *Environmental impacts of alternative proteins*. Retrieved from <https://gfi.org/resource/environmental-impacts-of-alternative-proteins/>
+5.  Green Bean Coffee. (2025). *Sustainability and the environmental impacts of coffee*. Retrieved from <https://www.greenbeancoffee.com.au/blogs/news/sustainability-and-the-environmental-impacts-of-coffee#:~:text=Organic%20coffee%20cultivation%20offers%20numerous,depends%20on%20your%20individual%20tastes>.
+6.  Le Monde. (2025). *What is chocolate's carbon footprint?* Retrieved from <https://www.lemonde.fr/en/environment/article/2025/02/14/what-is-chocolate-s-carbon-footprint_6738165_114.html#:~:text=Three%20key%20stages%20drive%20the,chemical%20inputs%2C%20deplete%20soil%20quality>.
+7.  Colorado Sun. (2022). *Water, drought and the environmental impact of agriculture: The food we produce matters*. Retrieved from <https://coloradosun.com/2022/09/07/water-drought-agriculture-food-production-meat-plants-opinion/#:~:text=While%20any%20plant%2Dbased%20food,only%20uses%20about%20one%20gallon>.
+8.  Livvie. (2025). *Save water with a vegetarian or vegan diet*. Retrieved from <https://www.livvie.co/save-water-with-a-vegetarian-or-vegan-diet/#:~:text=How%20Vegetarian%20and%20Vegan%20Diets,for%20more%20information%20and%20sources>.
+9.  EOS. (2025). *How to grow tomatoes*. Retrieved from <https://eos.com/blog/how-to-grow-tomatoes/#:~:text=Water,them%20less%20susceptible%20to%20drought>.
+10. Our World in Data. (2025). *Water use and stress in global food production*. Retrieved from <https://ourworldindata.org/water-use-stress#:~:text=Water%20use%20of%20food%20products%20Globally%2C%2070,1000%20kilocalories%2C%20and%20100%20grams%20of%20protein>.
+11. 

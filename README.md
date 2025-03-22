@@ -242,6 +242,11 @@ The box plot compares freshwater use by food category. Animal-based food has a h
 
 ![image](https://github.com/user-attachments/assets/b8b48290-4dcc-4e27-a69d-b83f3fab5d70)
 
+The scatter plot shows a distribution of freshwater withdrawals versus scarcity weighted water use. 
+
+Freshwater withdrawals (litres per 1000kcal) measures the total amount of water taken from sources, while scarcity-weighted water use (litres per 1000kcal) considers the water's availability and stress levels in the region where it's used. 
+
+Both plant-based and animal-based foods show variation in how their water use translates into environmental stress.
 
 
 # Recommendations & Conclusion
