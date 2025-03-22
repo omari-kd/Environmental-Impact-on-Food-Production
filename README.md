@@ -246,6 +246,13 @@ The box plot compares freshwater use by food category. Animal-based food has a h
 
 # Recommendations & Conclusion
 
+Global Food Institute (2025), states that using alternative proteins helps reduce air and water pollution significantly. With the use of plants, fermentation and cell cultivation instead of livestock, the production of alternative proteins does not emit the toxic air pollutants including ammonia, hydrogen sulfide and particulate matter as conventional meat production. Also ,there will be no discharge of animal waste. The discharge of nitrogen and phosphorus which stimulates the growth of algal blooms that impair water  quality is reduced by using alternative proteins.
+
+Moving towards alternative proteins will promote clean water and air as well as improving ecosystems and the health of communities as it also meets increasing protein demand. 
+
+Policy-makers should invest in alternative proteins for a secure, sustainable food supply. The support of alternative protein innovation and commercialisation, will increase food security (Global Food Institute, 2025).
+
+
 
 # References 
 - Beef Research Council. (n.d.). Environmental footprint of beef production. Retrieved from https://www.beefresearch.ca/topics/environmental-footprint-of-beef-production/#:~:text=The%20beef%20environmental%20footprint%20has,produced%20by%20plants%20and%20animals.
