@@ -340,6 +340,7 @@ According to the Global Food Institute, only 0.003 percent of Earth's water is a
 ### **4.2 Alternative Proteins as Water Conservation Solutions**
 
 #### Reduced Water Footprint
+
 Consuming plant-based meat or alternative proteins can reduce water use by up to 99 percent compared to conventional beef production. This reduction occurs because alternative proteins eliminate:
 
 -   Water needed for animal drinking and maintenance.
@@ -349,14 +350,17 @@ Consuming plant-based meat or alternative proteins can reduce water use by up to
 -   Water used in processing animal products and managing waste
 
 #### Cultivated Meat Advantages
+
 Cultivated meat offers a middle ground, reducing water usage by approximately 66 percent compared to conventional beef. This technology requires significantly less water as it eliminates the need to grow and maintain entire animals, focusing only on cultivating the desired tissues.
 
 ### **4.3 Additional Water Conservation Strategies in Food Systems**
 
 #### Precision Agriculture
+
 Implementing precision irrigation technologies such as drip irrigation, soil moisture sensors and weather-responsive watering systems can reduce agricultural water waste by 30-70 percent while maintaining or improving crop yields.
 
-#### Water Recycling and Treatment\
+#### Water Recycling and Treatment
+
 Developing closed-loop water systems in food processing facilities can recapture, treat and reuse water multiple times, dramatically reducing freshwater withdrawals. These systems can recover up to 80 percent of water used in processing operations.
 
 **Drought-Resistant Crop Varieties**\
