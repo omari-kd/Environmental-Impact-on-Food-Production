@@ -168,19 +168,19 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 
     According to the World Wildlife Fund (2025), Beef production has a higher environmental impact than other food sources due to factors like land use for grazing and crop production, greenhouse gas emissions from cattle and water pollution from waste run-off as well as deforestation from cattle ranching.
 
-    **Land Use:**
+    **Land Use**
 
     As stated by the Beef Research Council, beef production requires vast amounts of land both for grazing cattle and for growing feed crops. Globally, a significant portion of agricultural land is used for livestock including cattle and a large area of rainforests is destroyed to create grazing land.
 
-    **Greenhouse Gas Emissions:**
+    **Greenhouse Gas Emissions**
 
     Cattle are a major source of greenhouse gas emissions particularly methane which is a potent greenhouse gas. Methane is released during the digestive process of cattle and also from manure management. The production of feed crops for cattle also contributes to greenhouse gas emissions (Beef Research Council, 2025).
 
-    **Water Pollution:**
+    **Water Pollution**
 
     Cattle waste, if not properly managed, can pollute water sources with nitrates, phosphorus and pathogens. Water used for livestock production can also be a significant burden on water resources especially in arid regions (Beef Research Council, 2025). The Food and Agriculture Organisation has written, "The livestock sector is growing and intensifying faster than crop production in almost all countries. The associated waste including manure has serious implications for water quality (Rosie's Farm Sanctuary, 2025).
 
-    **Deforestation:**
+    **Deforestation**
 
     Cattle ranching is a major driver of deforestation especially in regions like the Amazon rainforest where land is cleared to create grazing pastures. Deforestation contributes to climate change, biodiversity loss and soil degradation (Rosie's Farm Sanctuary, 2025).
 
@@ -488,7 +488,7 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 
     Eutrophication is the pollution of water bodies and ecosystems with excess nutrients. Eutrophication is a major environmental problem. The runoff of nitrogen and other nutrients from agricultural production systems is a leading contributor.
 
-    **Data visualisation on the top 10 Food products with the highest eutrophication impact.**
+    **Data visualisation on the top 10 food products with the highest eutrophication impact.**
 
     ```{r}
     # Select the top 10 food with highest eutrophication impact
@@ -614,7 +614,7 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 
     -   Sustainability: Alternative Proteins often require less land, water and resources to produce compared to traditional meat production (Lui, 2018).
 
-    -   Health: Many plant-based proteins are lower in saturated fat and cholesterol than animal-based proteins and can be a good source of fiber and other nutrients (Science Direct, 2025).
+    -   Health: Many plant-based proteins are lower in saturated fat and cholesterol than animal-based proteins and can be a good source of fibre and other nutrients (Science Direct, 2025).
 
     -   Ethical considerations: For those who choose to avoid animal products, alternative proteins offer a way to meet their protein needs without consuming animal products (Science Direct, 2025).
 
@@ -638,7 +638,7 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 
     Water Treatment: Implementing effective water treatment technologies and practices is crucial for minimising environmental impact and ensuring fish health.
 
-    Water Reuse: Exploring responsible water reuse opportunites, such as using treated waste water, can help reduce the demand on freshwater sources.
+    Water Reuse: Exploring responsible water reuse opportunities, such as using treated waste water, can help reduce the demand on freshwater sources.
 
     Selection of Sustainable Species and Farming Methods: Prioritising the cultivation of species that are native to the region and using less water-intensive farming methods can help reduce the overall environmental footprint.
 
@@ -665,7 +665,7 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 11. Our World in Data. (2025). *Eutrophying emissions per protein*. Retrieved from <https://ourworldindata.org/grapher/eutrophying-emissions-protein>.
 12. ScienceDirect. (2025). *Alternate proteins (APs): Healthier, sustainable, and climate-friendly food alternatives*. Retrieved from [https://www.sciencedirect.com/science/article/pii/S096399692301027X#:\~:text=Alternate%20proteins%20(APs)%20are%20healthier,bioavailability%2C%20nutritional%20equivalency%20and%20digestibility.](https://www.sciencedirect.com/science/article/pii/S096399692301027X#:~:text=Alternate%20proteins%20(APs)%20are%20healthier,bioavailability%2C%20nutritional%20equivalency%20and%20digestibility.)
 13. Liu, W. (2018). *Fact Sheet: Alternative Protein*. University of Nottingham. Retrieved from <https://www.nottingham.ac.uk/biosciences/documents/business/food-innovation-centre/food-waste-alternative-protein-event-2018/fact-sheet-alternative-protein-dr-wentao-liu.pdf>.
-14. Finnigan, T. (2011). *The nutritional properties of mycoprotein are essential for meat alternative development*. ScienceDirect. Retrieved from [https://www.sciencedirect.com/science/article/abs/pii/S0308814624031868#:\~:text=The%20nutritional%20properties%20of%20mycoprotein%20are%20essential,the%20structure%20of%20meat%20myofibers%20(Finnigan%2C%202011).](https://www.sciencedirect.com/science/article/abs/pii/S0308814624031868#:~:text=The%20nutritional%20properties%20of%20mycoprotein%20are%20essential,the%20structure%20of%20meat%20myofibers%20(Finnigan%2C%202011).)
+14. Finnigan, T. (2011). *The nutritional properties of mycoprotein are essential for meat alternative development*. ScienceDirect. Retrieved from [https://www.sciencedirect.com/science/article/abs/pii/S0308814624031868#:\~:text=The%20nutritional%20properties%20of%20mycoprotein%20are%20essential,the%20structure%20of%20meat%20myofibres%20(Finnigan%2C%202011).](https://www.sciencedirect.com/science/article/abs/pii/S0308814624031868#:~:text=The%20nutritional%20properties%20of%20mycoprotein%20are%20essential,the%20structure%20of%20meat%20myofibers%20(Finnigan%2C%202011).)
 15. Learn About Ag. (n.d.). *Alternative protein sources*. Retrieved from <https://learnaboutag.org/matrix/lesson/print/709/>
 16. FoodNavigator. (2024, January 17). *Diversified protein sourcing and the path to mainstream adoption*. Retrieved from <https://www.foodnavigator.com/Article/2024/01/17/diversified-protein-sourcing-and-the-path-to-mainstream-adoption/#:~:text=Alternative%20sources%20of%20protein%20emerging,as%20animal%20and%20plant%20proteins>.
 17. Humane World. (2019, March 22). *Eight reasons to eat plant-based and save water this World Water Day*. Retrieved from [https://www.humaneworld.org/en/news/eight-reasons-eat-plant-based-and-save-water-world-water-day-2019#:\~:text=Farming%20(animal%20and%20plant)%20accounts%20for%20about,and%20growing%20crops%20to%20feed%20to%20animals.&text=Studies%20show%20that%20a%20healthy%20meat%2Dfree%20diet,our%20water%20footprint%20by%20up%20to%2055%.](https://www.humaneworld.org/en/news/eight-reasons-eat-plant-based-and-save-water-world-water-day-2019#:~:text=Farming%20(animal%20and%20plant)%20accounts%20for%20about,and%20growing%20crops%20to%20feed%20to%20animals.&text=Studies%20show%20that%20a%20healthy%20meat%2Dfree%20diet,our%20water%20footprint%20by%20up%20to%2055%.)
