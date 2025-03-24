@@ -181,7 +181,7 @@ The box plot compares greenhouse gas emissions by category. The box is for anima
 
 The box plot compares land use by food category. Animal-based food has a higher median land use than plant-based food. The IQR is wider for animal-based food, indicating greater variability.
 
-Both categories have extremely high land use outliers. The highest land use (above 150m2 per 100g protein) is likely a type of livestock, likely to be lamb.
+Both categories have extremely high land use outliers. The highest land use (above 150 m^2^ per 100 g protein) is likely a type of livestock, likely to be lamb.
 
 Some plant-based food also have a high land use, possibly dark chocolate.
 
@@ -219,7 +219,7 @@ Cheese, Milk, Beef (dairy herd), Pig, Milk and Farmed Fish are the most water-in
 
 While all food production requires water, plant-based food generally require significantly less water than animal products, making them a more water-efficient choice (Colorado Sun, 2022). Animal agriculture consumes high amounts of water and pollutes freshwater ecosystems (Livvie, 2025) also, raising livestock, especially beef, requires vast amounts of water for feed production, drinking water, and cleaning (Livvie, 2025).
 
-From the chart, tomatoes are the most water-consuming plant-based food product, which is supported by EOS (2025), stating that tomato cultivation can be water-intensive, with some studies suggesting that producing 1 kg of tomatoes can require anywhere from 4 to 300 liters of water, depending on the growing method and efficiency.
+From the chart, tomatoes are the most water-consuming plant-based food product, which is supported by EOS (2025), stating that tomato cultivation can be water-intensive, with some studies suggesting that producing 1 kg of tomatoes can require anywhere from 4 to 300 litres of water, depending on the growing method and efficiency.
 
 #### Box plot on plant-based versus animal-based freshwater use litres per 1000kcal
 
@@ -265,7 +265,7 @@ Both plant-based and animal-based food show variation in how their water use tra
 
 # Recommendations & Conclusion
 
-This document outlines evidence-based strategies to reduce the environmental impact of food production systems, focusing on land use optimisation, greenhouse gas emission reduction, freshwater conservation, water scarcity, eutrophication. These recommendations address the most resource-intensive food categories and propose sustainable alternatives.
+This section outlines evidence-based strategies to reduce the environmental impact of food production systems, focusing on land use optimisation, greenhouse gas emission reduction, freshwater conservation, water scarcity, eutrophication. These recommendations address the most resource-intensive food categories and propose sustainable alternatives.
 
 ## 1. Reducing Environmental Impact of Animal Products
 
@@ -331,6 +331,41 @@ Polyculture: Farming multiple species together to improve water use efficiency a
 
 Promoting Awareness: Educating fish farmers and the public about the importance of sustainable water management.
 
+## 4. **Water Scarcity Conservation Strategies**
+
+### **4.1 The Global Water Crisis**
+
+According to the Global Food Institute, only 0.003 percent of Earth's water is available as freshwater, a precious resource that is becoming increasingly scarce. More than two billion people currently live in countries experiencing inadequate water supply, highlighting the urgency of conservation efforts. Agriculture stands as the largest consumer of freshwater globally, accounting for approximately 70 percent of all withdrawals worldwide.
+
+### **4.2 Alternative Proteins as Water Conservation Solutions**
+
+**Reduced Water Footprint\
+**onsuming plant-based meat or alternative proteins can reduce water use by up to 99 percent compared to conventional beef production. This reduction occurs because alternative proteins eliminate:
+
+-   Water needed for animal drinking and maintenance.
+
+-   Irrigation water for feed crops (which constitute the majority of conventional meat's water footprint).
+
+-   Water used in processing animal products and managing waste
+
+**Cultivated Meat Advantages\
+**Cultivated meat offers a middle ground, reducing water usage by approximately 66 percent compared to conventional beef. This technology requires significantly less water as it eliminates the need to grow and maintain entire animals, focusing only on cultivating the desired tissues.
+
+### **4.3 Additional Water Conservation Strategies in Food Systems**
+
+**Precision Agriculture\
+**Implementing precision irrigation technologies such as drip irrigation, soil moisture sensors and weather-responsive watering systems can reduce agricultural water waste by 30-70 percent while maintaining or improving crop yields.
+
+**Water Recycling and Treatment\
+**Developing closed-loop water systems in food processing facilities can recapture, treat and reuse water multiple times, dramatically reducing freshwater withdrawals. These systems can recover up to 80 percent of water used in processing operations.
+
+**Drought-Resistant Crop Varieties** \
+Investing in drought-resistant crop varieties that require less irrigation can significantly reduce agricultural water demand while improving resilience to climate change and water shortages.
+
+### **4.4 Long-Term Impact**
+
+As water becomes an increasingly limited resource due to climate change, population growth and pollution, alternative proteins and water-efficient agricultural practices offer practical solutions to water scarcity. Implementing these strategies could help ensure sustainable food production while preserving freshwater resources for future generations and ecosystems.
+
 ## Policy Recommendations
 
 Policy-makers should invest in alternative protein development for a secure, sustainable food supply. Supporting alternative protein innovation and commercialization will increase food security while reducing environmental impacts (Global Food Institute, 2025).
@@ -357,3 +392,4 @@ Policy-makers should invest in alternative protein development for a secure, sus
 -   Nussli118. (n.d.). Plant-based diets: A key to water conservation. Retrieved from <https://nussli118.com/blogs/the-nussli118-blog-for-healthy-living/plant-based-diets-a-key-to-water-conservation#>:\~:text=Shifting%20towards%20a%20plant%2Dbased%20diet%20helps%20alleviate,and%20ensure%20adequate%20supplies%20for%20future%20generations.
 -   Good Food Institute. (n.d.). Plant-based. Retrieved from <https://gfi.org/plant-based/>
 -   Leroy Seafood. (2021). Freshwater use. Retrieved from <https://www.leroyseafood.com/en/sustainability/sustainability-library-2021/kpi/kpi-freshwater/#>:\~:text=Freshwater%20is%20a%20major%20resource%20in%20fish,a%20long%20term%20perspective%20freshwater%20availability%20for.
+-   Livvie. (2025). *How vegetarian and vegan diets save water*. Retrieved March 24, 2025, from <https://www.livvie.co/save-water-with-a-vegetarian-or-vegan-diet/#:~:text=How%20Vegetarian%20and%20Vegan%20Diets,for%20more%20information%20and%20sources>.

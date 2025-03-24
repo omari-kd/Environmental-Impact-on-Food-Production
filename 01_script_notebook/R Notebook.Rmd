@@ -460,7 +460,11 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
     Animal-based food have a higher median and spread of scarcity-weighted water use than plant-based food.**\
     **The variation within plant-based food shows relatively low water use while others have values close to animal-based food.
 
-    The scarcity-weighted water use box-plot doesn't show distinct outliers. The distribution suggests that both animal-based and plant-based food have a wide range, but no extreme points that fall significantly outside the whiskers.**\
+    The scarcity-weighted water use box-plot doesn't show distinct outliers. The distribution suggests that both animal-based and plant-based food have a wide range, but no extreme points that fall significantly outside the whiskers.
+
+    **Supporting Research**
+
+    Plant-based food require less water than animal-based food. This is because raising livestock needs large amounts of water for animal consumption and feed production (Livvie, 2025). **\
     \
     Scatter Plot: Freshwater Withdrawals (litres per 1000kcal) versus Scarcity-Weighted Water Use (litres per 1000kcal)**
 
@@ -646,6 +650,39 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 
     Promoting Awareness: Educating fish farmers and the public about the importance of sustainable water management.
 
+    **Water Scarcity Conservation Strategies**
+
+    **The Global Water Crisis**\
+    According to the Global Food Institute, only 0.003 percent of Earth's water is available as freshwater, a precious resource that is becoming increasingly scarce. More than two billion people currently live in countries experiencing inadequate water supply, highlighting the urgency of conservation efforts. Agriculture stands as the largest consumer of freshwater globally, accounting for approximately 70 percent of all withdrawals worldwide.
+
+    **Alternative Proteins as Water Conservation Solutions**
+
+    **Reduced Water Footprint\
+    **onsuming plant-based meat or alternative proteins can reduce water use by up to 99 percent compared to conventional beef production. This reduction occurs because alternative proteins eliminate:
+
+    -   Water needed for animal drinking and maintenance.
+
+    -   Irrigation water for feed crops (which constitute the majority of conventional meat's water footprint).
+
+    -   Water used in processing animal products and managing waste
+
+    **Cultivated Meat Advantages\
+    **Cultivated meat offers a middle ground, reducing water usage by approximately 66 percent compared to conventional beef. This technology requires significantly less water as it eliminates the need to grow and maintain entire animals, focusing only on cultivating the desired tissues.
+
+    **Additional Water Conservation Strategies in Food Systems**
+
+    **Precision Agriculture\
+    **Implementing precision irrigation technologies such as drip irrigation, soil moisture sensors and weather-responsive watering systems can reduce agricultural water waste by 30-70 percent while maintaining or improving crop yields.
+
+    **Water Recycling and Treatment\
+    **Developing closed-loop water systems in food processing facilities can recapture, treat and reuse water multiple times, dramatically reducing freshwater withdrawals. These systems can recover up to 80 percent of water used in processing operations.
+
+    **Drought-Resistant Crop Varieties** \
+    Investing in drought-resistant crop varieties that require less irrigation can significantly reduce agricultural water demand while improving resilience to climate change and water shortages.
+
+    **Long-Term Impact\
+    **As water becomes an increasingly limited resource due to climate change, population growth and pollution, alternative proteins and water-efficient agricultural practices offer practical solutions to water scarcity. Implementing these strategies could help ensure sustainable food production while preserving freshwater resources for future generations and ecosystems.
+
     **Policy Recommendations\
     **Policy-makers should invest in alternative protein development for a secure, sustainable food supply. Supporting alternative protein innovation and commercialization will increase food security while reducing environmental impacts (Global Food Institute, 2025).
 :::
@@ -672,3 +709,4 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 18. Nussli118. (n.d.). *Plant-based diets: A key to water conservation*. Retrieved from <https://nussli118.com/blogs/the-nussli118-blog-for-healthy-living/plant-based-diets-a-key-to-water-conservation#:~:text=Shifting%20towards%20a%20plant%2Dbased%20diet%20helps%20alleviate,and%20ensure%20adequate%20supplies%20for%20future%20generations>.
 19. Good Food Institute. (n.d.). *Plant-based*. Retrieved from <https://gfi.org/plant-based/>
 20. Leroy Seafood. (2021). *Freshwater use*. Retrieved from <https://www.leroyseafood.com/en/sustainability/sustainability-library-2021/kpi/kpi-freshwater/#:~:text=Freshwater%20is%20a%20major%20resource%20in%20fish,a%20long%20term%20perspective%20freshwater%20availability%20for>.
+21. Livvie. (2025). *How vegetarian and vegan diets save water*. Retrieved March 24, 2025, from <https://www.livvie.co/save-water-with-a-vegetarian-or-vegan-diet/#:~:text=How%20Vegetarian%20and%20Vegan%20Diets,for%20more%20information%20and%20sources>.
