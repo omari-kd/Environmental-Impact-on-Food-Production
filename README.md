@@ -500,7 +500,7 @@ Alternative Proteins are gaining popularity due to concerns about the
 environmental impact of traditional meat production, as well as growing
 interest in plant-based diets and healthier eating habits (Liu, 2018).
 
-### Types of Alternative Proteins:
+### 1.3 Types of Alternative Proteins:
 
 Plant-based Proteins: These are derived from plants and include plants
 like legumes, soy, nuts and seeds, grains, mycoprotein (derived from
@@ -517,7 +517,7 @@ such as mycoprotein or certain plant-based proteins (FoodNavigator,
 Algae and Insects: There are are emerging as potential sources of
 alternative protein (Lui, 2018).
 
-### Benefits of Alternative Proteins:
+### 1.4 Benefits of Alternative Proteins:
 
 Sustainability: Alternative Proteins often require less land, water and
 resources to produce compared to traditional meat production (Lui,
