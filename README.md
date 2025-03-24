@@ -131,8 +131,8 @@ According to the specific dataset presented in this scatter plot, the animal-bas
 
 The relatively flat trend line for animal-based category suggests that within this category, increasing land use does not correspond to proportionally higher emissions. However, several animal-based cateogry still show moderate to high greenhouse gas emissions despite their lower land use footprint in this dataset.
 
-**Plant-Based Category\
-**Plant-based Category display greater variability in both land use and emissions. While most plant-based options in this dataset show low emissions and low land use (clustered in the bottom left of the right panel), there is a notable outlier: One plant-based food requires close to 150 m² per 100g protein while producing nearly 100 kg CO₂eq, significantly higher than all other food in both categories. \
+#### Plant-Based Category
+Plant-based Category display greater variability in both land use and emissions. While most plant-based options in this dataset show low emissions and low land use (clustered in the bottom left of the right panel), there is a notable outlier: One plant-based food requires close to 150 m² per 100g protein while producing nearly 100 kg CO₂eq, significantly higher than all other food in both categories. \
 The steeper trend line for plant-based food indicates that within this category, higher land use correlates more strongly with increased emissions.
 
 This specific dataset appears to show a subset of food that may not represent the full spectrum of animal and plant-based products. Typical comprehensive studies by Our World in Data (n.d) generally show animal products requiring substantially more land on average than plant-based alternatives. The outlier plant-based food with extremely high land use and emissions may be representing a specific crop grown in particularly resource-intensive conditions.
