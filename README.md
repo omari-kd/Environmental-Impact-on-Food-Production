@@ -125,25 +125,25 @@ Cattle ranching is a major driver of deforestation especially in regions like th
 
 ![image](https://github.com/user-attachments/assets/13ee8e1d-e8f7-4d2b-adce-13de8b59d545)
 
-1.  The scatter plot examines the relationship between land use (x-axis, measured in m² per 100g protein) and greenhouse gas emissions (y-axis, measured in kg CO₂eq per 100g protein) across different food categories. The visualisation separates animal-based foods (red points with dashed red trend line) from plant-based foods (blue points with dashed blue trend line).
+The scatter plot examines the relationship between land use (x-axis, measured in m² per 100g protein) and greenhouse gas emissions (y-axis, measured in kg CO₂eq per 100g protein) across different food categories. The visualisation separates animal-based foods (red points with dashed red trend line) from plant-based foods (blue points with dashed blue trend line).
 
-    According to the specific dataset presented in this scatter plot, the animal-based category shown appear to use less land per 100g of protein than some plant-based category. The red points are clustered primarily in the lower range of the x-axis (0-150 m² per 100g protein).
+According to the specific dataset presented in this scatter plot, the animal-based category shown appear to use less land per 100g of protein than some plant-based category. The red points are clustered primarily in the lower range of the x-axis (0-150 m² per 100g protein).
 
-    The relatively flat trend line for animal-based category suggests that within this category, increasing land use does not correspond to proportionally higher emissions. However, several animal-based cateogry still show moderate to high greenhouse gas emissions despite their lower land use footprint in this dataset.
+The relatively flat trend line for animal-based category suggests that within this category, increasing land use does not correspond to proportionally higher emissions. However, several animal-based cateogry still show moderate to high greenhouse gas emissions despite their lower land use footprint in this dataset.
 
-    **Plant-Based Category\
-    **Plant-based Category display greater variability in both land use and emissions. While most plant-based options in this dataset show low emissions and low land use (clustered in the bottom left of the right panel), there is a notable outlier: One plant-based food requires close to 150 m² per 100g protein while producing nearly 100 kg CO₂eq, significantly higher than all other food in both categories. \
-    The steeper trend line for plant-based food indicates that within this category, higher land use correlates more strongly with increased emissions.
+**Plant-Based Category\
+**Plant-based Category display greater variability in both land use and emissions. While most plant-based options in this dataset show low emissions and low land use (clustered in the bottom left of the right panel), there is a notable outlier: One plant-based food requires close to 150 m² per 100g protein while producing nearly 100 kg CO₂eq, significantly higher than all other food in both categories. \
+The steeper trend line for plant-based food indicates that within this category, higher land use correlates more strongly with increased emissions.
 
-    This specific dataset appears to show a subset of food that may not represent the full spectrum of animal and plant-based products. Typical comprehensive studies by Our World in Data (n.d) generally show animal products requiring substantially more land on average than plant-based alternatives. The outlier plant-based food with extremely high land use and emissions may be representing a specific crop grown in particularly resource-intensive conditions.
+This specific dataset appears to show a subset of food that may not represent the full spectrum of animal and plant-based products. Typical comprehensive studies by Our World in Data (n.d) generally show animal products requiring substantially more land on average than plant-based alternatives. The outlier plant-based food with extremely high land use and emissions may be representing a specific crop grown in particularly resource-intensive conditions.
 
-    **Environmental Implications**\
-    Despite the specific data patterns shown here, transitioning from animal-based to most plant-based proteins would generally benefit emission reduction efforts, as the majority of plant-based options cluster in the low-emissions range.
+**Environmental Implications**\
+Despite the specific data patterns shown here, transitioning from animal-based to most plant-based proteins would generally benefit emission reduction efforts, as the majority of plant-based options cluster in the low-emissions range.
 
-    **Supporting Research**\
-    Global Food Institute stated that, by using plants, fermentation or cell cultivation instead of livestock, the production of alternative proteins does not emit the same toxic air pollutants that is, ammonia, particulate matter and hydrogen sulfide; as conventional meat production. Similarly, because there is no animal waste to discharge and fewer crops and fertilisers are needed, alternative proteins reduce the discharge of nitrogen and phosphorus, which stimulate the growth of algal blooms that impair water quality. A shift toward alternative proteins can keep our air and water clean, improving the health of communities and ecosystems while meeting increasing protein demand.
+**Supporting Research**\
+Global Food Institute stated that, by using plants, fermentation or cell cultivation instead of livestock, the production of alternative proteins does not emit the same toxic air pollutants that is, ammonia, particulate matter and hydrogen sulfide; as conventional meat production. Similarly, because there is no animal waste to discharge and fewer crops and fertilisers are needed, alternative proteins reduce the discharge of nitrogen and phosphorus, which stimulate the growth of algal blooms that impair water quality. A shift toward alternative proteins can keep our air and water clean, improving the health of communities and ecosystems while meeting increasing protein demand.
 
-    This visualisation highlights the importance of considering multiple environmental metrics when evaluating food sustainability. While most plant-based foods offer environmental benefits, the data shows significant variability within both categories. For optimal environmental outcomes, focus should be placed on plant-based options with both low land use and low emissions profiles, while avoiding the outlier plant-based options that may be environmentally intensive on both metrics.
+This visualisation highlights the importance of considering multiple environmental metrics when evaluating food sustainability. While most plant-based foods offer environmental benefits, the data shows significant variability within both categories. For optimal environmental outcomes, focus should be placed on plant-based options with both low land use and low emissions profiles, while avoiding the outlier plant-based options that may be environmentally intensive on both metrics.
 
 #### Summary of greenhouse gas emission (kg CO₂-eq per 100g protein)
 

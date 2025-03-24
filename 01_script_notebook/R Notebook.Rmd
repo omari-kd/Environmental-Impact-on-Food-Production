@@ -383,7 +383,7 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
     ggplot(top_water_food, aes(x = reorder(food_product, freshwater_withdrawals_per_1000kcal_liters_per_1000kcal), y = freshwater_withdrawals_per_1000kcal_liters_per_1000kcal, fill = category)) + 
       geom_bar(stat = "identity") +
       coord_flip() +
-      labs(title = "Top 10 Water-Consuming food",
+      labs(title = "Top 10 Freshwater Consuming Food",
            x = "Food Product",
            y = "Freshwater Withdrawals (litres per 1000kcal)",
            fill = "Category") +
@@ -403,7 +403,7 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
     ```{r}
     ggplot(df, aes(x = category, freshwater_withdrawals_per_1000kcal_liters_per_1000kcal  , fill = category)) +
       geom_boxplot(alpha = 0.7) +
-      labs(title = "Fresh Water Use by Food Category",
+      labs(title = "Freshwater Withdrawals by Food Category",
            x = "Food Category",
            y = "Freshwater Withdrawals (litres per 1000kcal)"
            ) + theme_minimal()
@@ -434,7 +434,7 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
                                y = freshwater_withdrawals_per_1000kcal_liters_per_1000kcal, fill = category)) +
       geom_col() +
       coord_flip() +
-      labs(title = "Outliers in Freshwater Withdrawals (litres per 1000kcal)", 
+      labs(title = "Outliers in Freshwater Withdrawals", 
            x = "Food Product", y = "Freshwater Withdrawals (litres per 1000 kcal)") +
       scale_fill_manual(values = c("Animal-based" = "#E57373", "Plant-based" = "#4DB6AC")) +
       theme_minimal()
@@ -457,7 +457,7 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
     ```{r}
     ggplot(df, aes(x = category, scarcity_weighted_water_use_per_1000kcal_liters_per_1000_kilocalories  , fill = category)) +
       geom_boxplot(alpha = 0.7) +
-      labs(title = "Scarcity Water Use by Food Category",
+      labs(title = "Scarcity-Weighted Water Use by Food Category",
            x = "Food Category",
            y = "Scarcity Water use  (litres per 1000kcal)"
            ) + theme_minimal()
@@ -721,3 +721,4 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 22. Ritchie, H., & Roser, M. (n.d.). *Land use and diets*. Our World in Data. Retrieved March 24, 2025, from <https://ourworldindata.org/land-use-diets#:~:text=The%20land%20use%20of%20livestock,for%20biodiversity%20and%20carbon%20sequestration.&text=In%20an%20upcoming%20article%20we,shift%20towards%20plant%2Dbased%20diets>.
 23. Hannah Ritchie (2021) - “If the world adopted a plant-based diet, we would reduce global agricultural land use from 4 to 1 billion hectares” Published online at OurWorldinData.org. Retrieved from: '<https://ourworldindata.org/land-use-diets>' [Online Resource]
 24. 
+25. 
