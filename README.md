@@ -313,6 +313,16 @@ Beef (beef herd) – Another major contributor, indicating the environmental bur
 
 Coffee – A plant-based outlier, indicating that coffee cultivation has a significant eutrophication footprint.
 
+**Scatter Plot on Eutrophication (g PO4eq per 100g protein) versus Greenhouse Gas Emissions (kg CO₂-eq per 100g protein)\
+\
+**
+
+![Image](https://github.com/user-attachments/assets/9d56c10e-6dc9-422e-8167-ff0371d4e9d7)
+
+The scatter plot shows the relationship between Eutrophication (g PO₄eq per 100g protein) and Greenhouse Gas (GHG) Emissions (kg CO₂-eq per 100g protein).
+
+There appears to be a positive correlation between eutrophication and GHG emissions. A few food products (most likely beef (dairy and beef herd)) are extreme outliers, having both high eutrophication and high GHG emissions. Most food have relatively low eutrophication and GHG emissions, staying in the bottom-left region.
+
 # Recommendations & Conclusion
 
 This section outlines evidence-based strategies to reduce the environmental impact of food production systems, focusing on land use optimisation, greenhouse gas emission reduction, freshwater conservation, water scarcity, eutrophication. These recommendations address the most resource-intensive food categories and propose sustainable alternatives.
