@@ -76,19 +76,19 @@ The objectives were defined below, followed by the formulation of analytic quest
 
 The dataset contains most 43 most common food grown across the globe and 23 columns as their respective land, water usage and carbon footprints. Variables include:
 
-a.  Land use change - Kg CO2 - equivalents per kg product
+-   Land use change - Kg CO2 - equivalents per kg product
 
-b.  Animal Feed - Kg CO2 - equivalents per kg product
+-   Animal Feed - Kg CO2 - equivalents per kg product
 
-c.  Farm - Kg CO2 - equivalents per kg product
+-   Farm - Kg CO2 - equivalents per kg product
 
-d.  Processing - Kg CO2 - equivalents per kg product
+-   Processing - Kg CO2 - equivalents per kg product
 
-e.  Transport - Kg CO2 - equivalents per kg product
+-   Transport - Kg CO2 - equivalents per kg product
 
-f.  Packaging - Kg CO2 - equivalents per kg product
+-   Packaging - Kg CO2 - equivalents per kg product
 
-g.  Retail - Kg CO2 - equivalents per kg product
+-   Retail - Kg CO2 - equivalents per kg product
 
 These represent greenhouse gas emissions per kg of food product(Kg CO2 - equivalents per kg product) across different stages in the life-cycle of food production.
 
@@ -97,9 +97,13 @@ These represent greenhouse gas emissions per kg of food product(Kg CO2 - equival
 To ensure the data was ready for analysis, a meticulous data preparation process was carried out as follows:
 
 -   Cleaning of column names: The column names were cleaned to ensure standardisation and consistency
+
 -   Correction of column names: The column name packging was corrected to packaging
+
 -   Checking data structure: The overall structure of the dataset was examined
+
 -   Duplicate check: No duplicate entries were found
+
 -   Handling Missing Values:
 
 ![image](https://github.com/user-attachments/assets/658c46d5-e994-426c-93da-3530661ccb7c)
