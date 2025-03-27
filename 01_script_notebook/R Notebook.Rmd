@@ -38,15 +38,13 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 
     III\. How do plant-based and animal-based food compare in terms of total carbon emissions per kg of product?
 
-    IV\. Which food products have the highest total greenhouse gas emissions per kg of food product?
+    IV\. Which food products have the highest total greenhouse gas emissions?
 
-    V. Which food products have the highest eutrophication potential (nutrient runoff) per kg of product?
+    V. Which food products have the highest eutrophication potential (nutrient runoff)?\
+    \
+    VI. What are the main contributors to greenhouse gas emissions in food production and how can they be reduced?
 
-    VI\.
-
-    VII\. What are the main contributors to greenhouse gas emissions in food production and how can they be reduced?
-
-    VIII\. What policy interventions (e.g., carbon taxes, incentives for sustainable farming) could help reduce the environmental footprint of food production?
+    VII\. What policy interventions (e.g., carbon taxes, incentives for sustainable farming) could help reduce the environmental footprint of food production?
 
 2.  **Data Understanding:** The dataset contains most 43 most common food grown across the globe and 23 columns as their respective land, water usage and carbon footprints. Variables include:
 
