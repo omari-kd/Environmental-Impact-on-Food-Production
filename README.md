@@ -340,7 +340,7 @@ Tomatoes, berries & grapes, rice and apples highlight that certain crops also ha
 
 Coffee processing and the consumption of coffee has contributed to caffeine contamination in water, which has negative impacts on aquatic ecosystem (Butler, R.A., 2022). \
 \
-**Environmental Impact of dark chocolate**
+**Environmental Impact of dark chocolate**\
 Chocolate in itself does not directly cause eutrophication, its consumption and production contribute to it through the environmental impacts of cocoa farming, chocolate manufacturing and packaging with it main concern in water usage, deforestation and energy consumption.
 
 **A Breakdown of how chocolate contributes to eutrophication:\
