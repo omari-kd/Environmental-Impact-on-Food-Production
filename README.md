@@ -386,6 +386,13 @@ The scatter plot shows the relationship between Eutrophication (g PO₄eq per 10
 
 There appears to be a positive correlation between eutrophication and GHG emissions. A few food products (most likely beef (dairy and beef herd)) are extreme outliers, having both high eutrophication and high GHG emissions. Most food have relatively low eutrophication and GHG emissions, staying in the bottom-left region.
 
+**Supporting Research \
+**Higher levels of eutrophication increases greenhouse gas emissions to the atmosphere, the emission of CH~4~ have been observed to increase with eutrphication (DelSontro et al., 2018).
+
+**How eutrophication affects greenhouse gas emission:**
+
+Eutrophication leads to algal blooms, which, upon decompostion, deplete oxygen in the water, creating an environment where anaerobic bacteria thrive. These bacteria produce and release methane and nitrous oxide, both potent greenhouse gases (Science Daily, 2019).
+
 # Recommendations & Conclusion
 
 This section outlines evidence-based strategies to reduce the environmental impact of food production systems, focusing on land use optimisation, greenhouse gas emission reduction, freshwater conservation, water scarcity, eutrophication. These recommendations address the most resource-intensive food categories and propose sustainable alternatives.
@@ -493,49 +500,88 @@ As water becomes an increasingly limited resource due to climate change, populat
 
 ## 5. **Eutrophication Strategies**
 
-**Eutrophication Strategies On Dark Chocolate**
+**5.1 Eutrophication Strategies On Dark Chocolate**
 
 Chocolate in itself does not directly cause eutrophication, its consumption and production contribute to it through the environmental impacts of cocoa farming, chocolate manufacturing and packaging with it main concern in water usage, deforestation and energy consumption. Life Cycle Assessment (LCA) can help identify environmental hotpsots along the chocolate chain, that includes raw materials, production of chocolate and packaging.
 
-**Eutrophication Strategies On Beef**
+**5.2 Eutrophication Strategies On Beef**
 
 Sustainable beef production practices, such as reducing manure runoff, improving land management, and reducing greenhouse gas emissions, are crucial to mitigating the environmental impacts of beef production.
 
 Shifting towards more plant-based diets can also help reduce the overall environmental burden of food production.
 
+**Mitigation on Eutrophication and Greenhouse Gas Emissions**
+
+Reducing nutrient runoff into water bodies (e.g., from agricultural fertilizers and sewage) is crucial to mitigate eutrophication and its impact on GHG emissions. Restoring and managing freshwater ecosystems can also help reduce GHG emissions. Transitioning to renewable energy sources, improving energy efficiency and reducing deforestation are key to mitigating GHG emissions and addressing climate change
+
 ## Policy Recommendations
 
 Policy-makers should invest in alternative protein development for a secure, sustainable food supply. Supporting alternative protein innovation and commercialisation will increase food security while reducing environmental impacts (Global Food Institute, 2025).
 
+## Conclusion 
+
+Addressing both eutrophication and GHG emissions requires a multifaceted approach, including reducing nutrient pollution, transitioning to a low-carbon economy, and implementing sustainable land management practices.
+
 # References
 
 -   Beef Research Council. (n.d.). Environmental footprint of beef production. Retrieved from <https://www.beefresearch.ca/topics/environmental-footprint-of-beef-production/#>:\~:text=The%20beef%20environmental%20footprint%20has,produced%20by%20plants%20and%20animals.
+
 -   World Wildlife Fund. (2025). Beef production and its environmental impact. Retrieved from <https://www.worldwildlife.org/industries/beef#>:\~:text=Beef%20production%20has%20a%20considerable,emissions%20from%20human%2Drelated%20activities.
+
 -   Rosie's Farm Sanctuary. (2025). Environmental impact of beef production. Retrieved from <https://rosiesfarmsanctuary.org/learn/environment/#>:\~:text=Beef%20production%20alone%20contributes%2041%%20of%20all,by%20an%20ever%2Drising%20international%20demand%20for%20beef.
+
 -   Global Food Institute. (2025). Environmental impacts of alternative proteins. Retrieved from <https://gfi.org/resource/environmental-impacts-of-alternative-proteins/>
+
 -   Green Bean Coffee. (2025). Sustainability and the environmental impacts of coffee. Retrieved from <https://www.greenbeancoffee.com.au/blogs/news/sustainability-and-the-environmental-impacts-of-coffee#>:\~:text=Organic%20coffee%20cultivation%20offers%20numerous,depends%20on%20your%20individual%20tastes.
+
 -   Le Monde. (2025). What is chocolate's carbon footprint? Retrieved from <https://www.lemonde.fr/en/environment/article/2025/02/14/what-is-chocolate-s-carbon-footprint_6738165_114.html#>:\~:text=Three%20key%20stages%20drive%20the,chemical%20inputs%2C%20deplete%20soil%20quality.
+
 -   Colorado Sun. (2022). Water, drought and the environmental impact of agriculture: The food we produce matters. Retrieved from <https://coloradosun.com/2022/09/07/water-drought-agriculture-food-production-meat-plants-opinion/#>:\~:text=While%20any%20plant%2Dbased%20food,only%20uses%20about%20one%20gallon.
+
 -   Livvie. (2025). Save water with a vegetarian or vegan diet. Retrieved from <https://www.livvie.co/save-water-with-a-vegetarian-or-vegan-diet/#>:\~:text=How%20Vegetarian%20and%20Vegan%20Diets,for%20more%20information%20and%20sources.
+
 -   EOS. (2025). How to grow tomatoes. Retrieved from <https://eos.com/blog/how-to-grow-tomatoes/#>:\~:text=Water,them%20less%20susceptible%20to%20drought.
+
 -   Our World in Data. (2025). Eutrophying emissions per protein. Retrieved from <https://ourworldindata.org/grapher/eutrophying-emissions-protein>.
+
 -   Our World in Data. (2025). Water use and stress in global food production. Retrieved from <https://ourworldindata.org/water-use-stress#>:\~:text=Water%20use%20of%20food%20products%20Globally%2C%2070,1000%20kilocalories%2C%20and%20100%20grams%20of%20protein.
+
 -   ScienceDirect. (2025). Alternate proteins (APs): Healthier, sustainable, and climate-friendly food alternatives. Retrieved from <https://www.sciencedirect.com/science/article/pii/S096399692301027X#>:\~:text=Alternate%20proteins%20(APs)%20are%20healthier,bioavailability%2C%20nutritional%20equivalency%20and%20digestibility.
+
 -   Liu, W. (2018). Fact Sheet: Alternative Protein. University of Nottingham. Retrieved from <https://www.nottingham.ac.uk/biosciences/documents/business/food-innovation-centre/food-waste-alternative-protein-event-2018/fact-sheet-alternative-protein-dr-wentao-liu.pdf>.
+
 -   Finnigan, T. (2011). The nutritional properties of mycoprotein are essential for meat alternative development. ScienceDirect. Retrieved from <https://www.sciencedirect.com/science/article/abs/pii/S0308814624031868#>:\~:text=The%20nutritional%20properties%20of%20mycoprotein%20are%20essential,the%20structure%20of%20meat%20myoFibres%20(Finnigan%2C%202011).
+
 -   Learn About Ag. (n.d.). Alternative protein sources. Retrieved from <https://learnaboutag.org/matrix/lesson/print/709/>
+
 -   FoodNavigator. (2024, January 17). Diversified protein sourcing and the path to mainstream adoption. Retrieved from <https://www.foodnavigator.com/Article/2024/01/17/diversified-protein-sourcing-and-the-path-to-mainstream-adoption/#>:\~:text=Alternative%20sources%20of%20protein%20emerging,as%20animal%20and%20plant%20proteins.
+
 -   Humane World. (2019, March 22). Eight reasons to eat plant-based and save water this World Water Day. Retrieved from <https://www.humaneworld.org/en/news/eight-reasons-eat-plant-based-and-save-water-world-water-day-2019#>:\~:text=Farming%20(animal%20and%20plant)%20accounts%20for%20about,and%20growing%20crops%20to%20feed%20to%20animals.&text=Studies%20show%20that%20a%20healthy%20meat%2Dfree%20diet,our%20water%20footprint%20by%20up%20to%2055%.
+
 -   Nussli118. (n.d.). Plant-based diets: A key to water conservation. Retrieved from <https://nussli118.com/blogs/the-nussli118-blog-for-healthy-living/plant-based-diets-a-key-to-water-conservation#>:\~:text=Shifting%20towards%20a%20plant%2Dbased%20diet%20helps%20alleviate,and%20ensure%20adequate%20supplies%20for%20future%20generations.
+
 -   Good Food Institute. (n.d.). Plant-based. Retrieved from <https://gfi.org/plant-based/>
+
 -   Leroy Seafood. (2021). Freshwater use. Retrieved from <https://www.leroyseafood.com/en/sustainability/sustainability-library-2021/kpi/kpi-freshwater/#>:\~:text=Freshwater%20is%20a%20major%20resource%20in%20fish,a%20long%20term%20perspective%20freshwater%20availability%20for.
+
 -   Livvie. (2025). *How vegetarian and vegan diets save water*. Retrieved March 24, 2025, from <https://www.livvie.co/save-water-with-a-vegetarian-or-vegan-diet/#:~:text=How%20Vegetarian%20and%20Vegan%20Diets,for%20more%20information%20and%20sources>.
+
 -   Ritchie, H., & Roser, M. (n.d.). *Land use and diets*. Our World in Data. Retrieved March 24, 2025, from <https://ourworldindata.org/land-use-diets#:~:text=The%20land%20use%20of%20livestock,for%20biodiversity%20and%20carbon%20sequestration.&text=In%20an%20upcoming%20article%20we,shift%20towards%20plant%2Dbased%20diets>.
+
 -   Hannah Ritchie (2021) - “If the world adopted a plant-based diet, we would reduce global agricultural land use from 4 to 1 billion hectares” Published online at OurWorldinData.org. Retrieved from: '<https://ourworldindata.org/land-use-diets>' [Online Resource]
+
 -   Green Element. (n.d.). Why is eating meat bad for the environment? *Green Element*. Retrieved March 27, 2025, from <https://www.greenelement.co.uk/blog/why-is-eating-meat-bad-for-the-environment/>
+
 -   Nemecek, J. P. (2018). Reducing food’s environmental impact through producers and consumers. *Science*. <doi:10.1126/science.aaq0216>
+
 -   Ohio State Pressbooks. (n.d.). A bitter brew: Coffee production, deforestation, soil erosion, and water contamination. *Ohio State Pressbooks*. Retrieved March 27, 2025, from <https://ohiostate.pressbooks.pub/sciencebites/chapter/a-bitter-brew-coffee-production-deforestation-soil-erosion-and-water-contamination/#:~:text=Water%20pollution%2C%20mainly%20in%20the,more%20tolerant%20to%20the%20chemicals>.
+
 -   Hugo Coffee. (n.d.). Ecological impacts of the coffee industry. *Hugo Coffee*. Retrieved March 27, 2025, from <https://hugo.coffee/ecological-impacts-of-the-coffee-industry/#:~:text=The%20discharges%20of%20coffee%20processing,that%20comes%20from%20manufacturing%20coffee>.
+
 -   Rhett A. Butler. (2022, February 18). Caffeine: Emerging contaminant of global rivers and coastal waters. *Mongabay*. <https://news.mongabay.com/2022/02/caffeine-emerging-contaminant-of-global-rivers-and-coastal-waters/#:~:text=Producing%20our%20daily%20brew%20requires,CC%20BY%2DSA%202.0>).
+
 -   Butler, R. A. (2022, August 1). Delectable but destructive: Tracing chocolate’s environmental life cycle. *Mongabay*. <https://news.mongabay.com/2022/08/delectable-but-destructive-tracing-chocolates-environmental-life-cycle/>
+
 -   Eutrophication. (2025, March 27). In *Wikipedia, The Free Encyclopedia*. <https://en.wikipedia.org/wiki/Eutrophication#:~:text=In%20such%20areas%20the%20density,as%20a%20%22summer%20kill%22>.
+
+-   Science Daily. (2019, March 26). The greening or eutrophication of the earth: Nitrogen emissions more potent than carbon dioxide. *Science Daily*. <https://www.sciencedaily.com/releases/2019/03/190326081426.htm#:~:text=The%20greening%20or%20eutrophication%20of,more%20potent%20than%20carbon%20dioxide>.

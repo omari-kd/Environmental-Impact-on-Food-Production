@@ -629,7 +629,14 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 
     The scatter plot shows the relationship between Eutrophication (g PO₄eq per 100g protein) and Greenhouse Gas (GHG) Emissions (kg CO₂-eq per 100g protein).
 
-    There appears to be a positive correlation between eutrophication and GHG emissions. A few food products (most likely beef (dairy and beef herd)) are extreme outliers, having both high eutrophication and high GHG emissions. Most food have relatively low eutrophication and GHG emissions, staying in the bottom-left region.
+    There appears to be a positive correlation between eutrophication and GHG emissions. A few food products (most likely beef (dairy and beef herd)) are extreme outliers, having both high eutrophication and high GHG emissions. Most food have relatively low eutrophication and GHG emissions, staying in the bottom-left region.\
+    \
+    **Supporting Research \
+    **Higher levels of eutrophication increases greenhouse gas emissions to the atmosphere, the emission of CH~4~ have been observed to increase with eutrphication (DelSontro et al., 2018).
+
+    **How eutrophication affects greenhouse gas emission:**
+
+    Eutrophication leads to algal blooms, which, upon decompostion, deplete oxygen in the water, creating an environment where anaerobic bacteria thrive. These bacteria produce and release methane and nitrous oxide, both potent greenhouse gases (Science Daily, 2019).
 
 5.  **Recommendations & Conclusion\
     **This document outlines evidence-based strategies to reduce the environmental impact of food production systems, focusing on land use optimisation, greenhouse gas emission reduction, freshwater conservation, water scarcity, eutrophication. These recommendations address the most resource-intensive food categories and propose sustainable alternatives.
@@ -725,10 +732,25 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
     \
     **Eutrophication Strategies On Dark Chocolate**
 
-    Chocolate in itself does not directly cause eutrophication, its consumption and production contribute to it through the environmental impacts of cocoa farming, chocolate manufacturing and packaging with it main concern in water usage, deforestation and energy consumption. Life Cycle Assessment (LCA) can help identify environmental hotpsots along the chocolate chain, that includes raw materials, production of chocolate and packaging.
+    Chocolate in itself does not directly cause eutrophication, its consumption and production contribute to it through the environmental impacts of cocoa farming, chocolate manufacturing and packaging with it main concern in water usage, deforestation and energy consumption. Life Cycle Assessment (LCA) can help identify environmental hotpsots along the chocolate chain, that includes raw materials, production of chocolate and packaging.\
+    \
+    **Eutrophication Strategies On Beef**
+
+    Sustainable beef production practices, such as reducing manure runoff, improving land management, and reducing greenhouse gas emissions, are crucial to mitigating the environmental impacts of beef production.
+
+    Shifting towards more plant-based diets can also help reduce the overall environmental burden of food production.\
+    \
+    **Mitigation on Eutrophication and Greenhouse Gas Emissions**
+
+    Reducing nutrient runoff into water bodies (e.g., from agricultural fertilizers and sewage) is crucial to mitigate eutrophication and its impact on GHG emissions. Restoring and managing freshwater ecosystems can also help reduce GHG emissions. Transitioning to renewable energy sources, improving energy efficiency and reducing deforestation are key to mitigating GHG emissions and addressing climate change
 
     **Policy Recommendations\
-    **Policy-makers should invest in alternative protein development for a secure, sustainable food supply. Supporting alternative protein innovation and commercialisation will increase food security while reducing environmental impacts (Global Food Institute, 2025).
+    **Policy-makers should invest in alternative protein development for a secure, sustainable food supply. Supporting alternative protein innovation and commercialisation will increase food security while reducing environmental impacts (Global Food Institute, 2025). \
+    Developing and implementing policies and technologies to reduce emissions from various sectors is crucial. 
+
+## Conclusion 
+
+Addressing both eutrophication and GHG emissions requires a multifaceted approach, including reducing nutrient pollution, transitioning to a low-carbon economy, and implementing sustainable land management practices. 
 :::
 
 ## References
@@ -763,3 +785,6 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 28. Rhett A. Butler. (2022, February 18). Caffeine: Emerging contaminant of global rivers and coastal waters. *Mongabay*. <https://news.mongabay.com/2022/02/caffeine-emerging-contaminant-of-global-rivers-and-coastal-waters/#:~:text=Producing%20our%20daily%20brew%20requires,CC%20BY%2DSA%202.0>).
 29. Butler, R. A. (2022, August 1). Delectable but destructive: Tracing chocolate’s environmental life cycle. *Mongabay*. <https://news.mongabay.com/2022/08/delectable-but-destructive-tracing-chocolates-environmental-life-cycle/>
 30. Eutrophication. (2025, March 27). In *Wikipedia, The Free Encyclopedia*. <https://en.wikipedia.org/wiki/Eutrophication#:~:text=In%20such%20areas%20the%20density,as%20a%20%22summer%20kill%22>.
+31. T. DelSontro *et al.* Greenhouse gas emissions from lakes and impoundments: upscaling in the face of global change\
+    Limnol. Oceanogr. Lett. (2018)
+32. Science Daily. (2019, March 26). The greening or eutrophication of the earth: Nitrogen emissions more potent than carbon dioxide. *Science Daily*. <https://www.sciencedaily.com/releases/2019/03/190326081426.htm#:~:text=The%20greening%20or%20eutrophication%20of,more%20potent%20than%20carbon%20dioxide>.
