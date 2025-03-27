@@ -386,7 +386,7 @@ The scatter plot shows the relationship between Eutrophication (g PO₄eq per 10
 
 There appears to be a positive correlation between eutrophication and GHG emissions. A few food products (most likely beef (dairy and beef herd)) are extreme outliers, having both high eutrophication and high GHG emissions. Most food have relatively low eutrophication and GHG emissions, staying in the bottom-left region.
 
-**Supporting Research \
+**Supporting Research\
 **Higher levels of eutrophication increases greenhouse gas emissions to the atmosphere, the emission of CH~4~ have been observed to increase with eutrphication (DelSontro et al., 2018).
 
 **How eutrophication affects greenhouse gas emission:**
@@ -518,7 +518,7 @@ Reducing nutrient runoff into water bodies (e.g., from agricultural fertilizers 
 
 Policy-makers should invest in alternative protein development for a secure, sustainable food supply. Supporting alternative protein innovation and commercialisation will increase food security while reducing environmental impacts (Global Food Institute, 2025).
 
-## Conclusion 
+## Conclusion
 
 Addressing both eutrophication and GHG emissions needs a multifaceted approach, including reducing nutrient pollution, transitioning to a low-carbon economy and implementing sustainable land management practices.
 
