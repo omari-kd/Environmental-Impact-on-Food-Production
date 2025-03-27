@@ -520,7 +520,7 @@ Policy-makers should invest in alternative protein development for a secure, sus
 
 ## Conclusion 
 
-Addressing both eutrophication and GHG emissions requires a multifaceted approach, including reducing nutrient pollution, transitioning to a low-carbon economy, and implementing sustainable land management practices.
+Addressing both eutrophication and GHG emissions needs a multifaceted approach, including reducing nutrient pollution, transitioning to a low-carbon economy, and implementing sustainable land management practices.
 
 # References
 
