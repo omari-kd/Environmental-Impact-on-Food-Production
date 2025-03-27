@@ -62,11 +62,11 @@ The objectives were defined below, followed by the formulation of analytic quest
 
 2.  How does eutrophication (nutrient run-off) vary among different types of food production?
 
-3.  How do plant-based and animal-based food compare in terms of total carbon emissions per kg of product?
+3.  How do plant-based and animal-based food compare in terms of total carbon emissions?
 
-4.  Which food products have the highest total greenhouse gas emissions per kg of food product?
+4.  Which food products have the highest total greenhouse gas emissions?
 
-5.  Which food products have the highest eutrophication potential (nutrient runoff) per kg of product?
+5.  Which food products have the highest eutrophication potential (nutrient runoff)?
 
 6.  What are the main contributors to greenhouse gas emissions in food production and how can they be reduced?
 
@@ -302,7 +302,7 @@ Both plant-based and animal-based food show variation in how their water use tra
 
 #### **Exploratory Data Analysis (EDA) on Eutrophication (g PO4eq per 100g protein)**
 
-Eutrophication is the pollution of water bodies and ecosystems with excess nutrients mostly nitrogen and phosphorus, leading to algal blooms (Wikipedia). Eutrophication is a major environmental problem. The runoff of nitrogen and other nutrients from agricultural production systems is a leading contributor. \
+Eutrophication is the pollution of water bodies and ecosystems with excess nutrients mostly nitrogen and phosphorus, leading to algal blooms (Wikipedia). Eutrophication is a major environmental problem. The runoff of nitrogen and other nutrients from agricultural production systems is a leading contributor.\
 \
 According to wikipedia, the algal blooms can deplete the level of oxygen in the water, creating what is called "dead zones" that harm aquatic life. The degradation of these algae also leads to oxygen consumption in lake bottoms, which causes problems for fish and other aquatic species.
 
@@ -338,13 +338,13 @@ Beef production is associated with high eutrophication which is due to runoff fr
 **Environmental Impact of Coffee**\
 Ohio State Pressbooks states that, coffee production and processing is a factor that contirbutes to eutrophication. Coffee processing generates large amount of organic waste, including pulp and other residues, which are often discharged into nearby waterways (Hugo Coffee). This organic waste contains nutrients such as nitrogen and phosphorus, when entering water bodies, can lead to excessive growth of algal (eutrophication).
 
-Coffee processing and the consumption of coffee has contributed to caffeine contamination in water, which has negative impacts on aquatic ecosystem (Butler, R.A., 2022). \
+Coffee processing and the consumption of coffee has contributed to caffeine contamination in water, which has negative impacts on aquatic ecosystem (Butler, R.A., 2022).\
 \
 **Environmental Impact of dark chocolate**\
 Chocolate in itself does not directly cause eutrophication, its consumption and production contribute to it through the environmental impacts of cocoa farming, chocolate manufacturing and packaging with it main concern in water usage, deforestation and energy consumption.
 
 **A Breakdown of how chocolate contributes to eutrophication:\
-Raw Material Production:** A major component of chocolate production is cocoa farming, which leads to deforestation, soil degradation and the use of fertilisers and other agrochemical products, all of which can contribute to nutrient runoff into waterways, leading to eutrophication. \
+Raw Material Production:** A major component of chocolate production is cocoa farming, which leads to deforestation, soil degradation and the use of fertilisers and other agrochemical products, all of which can contribute to nutrient runoff into waterways, leading to eutrophication.\
 \
 **Manufacturing Processes:** In chocolate manufacturing, the intensive processes such as drying, roasting and refining can contribute to greenhouse gas emissions and energy consumption.\
 \
@@ -533,7 +533,7 @@ Policy-makers should invest in alternative protein development for a secure, sus
 -   Ritchie, H., & Roser, M. (n.d.). *Land use and diets*. Our World in Data. Retrieved March 24, 2025, from <https://ourworldindata.org/land-use-diets#:~:text=The%20land%20use%20of%20livestock,for%20biodiversity%20and%20carbon%20sequestration.&text=In%20an%20upcoming%20article%20we,shift%20towards%20plant%2Dbased%20diets>.
 -   Hannah Ritchie (2021) - “If the world adopted a plant-based diet, we would reduce global agricultural land use from 4 to 1 billion hectares” Published online at OurWorldinData.org. Retrieved from: '<https://ourworldindata.org/land-use-diets>' [Online Resource]
 -   Green Element. (n.d.). Why is eating meat bad for the environment? *Green Element*. Retrieved March 27, 2025, from <https://www.greenelement.co.uk/blog/why-is-eating-meat-bad-for-the-environment/>
--   Nemecek, J. P. (2018). Reducing food’s environmental impact through producers and consumers. *Science*. doi:10.1126/science.aaq0216
+-   Nemecek, J. P. (2018). Reducing food’s environmental impact through producers and consumers. *Science*. <doi:10.1126/science.aaq0216>
 -   Ohio State Pressbooks. (n.d.). A bitter brew: Coffee production, deforestation, soil erosion, and water contamination. *Ohio State Pressbooks*. Retrieved March 27, 2025, from <https://ohiostate.pressbooks.pub/sciencebites/chapter/a-bitter-brew-coffee-production-deforestation-soil-erosion-and-water-contamination/#:~:text=Water%20pollution%2C%20mainly%20in%20the,more%20tolerant%20to%20the%20chemicals>.
 -   Hugo Coffee. (n.d.). Ecological impacts of the coffee industry. *Hugo Coffee*. Retrieved March 27, 2025, from <https://hugo.coffee/ecological-impacts-of-the-coffee-industry/#:~:text=The%20discharges%20of%20coffee%20processing,that%20comes%20from%20manufacturing%20coffee>.
 -   Rhett A. Butler. (2022, February 18). Caffeine: Emerging contaminant of global rivers and coastal waters. *Mongabay*. <https://news.mongabay.com/2022/02/caffeine-emerging-contaminant-of-global-rivers-and-coastal-waters/#:~:text=Producing%20our%20daily%20brew%20requires,CC%20BY%2DSA%202.0>).
