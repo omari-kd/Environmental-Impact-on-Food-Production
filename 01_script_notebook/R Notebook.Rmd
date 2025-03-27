@@ -121,6 +121,11 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
     df <- na.omit(df)
     ```
 
+    ```{r}
+    # Export the real data
+    write.csv(df, file = "./02_tidy_data/cleaned_data.csv")
+    ```
+
 4.  **Analysis and Visualisation**
 
     Summary Statistics
@@ -132,11 +137,11 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 
     The minimum total emission is 0.200 and the maximum total emission is 59.600.
 
-    1St Quartile: 25% of the total emission falls under 0.850.
+    1St Quartile: 25% of the total emission falls under 0.38.
 
-    3Rd Quartile: 25% of the total emission is above 6.000 or 75% of the total emission falls under 6.000.
+    3Rd Quartile: 25% of the total emission is above 9.53 or 75% of the total emission falls under 9.53.
 
-    Skewness: The median (1.600) and mean(5.972) indicates, the distribution is skewed. The mean being greater than the median shows a positive skewness, that is, skewed to the right or right skewed.
+    Skewness: The median (2.60) and mean(8.36) indicates, the distribution is skewed. The mean being greater than the median shows a positive skewness, that is, skewed to the right or right skewed.
 
     **Exploratory Data Analysis**
 
@@ -311,8 +316,9 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
       filter(category == "Plant-based") %>% 
       select(category, food_product, greenhouse_gas_emissions_per_100g_protein_kg_co_eq_per_100g_protein)
 
-    ggplot(plant_based_product, aes(x = food_product, y = greenhouse_gas_emissions_per_100g_protein_kg_co_eq_per_100g_protein, fill = food_product)) + 
+    ggplot(plant_based_product, aes(x = food_product, y = greenhouse_gas_emissions_per_100g_protein_kg_co_eq_per_100g_protein, fill = category)) + 
       geom_bar(stat = "identity") + 
+      scale_fill_brewer(palette = "Greens")+
       labs(title = "Plant Based Products vs Greenhouse Emissions", x = "Plant Based Producs", y = "Greenhouse Gas Emissions (kg CO₂-eq per 100g protein)") +
       theme_minimal() + 
       coord_flip()
@@ -498,7 +504,9 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 
     **Exploratory Data Analysis (EDA) on Eutrophication (g PO4eq per 100g protein)**
 
-    Eutrophication is the pollution of water bodies and ecosystems with excess nutrients. Eutrophication is a major environmental problem. The runoff of nitrogen and other nutrients from agricultural production systems is a leading contributor.
+    Eutrophication is the pollution of water bodies and ecosystems with excess nutrients mostly nitrogen and phosphorus, leading to algal blooms (Wikipedia). Eutrophication is a major environmental problem. The runoff of nitrogen and other nutrients from agricultural production systems is a leading contributor. \
+    \
+    According to wikipedia, the algal blooms can deplete the level of oxygen in the water, creating what is called "dead zones" that harm aquatic life. The degradation of these algae also leads to oxygen consumption in lake bottoms, which causes problems for fish and other aquatic species.
 
     **Data visualisation on the top 10 food products with the highest eutrophication impact.**
 
@@ -525,9 +533,37 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 
     Beef (beef herd) and farmed fish continue to show high impacts, reinforcing the significant role of animal-based products.
 
-    Tomatoes, berries & grapes, rice and apples highlight that certain crops also have notable eutrophication impacts, likely due to fertilizer use.
+    Tomatoes, berries & grapes, rice and apples highlight that certain crops also have notable eutrophication impacts, likely due to fertilizer use.\
+    \
+    **Environmental Impact of Beef\
+    **Beef production is associated with high eutrophication which is due to runoff from manure and overall environmental impact of livestock farming especially compared to plant-based alternatives.
 
-    **Box plot to assess the impact of eutrophication (g PO4eq per 100g protein) by food category**
+    **Manure Runoff:** Large amounts of water is generated when it comes to beef production, which has high nitrogen and phosphorus levels. Eutrophication is caused when this manure runs off into waterways. Eutrophication is 59 times higher than beef in terms of kilograms due to it runoff from manure (Poore & Nemeck, 2018).
+
+    **Land Use:** Beef production needs extensive land for grazing and feed crops, which leads to deforestation and degradation of land. This can also be a factor to soil erosion and nutrient runoff.\
+    \
+    **Greenhouse Gas Emissions:** Cattle product the significant amount fo methane, a greenhouse gas that contributes to change in climate and also heightening eutrophication issues.
+
+    **Environmental Impact of Coffee\
+    **Ohio State Pressbooks states that, coffee production and processing is a factor that contirbutes to eutrophication. Coffee processing generates large amount of organic waste, including pulp and other residues, which are often discharged into nearby waterways (Hugo Coffee). This organic waste contains nutrients such as nitrogen and phosphorus, when entering water bodies, can lead to excessive growth of algal (eutrophication).
+
+    Coffee processing and the consumption of coffee has contributed to caffeine contamination in water, which has negative impacts on aquatic ecosystem (Butler, R.A., 2022). \
+    \
+    **Environmental Impact of dark chocolate\
+    **Chocolate in itself does not directly cause eutrophication, its consumption and production contribute to it through the environmental impacts of cocoa farming, chocolate manufacturing and packaging with it main concern in water usage, deforestation and energy consumption.
+
+    **A Breakdown of how chocolate contributes to eutrophication:\
+    Raw Material Production:** A major component of chocolate production is cocoa farming, which leads to deforestation, soil degradation and the use of fertilisers and other agrochemical products, all of which can contribute to nutrient runoff into waterways, leading to eutrophication. \
+    \
+    **Manufacturing Processes:** In chocolate manufacturing, the intensive processes such as drying, roasting and refining can contribute to greenhouse gas emissions and energy consumption.\
+    \
+    **Packaging and Transportation:** The packaging materials used for chocolate and the transportation of cocoa beans and finished products can have impact on the environment, which includes depletion of resource and waste generation.
+
+    **Water Footprint:** The production of cocoa and chocolate needs a lot of water and water pollution from agricultural runoff and industrial processes contributes to eutrophication.\
+    \
+    **Cocoa Derivatives:** Cocoa derivatives, a key ingredient in dark chocolate, contribute heavily to eutrophication potential (Butler, R.A., 2022).\
+    **\
+    Box plot to assess the impact of eutrophication (g PO4eq per 100g protein) by food category**
 
     ```{r}
     ggplot(df, aes(x = category, y = eutrophying_emissions_per_100g_protein_g_po_eq_per_100_grams_protein, fill = category)) + geom_boxplot() +
@@ -614,7 +650,7 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 
     **Types of Alternative Proteins:**
 
-    -   Plant-based Proteins: These are derived from plants and include plants like legumes, soy, nuts and seeds, grains, mycoprotein (derived from fungi for its meat-like texture) (Finnigan, 2011)
+    -   Plant-based Proteins: These are derived from plants and include plants like legumes, soy, nuts and seeds, grains, mycoprotein (derived from fungi for its meat-like texture) (Finnigan, 2011).
 
     -   Cultured Meat: Also known as lab-grown meat, this meat is produced from animal cells in a lab, rather than slaughtering animals (Learn About Ag, n.d.).
 
@@ -689,10 +725,14 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
     Investing in drought-resistant crop varieties that require less irrigation can significantly reduce agricultural water demand while improving resilience to climate change and water shortages.
 
     **Long-Term Impact\
-    **As water becomes an increasingly limited resource due to climate change, population growth and pollution, alternative proteins and water-efficient agricultural practices offer practical solutions to water scarcity. Implementing these strategies could help ensure sustainable food production while preserving freshwater resources for future generations and ecosystems.
+    **As water becomes an increasingly limited resource due to climate change, population growth and pollution, alternative proteins and water-efficient agricultural practices offer practical solutions to water scarcity. Implementing these strategies could help ensure sustainable food production while preserving freshwater resources for future generations and ecosystems.\
+    \
+    **Eutrophication Strategies On Dark Chocolate**
+
+    Chocolate in itself does not directly cause eutrophication, its consumption and production contribute to it through the environmental impacts of cocoa farming, chocolate manufacturing and packaging with it main concern in water usage, deforestation and energy consumption. Life Cycle Assessment (LCA) can help identify environmental hotpsots along the chocolate chain, that includes raw materials, production of chocolate and packaging.
 
     **Policy Recommendations\
-    **Policy-makers should invest in alternative protein development for a secure, sustainable food supply. Supporting alternative protein innovation and commercialization will increase food security while reducing environmental impacts (Global Food Institute, 2025).
+    **Policy-makers should invest in alternative protein development for a secure, sustainable food supply. Supporting alternative protein innovation and commercialisation will increase food security while reducing environmental impacts (Global Food Institute, 2025).
 :::
 
 ## References
@@ -720,5 +760,10 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 21. Livvie. (n.d.). *How vegetarian and vegan diets save water*. Retrieved March 24, 2025, from <https://www.livvie.co/save-water-with-a-vegetarian-or-vegan-diet/#:~:text=How%20Vegetarian%20and%20Vegan%20Diets,for%20more%20information%20and%20sources>.
 22. Ritchie, H., & Roser, M. (n.d.). *Land use and diets*. Our World in Data. Retrieved March 24, 2025, from <https://ourworldindata.org/land-use-diets#:~:text=The%20land%20use%20of%20livestock,for%20biodiversity%20and%20carbon%20sequestration.&text=In%20an%20upcoming%20article%20we,shift%20towards%20plant%2Dbased%20diets>.
 23. Hannah Ritchie (2021) - “If the world adopted a plant-based diet, we would reduce global agricultural land use from 4 to 1 billion hectares” Published online at OurWorldinData.org. Retrieved from: '<https://ourworldindata.org/land-use-diets>' [Online Resource]
-24. 
-25. 
+24. Green Element. (n.d.). Why is eating meat bad for the environment? *Green Element*. Retrieved March 27, 2025, from <https://www.greenelement.co.uk/blog/why-is-eating-meat-bad-for-the-environment/>
+25. Nemecek, J. P. (2018). Reducing food’s environmental impact through producers and consumers. *Science*. doi:10.1126/science.aaq0216
+26. Ohio State Pressbooks. (n.d.). A bitter brew: Coffee production, deforestation, soil erosion, and water contamination. *Ohio State Pressbooks*. Retrieved March 27, 2025, from <https://ohiostate.pressbooks.pub/sciencebites/chapter/a-bitter-brew-coffee-production-deforestation-soil-erosion-and-water-contamination/#:~:text=Water%20pollution%2C%20mainly%20in%20the,more%20tolerant%20to%20the%20chemicals>.
+27. Hugo Coffee. (n.d.). Ecological impacts of the coffee industry. *Hugo Coffee*. Retrieved March 27, 2025, from <https://hugo.coffee/ecological-impacts-of-the-coffee-industry/#:~:text=The%20discharges%20of%20coffee%20processing,that%20comes%20from%20manufacturing%20coffee>.
+28. Rhett A. Butler. (2022, February 18). Caffeine: Emerging contaminant of global rivers and coastal waters. *Mongabay*. <https://news.mongabay.com/2022/02/caffeine-emerging-contaminant-of-global-rivers-and-coastal-waters/#:~:text=Producing%20our%20daily%20brew%20requires,CC%20BY%2DSA%202.0>).
+29. Butler, R. A. (2022, August 1). Delectable but destructive: Tracing chocolate’s environmental life cycle. *Mongabay*. <https://news.mongabay.com/2022/08/delectable-but-destructive-tracing-chocolates-environmental-life-cycle/>
+30. Eutrophication. (2025, March 27). In *Wikipedia, The Free Encyclopedia*. <https://en.wikipedia.org/wiki/Eutrophication#:~:text=In%20such%20areas%20the%20density,as%20a%20%22summer%20kill%22>.
