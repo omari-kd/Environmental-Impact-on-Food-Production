@@ -326,8 +326,8 @@ Beef (beef herd) and farmed fish continue to show high impacts, reinforcing the 
 
 Tomatoes, berries & grapes, rice and apples highlight that certain crops also have notable eutrophication impacts, likely due to fertilizer use.\
 \
-**Environmental Impact of Beef\
-**Beef production is associated with high eutrophication which is due to runoff from manure and overall environmental impact of livestock farming especially compared to plant-based alternatives.
+**Environmental Impact of Beef**\
+Beef production is associated with high eutrophication which is due to runoff from manure and overall environmental impact of livestock farming especially compared to plant-based alternatives.
 
 **Manure Runoff:** Large amounts of water is generated when it comes to beef production, which has high nitrogen and phosphorus levels. Eutrophication is caused when this manure runs off into waterways. Eutrophication is 59 times higher than beef in terms of kilograms due to it runoff from manure (Poore & Nemeck, 2018).
 
@@ -335,8 +335,8 @@ Tomatoes, berries & grapes, rice and apples highlight that certain crops also ha
 \
 **Greenhouse Gas Emissions:** Cattle product the significant amount fo methane, a greenhouse gas that contributes to change in climate and also heightening eutrophication issues.
 
-**Environmental Impact of Coffee\
-**Ohio State Pressbooks states that, coffee production and processing is a factor that contirbutes to eutrophication. Coffee processing generates large amount of organic waste, including pulp and other residues, which are often discharged into nearby waterways (Hugo Coffee). This organic waste contains nutrients such as nitrogen and phosphorus, when entering water bodies, can lead to excessive growth of algal (eutrophication).
+**Environmental Impact of Coffee**\
+Ohio State Pressbooks states that, coffee production and processing is a factor that contirbutes to eutrophication. Coffee processing generates large amount of organic waste, including pulp and other residues, which are often discharged into nearby waterways (Hugo Coffee). This organic waste contains nutrients such as nitrogen and phosphorus, when entering water bodies, can lead to excessive growth of algal (eutrophication).
 
 Coffee processing and the consumption of coffee has contributed to caffeine contamination in water, which has negative impacts on aquatic ecosystem (Butler, R.A., 2022). \
 \
