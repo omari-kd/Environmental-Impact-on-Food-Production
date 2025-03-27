@@ -50,11 +50,11 @@ The objectives were defined below, followed by the formulation of analytic quest
 
  - Compare food production methods: Evaluate how various farming techniques (plant based versus animal based) affect environmental sustainability
 
-\- Identify high-impact food products: Determine which food contribute the most to environmental degradation and assess their sustainability
+ - Identify high-impact food products: Determine which food contribute the most to environmental degradation and assess their sustainability
 
-\- Provide data-driven insights: Develop actionable recommendations to reduce the footprint of food production, targeting policy-makers, food producers and consumers
+ - Provide data-driven insights: Develop actionable recommendations to reduce the footprint of food production, targeting policy-makers, food producers and consumers
 
-\- Promote sustainable food systems: Suggest strategies to transition toward more sustainable agricultural practices that minimise environmental harm
+ - Promote sustainable food systems: Suggest strategies to transition toward more sustainable agricultural practices that minimise environmental harm
 
 **Analytic Questions:**
 
