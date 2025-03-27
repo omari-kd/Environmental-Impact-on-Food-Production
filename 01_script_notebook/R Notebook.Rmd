@@ -225,7 +225,7 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
     The relatively flat trend line for animal-based category suggests that within this category, increasing land use does not correspond to proportionally higher emissions. However, several animal-based cateogry still show moderate to high greenhouse gas emissions despite their lower land use footprint in this dataset.
 
     **Plant-Based Category\
-    **Plant-based Category display greater variability in both land use and emissions. While most plant-based options in this dataset show low emissions and low land use (clustered in the bottom left of the right panel), there is a notable outlier: One plant-based food requires close to 150 m² per 100g protein while producing nearly 100 kg CO₂eq, significantly higher than all other food in both categories. \
+    **Plant-based Category display greater variability in both land use and emissions. While most plant-based options in this dataset show low emissions and low land use (clustered in the bottom left of the right panel), there is a notable outlier: One plant-based food requires close to 150 m² per 100g protein while producing nearly 100 kg CO₂eq, significantly higher than all other food in both categories.\
     The steeper trend line for plant-based food indicates that within this category, higher land use correlates more strongly with increased emissions.
 
     This specific dataset appears to show a subset of food that may not represent the full spectrum of animal and plant-based products. Typical comprehensive studies by Our World in Data (n.d) generally show animal products requiring substantially more land on average than plant-based alternatives. The outlier plant-based food with extremely high land use and emissions may be representing a specific crop grown in particularly resource-intensive conditions.
@@ -666,7 +666,7 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
     **Alternative Proteins as Water Conservation Solutions**
 
     **Reduced Water Footprint\
-    **onsuming plant-based meat or alternative proteins can reduce water use by up to 99 percent compared to conventional beef production. This reduction occurs because alternative proteins eliminate:
+    **Consuming plant-based meat or alternative proteins can reduce water use by up to 99 percent compared to conventional beef production. This reduction occurs because alternative proteins eliminate:
 
     -   Water needed for animal drinking and maintenance.
 
@@ -685,7 +685,7 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
     **Water Recycling and Treatment\
     **Developing closed-loop water systems in food processing facilities can recapture, treat and reuse water multiple times, dramatically reducing freshwater withdrawals. These systems can recover up to 80 percent of water used in processing operations.
 
-    **Drought-Resistant Crop Varieties** \
+    **Drought-Resistant Crop Varieties**\
     Investing in drought-resistant crop varieties that require less irrigation can significantly reduce agricultural water demand while improving resilience to climate change and water shortages.
 
     **Long-Term Impact\

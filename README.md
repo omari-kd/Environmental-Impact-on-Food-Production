@@ -132,7 +132,8 @@ According to the specific dataset presented in this scatter plot, the animal-bas
 The relatively flat trend line for animal-based category suggests that within this category, increasing land use does not correspond to proportionally higher emissions. However, several animal-based cateogry still show moderate to high greenhouse gas emissions despite their lower land use footprint in this dataset.
 
 #### Plant-Based Category
-Plant-based Category display greater variability in both land use and emissions. While most plant-based options in this dataset show low emissions and low land use (clustered in the bottom left of the right panel), there is a notable outlier: One plant-based food requires close to 150 m² per 100g protein while producing nearly 100 kg CO₂eq, significantly higher than all other food in both categories. \
+
+Plant-based Category display greater variability in both land use and emissions. While most plant-based options in this dataset show low emissions and low land use (clustered in the bottom left of the right panel), there is a notable outlier: One plant-based food requires close to 150 m² per 100g protein while producing nearly 100 kg CO₂eq, significantly higher than all other food in both categories.\
 The steeper trend line for plant-based food indicates that within this category, higher land use correlates more strongly with increased emissions.
 
 This specific dataset appears to show a subset of food that may not represent the full spectrum of animal and plant-based products. Typical comprehensive studies by Our World in Data (n.d) generally show animal products requiring substantially more land on average than plant-based alternatives. The outlier plant-based food with extremely high land use and emissions may be representing a specific crop grown in particularly resource-intensive conditions.
@@ -259,7 +260,7 @@ Animal-based food have a higher median and spread of scarcity-weighted water use
 
 The scarcity-weighted water use box-plot doesn't show distinct outliers. The distribution suggests that both animal-based and plant-based food have a wide range, but no extreme points that fall significantly outside the whiskers.
 
-**Supporting Research \
+**Supporting Research\
 **Plant-based food require less water than animal-based food. This is because raising livestock needs large amounts of water for animal consumption and feed production (Livvie, n.d).
 
 #### Scatter Plot: Freshwater Withdrawals (litres per 1000kcal) versus Scarcity-Weighted Water Use (litres per 1000kcal)
@@ -271,6 +272,46 @@ The scatter plot shows a distribution of freshwater withdrawals versus scarcity 
 Freshwater withdrawals (litres per 1000kcal) measures the total amount of water taken from sources, while scarcity-weighted water use (litres per 1000kcal) considers the water's availability and stress levels in the region where it's used.
 
 Both plant-based and animal-based food show variation in how their water use translates into environmental stress.
+
+#### **Exploratory Data Analysis (EDA) on Eutrophication (g PO4eq per 100g protein)**
+
+Eutrophication is the pollution of water bodies and ecosystems with excess nutrients. Eutrophication is a major environmental problem. The runoff of nitrogen and other nutrients from agricultural production systems is a leading contributor.
+
+**Data visualisation on the top 10 food products with the highest eutrophication impact.**
+
+![Image](https://github.com/user-attachments/assets/d762c705-de45-47bd-9330-aae2f8f0a5e6)
+
+Eutrophying emissions represent run-off of excess nutrients into the surrounding environment and waterways, which affect and pollute ecosystems (Our World in Data, 2025). They are measured in grams of phosphate equivalents (PO₄eq).
+
+This bar chart shows the top 10 food with the highest eutrophication impact, measured in g PO₄eq per 100g protein. Beef (dairy herd) has the highest eutrophication impact, making it the most significant contributor to nutrient pollution. Dark chocolate and coffee, both plant-based, rank among the top contributors, indicating that some plant food also have high eutrophication footprint.
+
+Beef (beef herd) and farmed fish continue to show high impacts, reinforcing the significant role of animal-based products.
+
+Tomatoes, berries & grapes, rice and apples highlight that certain crops also have notable eutrophication impacts, likely due to fertilizer use.\
+
+**Box plot to assess the impact of eutrophication (g PO4eq per 100g protein) by food category**
+
+![Image](https://github.com/user-attachments/assets/b29a4f2d-3936-4e7f-928a-efdb97f964ef)
+
+This boxplot compares eutrophication impact between animal-based and plant-based food, measured in g PO₄eq per 100g protein. Animal-based food have a higher median eutrophication impact than plant-based food. The interquartile range (IQR) for animal-based food is wider, indicating greater variability in eutrophication impact.
+
+Outliers in plant-based food suggest that certain plant products, have exceptionally high eutrophication impacts.
+
+The maximum values for animal-based food are higher, detailing that livestock farming is a key contributor to eutrophication.
+
+**Visualisation Eutrophication (g PO4eq per 100g protein) Outliers**
+
+![Image](https://github.com/user-attachments/assets/46fd9e27-2d60-4e29-bab1-800e4998f315)
+
+This bar chart highlights specific food items that are outliers in eutrophication impact, measured in g PO₄eq per 100g protein.
+
+Beef (dairy herd) – Highest eutrophication impact among all food.
+
+Dark Chocolate – A plant-based food with an impact comparable to high-impact animal products.
+
+Beef (beef herd) – Another major contributor, indicating the environmental burden of beef production
+
+Coffee – A plant-based outlier, indicating that coffee cultivation has a significant eutrophication footprint.
 
 # Recommendations & Conclusion
 
