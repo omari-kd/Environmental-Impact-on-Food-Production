@@ -44,10 +44,33 @@ Recommendations
 
 The objectives were defined below, followed by the formulation of analytic questions to guide the analysis.
 
-Objectives - Assess the environmental impact of food production: Analyse the environmental impact of these different food products based on key metrics such as water usage, land use, carbon emissions - Compare food production methods: Evaluate how various farming techniques (plant based versus animal based) affect environmental sustainability - Identify high-impact food products: Determine which food contribute the most to environmental degradation and assess their sustainability - Provide data-driven insights: Develop actionable recommendations to reduce the footprint of food production, targeting policy-makers, food producers and consumers - Promote sustainable food systems: Suggest strategies to transition toward more sustainable agricultural practices that minimise environmental harm
+**Objectives**
 
-Analytic Questions: - What is the correlation between land use and carbon emissions for different food products? - How does eutrophication (nutrient run-off) vary among different types of food production? - How do plant-based and animal-based food compare in terms of total carbon emissions per kg of product? - Which food products have the highest total greenhouse gas emissions per kg of food product? - Which food products have the highest eutrophication potential (nutrient runoff) per kg of product? -\
-- What are the main contributors to greenhouse gas emissions in food production and how can they be reduced? - What policy interventions (e.g., carbon taxes, incentives for sustainable farming) could help reduce the environmental footprint of food production?
+ - Assess the environmental impact of food production: Analyse the environmental impact of these different food products based on key metrics such as water usage, land use, carbon emissions
+
+ - Compare food production methods: Evaluate how various farming techniques (plant based versus animal based) affect environmental sustainability
+
+\- Identify high-impact food products: Determine which food contribute the most to environmental degradation and assess their sustainability
+
+\- Provide data-driven insights: Develop actionable recommendations to reduce the footprint of food production, targeting policy-makers, food producers and consumers
+
+\- Promote sustainable food systems: Suggest strategies to transition toward more sustainable agricultural practices that minimise environmental harm
+
+**Analytic Questions:**
+
+1.  What is the correlation between land use and carbon emissions for different food products?
+
+2.  How does eutrophication (nutrient run-off) vary among different types of food production?
+
+3.  How do plant-based and animal-based food compare in terms of total carbon emissions per kg of product?
+
+4.  Which food products have the highest total greenhouse gas emissions per kg of food product?
+
+5.  Which food products have the highest eutrophication potential (nutrient runoff) per kg of product?
+
+6.  What are the main contributors to greenhouse gas emissions in food production and how can they be reduced?
+
+7.  What policy interventions (e.g., carbon taxes, incentives for sustainable farming) could help reduce the environmental footprint of food production?
 
 ### 2. Data Understanding:
 
