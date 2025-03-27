@@ -378,9 +378,7 @@ Beef (beef herd) – Another major contributor, indicating the environmental bur
 
 Coffee – A plant-based outlier, indicating that coffee cultivation has a significant eutrophication footprint.
 
-**Scatter Plot on Eutrophication (g PO4eq per 100g protein) versus Greenhouse Gas Emissions (kg CO₂-eq per 100g protein)\
-\
-**
+**Scatter Plot on Eutrophication (g PO4eq per 100g protein) versus Greenhouse Gas Emissions (kg CO₂-eq per 100g protein)**
 
 ![Image](https://github.com/user-attachments/assets/9d56c10e-6dc9-422e-8167-ff0371d4e9d7)
 
