@@ -585,3 +585,19 @@ Addressing both eutrophication and GHG emissions needs a multifaceted approach, 
 -   Eutrophication. (2025, March 27). In *Wikipedia, The Free Encyclopedia*. <https://en.wikipedia.org/wiki/Eutrophication#:~:text=In%20such%20areas%20the%20density,as%20a%20%22summer%20kill%22>.
 
 -   Science Daily. (2019, March 26). The greening or eutrophication of the earth: Nitrogen emissions more potent than carbon dioxide. *Science Daily*. <https://www.sciencedaily.com/releases/2019/03/190326081426.htm#:~:text=The%20greening%20or%20eutrophication%20of,more%20potent%20than%20carbon%20dioxide>.
+
+
+
+# Contribution 
+Contributions are welcome!
+
+# Programming language & Collabotary Tools 
+Rstudio, R 
+
+# Links On Medium 
+https://medium.com/@omarieben7/assessing-the-environmental-impact-on-food-production-using-crisp-dm-69faa37fb183 
+https://medium.com/@omarieben7/exploratory-data-analysis-eda-of-environmental-impacts-of-food-production-063d7573f37f
+
+# Credit 
+Thanks to Azubi Africa for providing this data set
+
