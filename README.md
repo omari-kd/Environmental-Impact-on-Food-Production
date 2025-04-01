@@ -596,6 +596,7 @@ Rstudio, R
 
 # Links On Medium 
 https://medium.com/@omarieben7/assessing-the-environmental-impact-on-food-production-using-crisp-dm-69faa37fb183 
+
 https://medium.com/@omarieben7/exploratory-data-analysis-eda-of-environmental-impacts-of-food-production-063d7573f37f
 
 # Credit 
