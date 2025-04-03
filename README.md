@@ -388,12 +388,24 @@ The scatter plot shows the relationship between Eutrophication (g PO₄eq per 10
 
 There appears to be a positive correlation between eutrophication and GHG emissions. A few food products (most likely beef (dairy and beef herd)) are extreme outliers, having both high eutrophication and high GHG emissions. Most food have relatively low eutrophication and GHG emissions, staying in the bottom-left region.
 
-**Supporting Research\
-**Higher levels of eutrophication increases greenhouse gas emissions to the atmosphere, the emission of CH~4~ have been observed to increase with eutrphication (DelSontro et al., 2018).
+**Supporting Research** 
+
+Higher levels of eutrophication increases greenhouse gas emissions to the atmosphere, the emission of CH~4~ have been observed to increase with eutrphication (DelSontro et al., 2018).
 
 **How eutrophication affects greenhouse gas emission:**
 
 Eutrophication leads to algal blooms, which, upon decompostion, deplete oxygen in the water, creating an environment where anaerobic bacteria thrive. These bacteria produce and release methane and nitrous oxide, both potent greenhouse gases (Science Daily, 2019).
+
+**Visualisation of the efficiency of environmental impact across all food products** 
+![image](https://github.com/user-attachments/assets/36de9cf9-21d7-4f08-b288-09ad79e16a61) 
+
+
+This visualisation displays the eutrophication impact before and after by 50% for various food products. From the chart, Animal-based product dominates the eutrophication impact; that is Beef (dairy herd), Beef (beef herd) and farmed fish have the highest eutrophication values. The reduction (blue portion) still leaves them higher than plant-based products. 
+
+The chart also shows some plant-based products having notable eutrophication impacts. Dark chocolate, Coffee, Tomatoes, Berries & Grapes and Rice show substantial eutrophication values, although they are generally lower than the animal products. 
+
+The reduction effect by 50% is proportional since, high-impact food shows a more noticeable reduction, but they still maintain a significant eutrophication footprint
+
 
 # Recommendations & Conclusion
 
