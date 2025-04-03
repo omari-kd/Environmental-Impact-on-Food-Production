@@ -114,7 +114,7 @@ From the chart, the variables related to water use, land use, greenhouse gas emi
 
 This suggests that the dataset is more complete for food production stages or processes but has gaps in environmental impact data, especially for nutrient-based metrics.
 
-To maintain data integrity and avoid biased imputations the missing values were dropped from the dataset.
+The missing values were dropped from the dataset to maintain data integrity and avoid biased imputations.
 
 ### Analysis and Visualisation
 
@@ -122,7 +122,8 @@ To maintain data integrity and avoid biased imputations the missing values were 
 
 #### Data visualisation of the top ten total emissions (Kg CO2) by food products
 
-![image](https://github.com/user-attachments/assets/e4a89471-c9a6-4300-a209-b9d5889f2028)
+![image](https://github.com/user-attachments/assets/d32011dc-64b5-4b86-b954-17bf2c680e22)
+
 
 
 The bar chart depicts the distribution of the top ten total emissions by food products. The y-axis shows total emissions whilst the x-axis lists different food products. Each food product is represented by a unique colour in the legend on the right.
