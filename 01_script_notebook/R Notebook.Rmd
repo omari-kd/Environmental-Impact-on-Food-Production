@@ -40,8 +40,8 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 
     IV\. Which food products have the highest total greenhouse gas emissions?
 
-    V. Which food products have the highest eutrophication potential (nutrient runoff)?\
-    \
+    V. Which food products have the highest eutrophication potential (nutrient runoff)?
+
     VI. What are the main contributors to greenhouse gas emissions in food production and how can they be reduced?
 
     VII\. What policy interventions (e.g., carbon taxes, incentives for sustainable farming) could help reduce the environmental footprint of food production?
@@ -72,6 +72,7 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
     library(dplyr)
     library(ggplot2)
     library(naniar)
+    library(tidyr)
     ```
 
     ```{r}
@@ -151,14 +152,17 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
       group_by(food_product) %>% 
       summarise(total_emissions = sum(total_emissions))
 
-    # Limit to top ten
-    food_product_data <- head(food_product_data, 10)
+    # Sort by total emissions in descending order and limit to the top 10
+    food_product_data <- food_product_data %>%
+      arrange(desc(total_emissions)) %>%  # Sort by total emissions
+      head(10)  # Get top 10 after sorting
 
     # Visualise the data  
     ggplot(food_product_data, aes(x = food_product, y = total_emissions, fill = food_product)) +
       geom_bar(stat = "identity", position = "dodge") +
-      labs(title = "Top Ten Total Emissions by Food Product", x = "Food Product", y
-           = "Total Emissions (Kg CO2)") +
+      labs(title = "Top Ten Total Emissions (Kg CO2) by Food Product", x = "Food Product", y
+           = "Total Emissions (Kg CO2)") + 
+      theme_minimal() +
       theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
       scale_fill_discrete(name = "Food Product")
     ```
@@ -542,11 +546,13 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
     \
     **Greenhouse Gas Emissions:** Cattle product the significant amount fo methane, a greenhouse gas that contributes to change in climate and also heightening eutrophication issues.
 
-    \*\*Environmental Impact of Coffee \*\* Ohio State Pressbooks states that, coffee production and processing is a factor that contirbutes to eutrophication. Coffee processing generates large amount of organic waste, including pulp and other residues, which are often discharged into nearby waterways (Hugo Coffee). This organic waste contains nutrients such as nitrogen and phosphorus, when entering water bodies, can lead to excessive growth of algal (eutrophication).
+    **Environmental Impact of Coffee**\
+    Ohio State Pressbooks states that, coffee production and processing is a factor that contirbutes to eutrophication. Coffee processing generates large amount of organic waste, including pulp and other residues, which are often discharged into nearby waterways (Hugo Coffee). This organic waste contains nutrients such as nitrogen and phosphorus, when entering water bodies, can lead to excessive growth of algal (eutrophication).
 
     Coffee processing and the consumption of coffee has contributed to caffeine contamination in water, which has negative impacts on aquatic ecosystem (Butler, R.A., 2022).\
     \
-    \*\*Environmental Impact of dark chocolate\*\* Chocolate in itself does not directly cause eutrophication, its consumption and production contribute to it through the environmental impacts of cocoa farming, chocolate manufacturing and packaging with it main concern in water usage, deforestation and energy consumption.
+    **Environmental Impact of dark chocolate**\
+    Chocolate in itself does not directly cause eutrophication, its consumption and production contribute to it through the environmental impacts of cocoa farming, chocolate manufacturing and packaging with it main concern in water usage, deforestation and energy consumption.
 
     **A Breakdown of how chocolate contributes to eutrophication:\
     Raw Material Production:** A major component of chocolate production is cocoa farming, which leads to deforestation, soil degradation and the use of fertilisers and other agrochemical products, all of which can contribute to nutrient runoff into waterways, leading to eutrophication.\
@@ -631,12 +637,62 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 
     There appears to be a positive correlation between eutrophication and GHG emissions. A few food products (most likely beef (dairy and beef herd)) are extreme outliers, having both high eutrophication and high GHG emissions. Most food have relatively low eutrophication and GHG emissions, staying in the bottom-left region.\
     \
-    **Supporting Research \
+    **Supporting Research\
     **Higher levels of eutrophication increases greenhouse gas emissions to the atmosphere, the emission of CH~4~ have been observed to increase with eutrphication (DelSontro et al., 2018).
 
     **How eutrophication affects greenhouse gas emission:**
 
-    Eutrophication leads to algal blooms, which, upon decompostion, deplete oxygen in the water, creating an environment where anaerobic bacteria thrive. These bacteria produce and release methane and nitrous oxide, both potent greenhouse gases (Science Daily, 2019).
+    Eutrophication leads to algal blooms, which, upon decompostion, deplete oxygen in the water, creating an environment where anaerobic bacteria thrive. These bacteria produce and release methane and nitrous oxide, both potent greenhouse gases (Science Daily, 2019).\
+    \
+    **Calculating the efficiency of environmental impact across all food products**
+
+    ```{r}
+    # Define reduction percentage
+    reduction_percentage <- 75
+
+    # Apply eutrophication reduction
+    df <- df %>% 
+      mutate(
+        Reduced_Eutrophication = eutrophying_emissions_per_100g_protein_g_po_eq_per_100_grams_protein * (1 - reduction_percentage / 100),
+        Reduction_Amount = eutrophying_emissions_per_100g_protein_g_po_eq_per_100_grams_protein* (reduction_percentage / 100)
+      )
+
+    # Calculate total reduction
+    total_original <- sum(df$eutrophying_emissions_per_100g_protein_g_po_eq_per_100_grams_protein)
+
+    total_reduced <- sum(df$Reduced_Eutrophication)
+
+    total_reduction <- sum(df$Reduction_Amount)
+
+    # Print Summary Statistics 
+    cat("Total Original Eutrophication:", total_original, "g PO₄eq\n")
+    cat("Total Reduced Eutrophication:", total_reduced, "g PO₄eq\n")
+    cat("Total Reduction:", total_reduction, "g PO₄eq\n")
+    cat("Overall Reduction Efficiency:", (total_reduction / total_original) * 100,"%\n")
+
+    ```
+
+    **Visualisation: Before versus After Reduction**
+
+    ```{r}
+    ggplot(df, aes(x = reorder(food_product, -eutrophying_emissions_per_100g_protein_g_po_eq_per_100_grams_protein))) +
+      geom_bar(aes(y = eutrophying_emissions_per_100g_protein_g_po_eq_per_100_grams_protein, fill = "Original"), stat = "identity", alpha = 0.7) +
+      geom_bar(aes(y = Reduced_Eutrophication, fill = "Reduced"), stat = "identity", alpha = 0.7) +
+      labs(title = "Eutrophication Impact Before and After Reduction",
+           x = "Food Product",
+           y = "Eutrophication ((g PO₄eq per 100g protein)"
+           ) + 
+      theme_minimal() +
+       theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+      scale_fill_manual(values = c("Original" = "red", "Reduced" = "blue"))
+      
+    ```
+
+    This visualisation displays the eutrophication impact before and after reduction by 50% for various food products. From the chart, Animal-based product dominates the eutrophication impact, that is Beef (dairy herd), Beef (beef herd) and farmed fish have the highest eutrophication values. The reduction (blue portion) still leaves them higher than plant-based product. \
+    \
+    The chart also shows some plant-based products having notable eutrophication impacts. Dark chocolate, Coffee, Tomatoes, Berries & Grapes and Rice show substantial eutrophication values, although they are generally lower than the animal products. \
+    \
+    The reduction effect by 50% is proportional due to the fact that, high-impact food shows a more noticeable reduction, but they still maintain a significant eutrophication footprint
 
 5.  **Recommendations & Conclusion\
     **This document outlines evidence-based strategies to reduce the environmental impact of food production systems, focusing on land use optimisation, greenhouse gas emission reduction, freshwater conservation, water scarcity, eutrophication. These recommendations address the most resource-intensive food categories and propose sustainable alternatives.
@@ -745,12 +801,12 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
     Reducing nutrient runoff into water bodies (e.g., from agricultural fertilizers and sewage) is crucial to mitigate eutrophication and its impact on GHG emissions. Restoring and managing freshwater ecosystems can also help reduce GHG emissions. Transitioning to renewable energy sources, improving energy efficiency and reducing deforestation are key to mitigating GHG emissions and addressing climate change
 
     **Policy Recommendations\
-    **Policy-makers should invest in alternative protein development for a secure, sustainable food supply. Supporting alternative protein innovation and commercialisation will increase food security while reducing environmental impacts (Global Food Institute, 2025). \
-    Developing and implementing policies and technologies to reduce emissions from various sectors is crucial. 
+    **Policy-makers should invest in alternative protein development for a secure, sustainable food supply. Supporting alternative protein innovation and commercialisation will increase food security while reducing environmental impacts (Global Food Institute, 2025).\
+    Developing and implementing policies and technologies to reduce emissions from various sectors is crucial.
 
-## Conclusion 
+## Conclusion
 
-Addressing both eutrophication and GHG emissions requires a multifaceted approach, including reducing nutrient pollution, transitioning to a low-carbon economy, and implementing sustainable land management practices. 
+Addressing both eutrophication and GHG emissions requires a multifaceted approach, including reducing nutrient pollution, transitioning to a low-carbon economy and implementing sustainable land management practices.
 :::
 
 ## References
