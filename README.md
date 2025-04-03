@@ -122,7 +122,8 @@ To maintain data integrity and avoid biased imputations the missing values were 
 
 #### Data visualisation of the top ten total emissions (Kg CO2) by food products
 
-![image](https://github.com/user-attachments/assets/d499da2c-4c92-40a1-9ad1-beffc2c19e5a)
+![image](https://github.com/user-attachments/assets/e4a89471-c9a6-4300-a209-b9d5889f2028)
+
 
 The bar chart depicts the distribution of the top ten total emissions by food products. The y-axis shows total emissions whilst the x-axis lists different food products. Each food product is represented by a unique colour in the legend on the right.
 
