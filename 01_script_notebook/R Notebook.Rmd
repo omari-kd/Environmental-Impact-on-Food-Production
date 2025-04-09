@@ -638,7 +638,7 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
     There appears to be a positive correlation between eutrophication and GHG emissions. A few food products (most likely beef (dairy and beef herd)) are extreme outliers, having both high eutrophication and high GHG emissions. Most food have relatively low eutrophication and GHG emissions, staying in the bottom-left region.\
     \
     **Supporting Research\
-    **Higher levels of eutrophication increases greenhouse gas emissions to the atmosphere, the emission of CH~4~ have been observed to increase with eutrphication (DelSontro et al., 2018).
+    **Higher levels of eutrophication increases greenhouse gas emissions to the atmosphere, the emission of CH~4~ have been observed to increase with eutrophication (DelSontro et al., 2018).
 
     **How eutrophication affects greenhouse gas emission:**
 
@@ -688,11 +688,11 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
       
     ```
 
-    This visualisation displays the eutrophication impact before and after reduction by 50% for various food products. From the chart, Animal-based product dominates the eutrophication impact, that is Beef (dairy herd), Beef (beef herd) and farmed fish have the highest eutrophication values. The reduction (blue portion) still leaves them higher than plant-based product. \
+    This visualisation displays the eutrophication impact before and after reduction by 50% for various food products. From the chart, Animal-based product dominates the eutrophication impact, that is Beef (dairy herd), Beef (beef herd) and farmed fish have the highest eutrophication values. The reduction (blue portion) still leaves them higher than plant-based product.\
     \
-    The chart also shows some plant-based products having notable eutrophication impacts. Dark chocolate, Coffee, Tomatoes, Berries & Grapes and Rice show substantial eutrophication values, although they are generally lower than the animal products. \
+    The chart also shows some plant-based products having notable eutrophication impacts. Dark chocolate, Coffee, Tomatoes, Berries & Grapes and Rice show substantial eutrophication values, although they are generally lower than the animal products.\
     \
-    The reduction effect by 50% is proportional due to the fact that, high-impact food shows a more noticeable reduction, but they still maintain a significant eutrophication footprint
+    The reduction effect by 50% is proportional due to the fact that, high-impact food shows a more noticeable reduction, but they still maintain a significant eutrophication footprint.
 
 5.  **Recommendations & Conclusion\
     **This document outlines evidence-based strategies to reduce the environmental impact of food production systems, focusing on land use optimisation, greenhouse gas emission reduction, freshwater conservation, water scarcity, eutrophication. These recommendations address the most resource-intensive food categories and propose sustainable alternatives.
@@ -788,7 +788,7 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
     \
     **Eutrophication Strategies On Dark Chocolate**
 
-    Chocolate in itself does not directly cause eutrophication, its consumption and production contribute to it through the environmental impacts of cocoa farming, chocolate manufacturing and packaging with it main concern in water usage, deforestation and energy consumption. Life Cycle Assessment (LCA) can help identify environmental hotpsots along the chocolate chain, that includes raw materials, production of chocolate and packaging.\
+    Chocolate in itself does not directly cause eutrophication, its consumption and production contribute to it through the environmental impacts of cocoa farming, chocolate manufacturing and packaging with it main concern in water usage, deforestation and energy consumption. Life Cycle Assessment (LCA) can help identify environmental hotspots along the chocolate chain, that includes raw materials, production of chocolate and packaging.\
     \
     **Eutrophication Strategies On Beef**
 
