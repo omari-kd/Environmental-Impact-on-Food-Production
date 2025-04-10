@@ -688,7 +688,7 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
       
     ```
 
-    This visualisation displays the eutrophication impact before and after reduction by 50% for various food products. From the chart, Animal-based product dominates the eutrophication impact, that is Beef (dairy herd), Beef (beef herd) and farmed fish have the highest eutrophication values. The reduction (blue portion) still leaves them higher than plant-based product.\
+    This visualisation displays the eutrophication impact before and after reduction by 75% for various food products. From the chart, Animal-based product dominates the eutrophication impact, that is Beef (dairy herd), Beef (beef herd) and farmed fish have the highest eutrophication values. The reduction (blue portion) still leaves them higher than plant-based product.\
     \
     The chart also shows some plant-based products having notable eutrophication impacts. Dark chocolate, Coffee, Tomatoes, Berries & Grapes and Rice show substantial eutrophication values, although they are generally lower than the animal products.\
     \
