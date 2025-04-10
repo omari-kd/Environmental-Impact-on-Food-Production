@@ -404,7 +404,7 @@ This visualisation displays the eutrophication impact before and after by 75% fo
 
 The chart also shows some plant-based products having notable eutrophication impacts. Dark chocolate, Coffee, Tomatoes, Berries & Grapes and Rice show substantial eutrophication values, although they are generally lower than the animal products. 
 
-The reduction effect by 50% is proportional since high-impact food shows a more noticeable reduction, but they still maintain a significant eutrophication footprint
+The reduction effect by 75% is proportional since high-impact food shows a more noticeable reduction, but they still maintain a significant eutrophication footprint
 
 
 # Recommendations & Conclusion
