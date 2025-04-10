@@ -329,20 +329,20 @@ Beef (beef herd) and farmed fish continue to show high impacts, reinforcing the 
 Tomatoes, berries & grapes, rice and apples highlight that certain crops also have notable eutrophication impacts, likely due to fertilizer use.\
 \
 **Environmental Impact of Beef**\
-Beef production is associated with high eutrophication which is due to runoff from manure and overall environmental impact of livestock farming especially compared to plant-based alternatives.
+Beef production is associated with high eutrophication, which is due to runoff from manure and the overall environmental impact of livestock farming, especially compared to plant-based alternatives.
 
-**Manure Runoff:** Large amounts of water is generated when it comes to beef production, which has high nitrogen and phosphorus levels. Eutrophication is caused when this manure runs off into waterways. Eutrophication is 59 times higher than beef in terms of kilograms due to it runoff from manure (Poore & Nemeck, 2018).
+**Manure Runoff** Large amounts of water are generated for beef production, which has high nitrogen and phosphorus levels. Eutrophication is caused when this manure runs off into waterways. Eutrophication is 59 times higher than beef in terms of kilograms due to it runoff from manure (Poore & Nemeck, 2018).
 
-**Land Use:** Beef production needs extensive land for grazing and feed crops, which leads to deforestation and degradation of land. This can also be a factor to soil erosion and nutrient runoff.\
+**Land Use** Beef production needs extensive land for grazing and feed crops, leading to deforestation and land degradation. This can also be a factor to soil erosion and nutrient runoff.\
 \
-**Greenhouse Gas Emissions:** Cattle product the significant amount fo methane, a greenhouse gas that contributes to change in climate and also heightening eutrophication issues.
+**Greenhouse Gas Emissions** Cattle product a significant amount of methane, a greenhouse gas that contributes to change in climate and also heightening eutrophication issues.
 
 **Environmental Impact of Coffee**\
-Ohio State Pressbooks states that, coffee production and processing is a factor that contirbutes to eutrophication. Coffee processing generates large amount of organic waste, including pulp and other residues, which are often discharged into nearby waterways (Hugo Coffee). This organic waste contains nutrients such as nitrogen and phosphorus, when entering water bodies, can lead to excessive growth of algal (eutrophication).
+Ohio State Pressbooks states that coffee production and processing is a factor that contributes to eutrophication. Coffee processing generates a large amount of organic waste, including pulp and other residues, which are often discharged into nearby waterways (Hugo Coffee). This organic waste contains nutrients such as nitrogen and phosphorus; when entering water bodies, it can lead to excessive growth of algae (eutrophication).
 
-Coffee processing and the consumption of coffee has contributed to caffeine contamination in water, which has negative impacts on aquatic ecosystem (Butler, R.A., 2022).\
+Coffee processing and the consumption of coffee has contributed to caffeine contamination in water, which has negative impacts on aquatic ecosystems (Butler, R.A., 2022).\
 \
-**Environmental Impact of dark chocolate**\
+**Environmental Impact of Dark Chocolate**\
 Chocolate in itself does not directly cause eutrophication, its consumption and production contribute to it through the environmental impacts of cocoa farming, chocolate manufacturing and packaging with it main concern in water usage, deforestation and energy consumption.
 
 **A Breakdown of how chocolate contributes to eutrophication:\
@@ -350,19 +350,19 @@ Raw Material Production:** A major component of chocolate production is cocoa fa
 \
 **Manufacturing Processes:** In chocolate manufacturing, the intensive processes such as drying, roasting and refining can contribute to greenhouse gas emissions and energy consumption.\
 \
-**Packaging and Transportation:** The packaging materials used for chocolate and the transportation of cocoa beans and finished products can have impact on the environment, which includes depletion of resource and waste generation.
+**Packaging and Transportation** The packaging materials used for chocolate and the transportation of cocoa beans and finished products can have impact on the environment, which includes the depletion of resources and waste generation.
 
-**Water Footprint:** The production of cocoa and chocolate needs a lot of water and water pollution from agricultural runoff and industrial processes contributes to eutrophication.\
+**Water Footprint** The production of cocoa and chocolate needs a lot of water and water pollution from agricultural runoff and industrial processes contributes to eutrophication.\
 \
-**Cocoa Derivatives:** Cocoa derivatives, a key ingredient in dark chocolate, contribute heavily to eutrophication potential (Butler, R.A., 2022).
+**Cocoa Derivatives** Cocoa derivatives, a key ingredient in dark chocolate, contribute heavily to eutrophication potential (Butler, R.A., 2022).
 
 **Box plot to assess the impact of eutrophication (g PO4eq per 100g protein) by food category**
 
 ![Image](https://github.com/user-attachments/assets/b29a4f2d-3936-4e7f-928a-efdb97f964ef)
 
-This boxplot compares eutrophication impact between animal-based and plant-based food, measured in g PO₄eq per 100g protein. Animal-based food have a higher median eutrophication impact than plant-based food. The interquartile range (IQR) for animal-based food is wider, indicating greater variability in eutrophication impact.
+This boxplot compares the eutrophication impact of animal-based and plant-based food, measured in g PO₄eq per 100g protein. Animal-based food have a higher median eutrophication impact than plant-based food. The interquartile range (IQR) for animal-based food is wider, indicating greater variability in eutrophication impact.
 
-Outliers in plant-based food suggest that certain plant products, have exceptionally high eutrophication impacts.
+Outliers in plant-based food suggest that certain plant products have exceptionally high eutrophication impacts.
 
 The maximum values for animal-based food are higher, detailing that livestock farming is a key contributor to eutrophication.
 
@@ -394,28 +394,28 @@ Higher levels of eutrophication increases greenhouse gas emissions to the atmosp
 
 **How eutrophication affects greenhouse gas emission:**
 
-Eutrophication leads to algal blooms, which, upon decompostion, deplete oxygen in the water, creating an environment where anaerobic bacteria thrive. These bacteria produce and release methane and nitrous oxide, both potent greenhouse gases (Science Daily, 2019).
+Eutrophication leads to algal blooms, which, upon decomposition, deplete oxygen in the water, creating an environment where anaerobic bacteria thrive. These bacteria produce and release methane and nitrous oxide, both potent greenhouse gases (Science Daily, 2019).
 
 **Visualisation of the efficiency of environmental impact across all food products** 
 ![image](https://github.com/user-attachments/assets/36de9cf9-21d7-4f08-b288-09ad79e16a61) 
 
 
-This visualisation displays the eutrophication impact before and after by 50% for various food products. From the chart, Animal-based product dominates the eutrophication impact; that is Beef (dairy herd), Beef (beef herd) and farmed fish have the highest eutrophication values. The reduction (blue portion) still leaves them higher than plant-based products. 
+This visualisation displays the eutrophication impact before and after by 75% for various food products. From the chart, Animal-based product dominates the eutrophication impact; that is, Beef (dairy herd), Beef (beef herd) and farmed fish have the highest eutrophication values. The reduction (blue portion) still leaves them higher than plant-based products. 
 
 The chart also shows some plant-based products having notable eutrophication impacts. Dark chocolate, Coffee, Tomatoes, Berries & Grapes and Rice show substantial eutrophication values, although they are generally lower than the animal products. 
 
-The reduction effect by 50% is proportional since, high-impact food shows a more noticeable reduction, but they still maintain a significant eutrophication footprint
+The reduction effect by 50% is proportional since high-impact food shows a more noticeable reduction, but they still maintain a significant eutrophication footprint
 
 
 # Recommendations & Conclusion
 
-This section outlines evidence-based strategies to reduce the environmental impact of food production systems, focusing on land use optimisation, greenhouse gas emission reduction, freshwater conservation, water scarcity, eutrophication. These recommendations address the most resource-intensive food categories and propose sustainable alternatives.
+This section outlines evidence-based strategies to reduce the environmental impact of food production systems, focusing on land use optimisation, greenhouse gas emission reduction, freshwater conservation, water scarcity and eutrophication. These recommendations address the most resource-intensive food categories and propose sustainable alternatives.
 
 ## 1. Reducing Environmental Impact of Animal Products
 
 ### 1.1 Beef Production
 
-Beef production contributes significantly to global greenhouse gas emissions and requires extensive land use. Global Food Institute (2025), states that using alternative proteins helps reduce air and water pollution significantly. With the use of plants, fermentation and cell cultivation instead of livestock, the production of alternative proteins does not emit the toxic air pollutants including ammonia, hydrogen sulfide and particulate matter as conventional meat production. Also ,there will be no discharge of animal waste. The discharge of nitrogen and phosphorus which stimulates the growth of algal blooms that impair water quality is reduced by using alternative proteins.
+Beef production contributes significantly to global greenhouse gas emissions and requires extensive land use. Global Food Institute (2025) states that using alternative proteins helps reduce air and water pollution significantly. With the use of plants, fermentation and cell cultivation instead of livestock, the production of alternative proteins does not emit the toxic air pollutants, including ammonia, hydrogen sulfide and particulate matter, as conventional meat production. Also,there will be no discharge of animal waste. The discharge of nitrogen and phosphorus, which stimulates the growth of algal blooms that impair water quality ,is reduced by using alternative proteins.
 
 Moving towards alternative proteins will promote clean water and air as well as improving ecosystems and the health of communities as it also meets increasing protein demand.
 
@@ -427,11 +427,11 @@ Alternative Proteins are gaining popularity due to concerns about the environmen
 
 ### 1.3 Types of Alternative Proteins:
 
-Plant-based Proteins: These are derived from plants and include plants like legumes, soy, nuts and seeds, grains, mycoprotein (derived from fungi for its meat-like texture) (Finnigan, 2011)
+Plant-based Proteins: These are derived from plants and include plants like legumes, soy, nuts and seeds, grains, and mycoprotein (derived from fungi for its meat-like texture) (Finnigan, 2011)
 
-Cultured Meat: Also known as lab-grown meat, this meat is produced from animal cells in a lab, rather than slaughtering animals (Learn About Ag, n.d.).
+Cultured Meat: Also known as lab-grown meat, this meat is produced from animal cells in a lab rather than by slaughtering animals (Learn About Ag, n.d.).
 
-Fermented Proteins: These are proteins produced through fermentation such as mycoprotein or certain plant-based proteins (FoodNavigator, 2024).
+Fermented Proteins: These are proteins produced through fermentation, such as mycoprotein or certain plant-based proteins (FoodNavigator, 2024).
 
 Algae and Insects: There are are emerging as potential sources of alternative protein (Lui, 2018).
 
