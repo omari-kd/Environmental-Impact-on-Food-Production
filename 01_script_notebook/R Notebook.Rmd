@@ -318,9 +318,9 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
       filter(category == "Plant-based") %>% 
       select(category, food_product, greenhouse_gas_emissions_per_100g_protein_kg_co_eq_per_100g_protein)
 
-    ggplot(plant_based_product, aes(x = food_product, y = greenhouse_gas_emissions_per_100g_protein_kg_co_eq_per_100g_protein, fill = category)) + 
-      geom_bar(stat = "identity") + 
-      scale_fill_brewer(palette = "Greens")+
+    ggplot(plant_based_product, aes(x = food_product, y = greenhouse_gas_emissions_per_100g_protein_kg_co_eq_per_100g_protein)) + 
+      geom_bar(stat = "identity",  fill = "lightgreen") + 
+      # scale_fill_brewer(palette = "Greens")+
       labs(title = "Plant Based Products vs Greenhouse Emissions", x = "Plant Based Producs", y = "Greenhouse Gas Emissions (kg CO₂-eq per 100g protein)") +
       theme_minimal() + 
       coord_flip()
@@ -644,25 +644,25 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 
     Eutrophication leads to algal blooms, which, upon decompostion, deplete oxygen in the water, creating an environment where anaerobic bacteria thrive. These bacteria produce and release methane and nitrous oxide, both potent greenhouse gases (Science Daily, 2019).\
     \
-    **Calculating the efficiency of environmental impact across all food products**
+    **Calculating the efficiency of environmental impact across all food products by 75%**
 
     ```{r}
     # Define reduction percentage
-    reduction_percentage <- 75
+    eutrophication_reduction_percentage <- 75
 
     # Apply eutrophication reduction
     df <- df %>% 
       mutate(
-        Reduced_Eutrophication = eutrophying_emissions_per_100g_protein_g_po_eq_per_100_grams_protein * (1 - reduction_percentage / 100),
-        Reduction_Amount = eutrophying_emissions_per_100g_protein_g_po_eq_per_100_grams_protein* (reduction_percentage / 100)
+        reduced_eutrophication = eutrophying_emissions_per_100g_protein_g_po_eq_per_100_grams_protein * (1 - eutrophication_reduction_percentage / 100),
+        eutrophication_reduction_amount = eutrophying_emissions_per_100g_protein_g_po_eq_per_100_grams_protein* (eutrophication_reduction_percentage / 100)
       )
 
     # Calculate total reduction
     total_original <- sum(df$eutrophying_emissions_per_100g_protein_g_po_eq_per_100_grams_protein)
 
-    total_reduced <- sum(df$Reduced_Eutrophication)
+    total_reduced <- sum(df$reduced_eutrophication)
 
-    total_reduction <- sum(df$Reduction_Amount)
+    total_reduction <- sum(df$eutrophication_reduction_amount)
 
     # Print Summary Statistics 
     cat("Total Original Eutrophication:", total_original, "g PO₄eq\n")
@@ -677,7 +677,7 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
     ```{r}
     ggplot(df, aes(x = reorder(food_product, -eutrophying_emissions_per_100g_protein_g_po_eq_per_100_grams_protein))) +
       geom_bar(aes(y = eutrophying_emissions_per_100g_protein_g_po_eq_per_100_grams_protein, fill = "Original"), stat = "identity", alpha = 0.7) +
-      geom_bar(aes(y = Reduced_Eutrophication, fill = "Reduced"), stat = "identity", alpha = 0.7) +
+      geom_bar(aes(y = reduced_eutrophication, fill = "Reduced"), stat = "identity", alpha = 0.7) +
       labs(title = "Eutrophication Impact Before and After Reduction",
            x = "Food Product",
            y = "Eutrophication ((g PO₄eq per 100g protein)"
@@ -690,9 +690,55 @@ The analyses followed the CRISP-DM methodology, which includes the following sta
 
     This visualisation displays the eutrophication impact before and after reduction by 75% for various food products. From the chart, Animal-based product dominates the eutrophication impact, that is Beef (dairy herd), Beef (beef herd) and farmed fish have the highest eutrophication values. The reduction (blue portion) still leaves them higher than plant-based product.\
     \
-    The chart also shows some plant-based products having notable eutrophication impacts. Dark chocolate, Coffee, Tomatoes, Berries & Grapes and Rice show substantial eutrophication values, although they are generally lower than the animal products.\
+    The chart also shows some plant-based products having notable eutrophication reduction impact. Dark chocolate, Coffee, Tomatoes, Berries & Grapes and Rice show substantial eutrophication values, although they are generally lower than the animal products.\
     \
-    The reduction effect by 50% is proportional due to the fact that, high-impact food shows a more noticeable reduction, but they still maintain a significant eutrophication footprint.
+    The reduction effect by 75% is proportional due to the fact that, high-impact food shows a more noticeable reduction, but they still maintain a significant eutrophication footprint.\
+    \
+    **Calculating the efficiency of freshwater use across food products by 15%**
+
+    ```{r}
+    # Define a percentage 
+    freshwater_reduction_percentage <- 60
+
+    # Apply freshwater reduction
+    df <- df %>% 
+      mutate(
+        reduced_freshwater = freshwater_withdrawals_per_1000kcal_liters_per_1000kcal * (1- freshwater_reduction_percentage / 100),
+        freshwater_reduction_amount = freshwater_withdrawals_per_1000kcal_liters_per_1000kcal * (freshwater_reduction_percentage / 100)
+      )
+
+    # Calculate total reduction
+    total_original_freshwater_use <- sum(df$freshwater_withdrawals_per_1000kcal_liters_per_1000kcal)
+
+    total_reduced_freshwater_use <- sum(df$reduced_freshwater)
+
+    total_reduction_freshwater_use <- sum(df$freshwater_reduction_amount)
+
+    # Print Summary Statistics
+    print(paste("Total Original Freshwater Use:", round(total_original_freshwater_use, 2), "litres per 1000kcal"))
+
+    print(paste("Total Reduced Freshwater Use:", round(total_reduced_freshwater_use, 2), "litres per 1000kcal"))
+
+    print(paste("Total Reduction in Freshwater Use:", round(total_reduction_freshwater_use, 2), "litres per 1000kcal"))
+    ```
+
+    **Visualisation before and after reduction**
+
+    ```{r}
+    ggplot(df, aes(x = reorder(food_product, -freshwater_withdrawals_per_1000kcal_liters_per_1000kcal))) +
+      geom_bar(aes(y= freshwater_withdrawals_per_1000kcal_liters_per_1000kcal, fill = "Original"), stat = "identity", alpha = 0.7) +
+      geom_bar(aes(y = reduced_freshwater, fill = "Reduced"), stat = "identity", alpha=0.7) +
+      labs(title = "Freshwater Withdrawal Before and After Reduction",
+           x = "Food Product",
+           y = "Freshwater Withdrawal (litres per 1000kcal)"
+           ) +
+      theme_minimal() +
+      theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+      scale_fill_manual(values = c("Original" = "blue", "Reduced" = "lightblue"))
+
+    ```
+
+    This is visualisation shows the impact of freshwater withdrawal before and after reduction by 50% across various food products. Fish (farmed) dominates the freshwater reduction and even before.
 
 5.  **Recommendations & Conclusion\
     **This document outlines evidence-based strategies to reduce the environmental impact of food production systems, focusing on land use optimisation, greenhouse gas emission reduction, freshwater conservation, water scarcity, eutrophication. These recommendations address the most resource-intensive food categories and propose sustainable alternatives.
