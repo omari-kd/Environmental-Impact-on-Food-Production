@@ -402,10 +402,15 @@ Eutrophication leads to algal blooms, which, upon decomposition, deplete oxygen 
 
 This visualisation displays the eutrophication impact before and after by 75% for various food products. From the chart, Animal-based product dominates the eutrophication impact; that is, Beef (dairy herd), Beef (beef herd) and farmed fish have the highest eutrophication values. The reduction (blue portion) still leaves them higher than plant-based products. 
 
-The chart also shows some plant-based products having notable eutrophication impacts. Dark chocolate, Coffee, Tomatoes, Berries & Grapes and Rice show substantial eutrophication values, although they are generally lower than the animal products. 
+The chart also shows some plant-based products having a notable eutrophication reduction impact. Dark chocolate, Coffee, Tomatoes, Berries & Grapes and Rice show substantial eutrophication values, although they are generally lower than the animal products. 
 
 The reduction effect by 75% is proportional since high-impact food shows a more noticeable reduction, but they still maintain a significant eutrophication footprint
 
+**Visualisation of the efficiency of freshwater withdrawal across all food products** 
+
+![image](https://github.com/user-attachments/assets/1c50d945-4ec1-487a-883e-f240ac4a1d5d)
+
+This is visualisation shows the impact of freshwater withdrawal before and after reduction by 50% across various food products. Fish (farmed) dominates the freshwater reduction and even before. 
 
 # Recommendations & Conclusion
 
