@@ -2,9 +2,9 @@
 
 Food production is one of the most significant contributors to environmental degradation, including issues such as climate change, water scarcity and biodiversity loss. The agricultural sector's environmental footprint varies widely across different food products, farming methods and geographical locations. Understanding the environmental impacts of food production is essential for developing more sustainable practices, reducing ecological footprints and making informed policy and consumer choices.
 
-This project focuses on analysing the environmental impact of food production, emphasising key metrics such as carbon emissions, water usage, land use and biodiversity loss. This analysis aims to uncover patterns and provide actionable recommendations for more sustainable food systems, by leveraging data on food production and environmental factors
+This project focuses on analysing the environmental impact of food production, emphasising key metrics such as carbon emissions, water usage, land use and biodiversity loss. This analysis aims to uncover patterns and provide actionable recommendations for more sustainable food systems by leveraging data on food production and environmental factors
 
-The goal of this project is to assess the environmental impact of food production at both macro and micro levels and propose data-driven insights to mitigate the negative effects of food production on the environment. This will help policymakers, environmentalists, food producers and consumers make more informed decisions that support sustainability.
+The goal of this project is to assess the environmental impact of food production at both the macro and micro levels and propose data-driven insights to mitigate the negative effects of food production on the environment. This will help policymakers, environmentalists, food producers and consumers make more informed decisions that support sustainability.
 
 ## Crisp DM Framework
 
@@ -48,19 +48,19 @@ The objectives were defined below, followed by the formulation of analytic quest
 
 -   Assess the environmental impact of food production: Analyse the environmental impact of these different food products based on key metrics such as water usage, land use, carbon emissions
 
--   Compare food production methods: Evaluate how various farming techniques (plant based versus animal based) affect environmental sustainability
+-   Compare food production methods: Evaluate how various farming techniques (plant-based versus animal-based) affect environmental sustainability
 
--   Identify high-impact food products: Determine which food contribute the most to environmental degradation and assess their sustainability
+-   Identify high-impact food products: Determine which food contributes the most to environmental degradation and assess their sustainability
 
 -   Provide data-driven insights: Develop actionable recommendations to reduce the footprint of food production, targeting policy-makers, food producers and consumers
 
 -   Promote sustainable food systems: Suggest strategies to transition toward more sustainable agricultural practices that minimise environmental harm
 
-**Analytic Questions:**
+**Analytic Questions**
 
 1.  What is the correlation between land use and carbon emissions for different food products?
 
-2.  How does eutrophication (nutrient run-off) vary among different types of food production?
+2.  How does eutrophication (nutrient runoff) vary among different types of food production?
 
 3.  How do plant-based and animal-based food compare in terms of total carbon emissions?
 
@@ -74,7 +74,7 @@ The objectives were defined below, followed by the formulation of analytic quest
 
 ### 2. Data Understanding:
 
-The dataset contains most 43 most common food grown across the globe and 23 columns as their respective land, water usage and carbon footprints. Variables include:
+The dataset contains 43 most common food grown across the globe and 23 columns as their respective land, water usage and carbon footprints. Variables include:
 
 -   Land use change - Kg CO2 - equivalents per kg product
 
@@ -108,9 +108,9 @@ To ensure the data was ready for analysis, a meticulous data preparation process
 
 ![image](https://github.com/user-attachments/assets/658c46d5-e994-426c-93da-3530661ccb7c)
 
-The bar chart displays the missing values for different variables in a dataset. The x-axis represents the missing values while the y-axis lists the variables.
+The bar chart displays the missing values for different variables in a dataset. The x-axis represents the missing values, while the y-axis lists the variables.
 
-From the chart, the variables related to water use, land use, greenhouse gas emissions and eutrophying emissions per 100g protein or 1000 kcal have the most missing values, with some having close to 18 missing entries. On the other hand, variables related to food production stages such as transport, retail, processing, packaging, farm and animal feed no missing data.
+From the chart, the variables related to water use, land use, greenhouse gas emissions and eutrophying emissions per 100g protein or 1000 kcal have the most missing values, with some having close to 18 missing entries. On the other hand, variables related to food production stages such as transport, retail, processing, packaging, farm and animal feed have no missing data.
 
 This suggests that the dataset is more complete for food production stages or processes but has gaps in environmental impact data, especially for nutrient-based metrics.
 
@@ -128,52 +128,52 @@ The missing values were dropped from the dataset to maintain data integrity and 
 
 The bar chart depicts the distribution of the top ten total emissions by food products. The y-axis shows total emissions whilst the x-axis lists different food products. Each food product is represented by a unique colour in the legend on the right.
 
-From the chart, Beef (beef herd) demonstrates the highest emissions by a considerable margin followed by Beef (dairy herd) which also has significant emissions but substantially lower in comparison. The remaining food products have relatively minor emissions compared to beef.
+From the chart, Beef (beef herd) demonstrates the highest emissions by a considerable margin followed by Beef (dairy herd), which also has significant emissions but substantially lower in comparison. The remaining food products have relatively minor emissions compared to beef.
 
 This indicates that beef production has a significantly higher environmental impact regarding emissions compared to other food products.
 
-According to the World Wildlife Fund (2025), Beef production has a higher environmental impact than other food sources due to factors like land use for grazing and crop production, greenhouse gas emissions from cattle and water pollution from waste run-off as well as deforestation from cattle ranching.
+According to the World Wildlife Fund (2025), Beef production has a higher environmental impact than other food sources due to factors like land use for grazing and crop production, greenhouse gas emissions from cattle and water pollution from waste runoff, as well as deforestation from cattle ranching.
 
 #### Land Use:
 
-As stated by the Beef Research Council, beef production requires vast amounts of land both for grazing cattle and for growing feed crops. Globally, a significant portion of agricultural land is used for livestock including cattle and a large area of rainforests is destroyed to create grazing land.
+As stated by the Beef Research Council, beef production requires vast amounts of land both for grazing cattle and for growing feed crops. Globally, a significant portion of agricultural land is used for livestock, including cattle and a large area of rainforests is destroyed to create grazing land.
 
 #### Greenhouse Gas Emissions:
 
-Cattle are a major source of greenhouse gas emissions particularly methane which is a potent greenhouse gas. Methane is released during the digestive process of cattle and also from manure management. The production of feed crops for cattle also contributes to greenhouse gas emissions (Beef Research Council, 2025).
+Cattle are a major source of greenhouse gas emissions, particularly methan,e which is a potent greenhouse gas. Methane is released during the digestive process of cattle and also from manure management. The production of feed crops for cattle also contributes to greenhouse gas emissions (Beef Research Council, 2025).
 
 #### Water Pollution:
 
-Cattle waste, if not properly managed, can pollute water sources with nitrates, phosphorus and pathogens. Water used for livestock production can also be a significant burden on water resources especially in arid regions (Beef Research Council, 2025). The Food and Agriculture Organisation has written, "The livestock sector is growing and intensifying faster than crop production in almost all countries. The associated waste including manure has serious implications for water quality (Rosie's Farm Sanctuary, 2025).
+Cattle waste, if not properly managed, can pollute water sources with nitrates, phosphorus and pathogens. Water used for livestock production can also be a significant burden on water resources, especially in arid regions (Beef Research Council, 2025). The Food and Agriculture Organisation has written, "The livestock sector is growing and intensifying faster than crop production in almost all countries. The associated waste, including manure, has serious implications for water quality (Rosie's Farm Sanctuary, 2025).
 
 #### Deforestation:
 
-Cattle ranching is a major driver of deforestation especially in regions like the Amazon rainforest where land is cleared to create grazing pastures. Deforestation contributes to climate change, biodiversity loss and soil degradation (Rosie's Farm Sanctuary, 2025).
+Cattle ranching is a major driver of deforestation, especially in regions like the Amazon rainforest, where land is cleared to create grazing pastures. Deforestation contributes to climate change, biodiversity loss and soil degradation (Rosie's Farm Sanctuary, 2025).
 
-#### Data visualisation of plant-based and animal-based on land use (m² per 100g protein) versus greenhouse gas emissions (kg CO2-eq per 100g protein)
+#### Data visualisation of plant-based and animal-based land use (m² per 100g protein) versus greenhouse gas emissions (kg CO2-eq per 100g protein)
 
 ![image](https://github.com/user-attachments/assets/13ee8e1d-e8f7-4d2b-adce-13de8b59d545)
 
-The scatter plot examines the relationship between land use (x-axis, measured in m² per 100g protein) and greenhouse gas emissions (y-axis, measured in kg CO₂eq per 100g protein) across different food categories. The visualisation separates animal-based foods (red points with dashed red trend line) from plant-based foods (blue points with dashed blue trend line).
+The scatter plot examines the relationship between land use (x-axis, measured in m² per 100g protein) and greenhouse gas emissions (y-axis, measured in kg CO₂eq per 100g protein) across different food categories. The visualisation separates animal-based foods (red points with a dashed red trend line) from plant-based foods (blue points with a dashed blue trend line).
 
-According to the specific dataset presented in this scatter plot, the animal-based category shown appear to use less land per 100g of protein than some plant-based category. The red points are clustered primarily in the lower range of the x-axis (0-150 m² per 100g protein).
+According to the specific dataset presented in this scatter plot, the animal-based category shown appears to use less land per 100g of protein than some plant-based categories. The red points are clustered primarily in the lower range of the x-axis (0-150 m² per 100g protein).
 
-The relatively flat trend line for animal-based category suggests that within this category, increasing land use does not correspond to proportionally higher emissions. However, several animal-based cateogry still show moderate to high greenhouse gas emissions despite their lower land use footprint in this dataset.
+The relatively flat trend line for the animal-based category suggests that within this category, increasing land use does not correspond to proportionally higher emissions. However, several animal-based categories still show moderate to high greenhouse gas emissions despite their lower land use footprint in this dataset.
 
 #### Plant-Based Category
 
-Plant-based Category display greater variability in both land use and emissions. While most plant-based options in this dataset show low emissions and low land use (clustered in the bottom left of the right panel), there is a notable outlier: One plant-based food requires close to 150 m² per 100g protein while producing nearly 100 kg CO₂eq, significantly higher than all other food in both categories.\
+Plant-based Category displays greater variability in both land use and emissions. While most plant-based options in this dataset show low emissions and low land use (clustered in the bottom left of the right panel), there is a notable outlier: One plant-based food requires close to 150 m² per 100g protein while producing nearly 100 kg CO₂eq, significantly higher than all other food in both categories.\
 The steeper trend line for plant-based food indicates that within this category, higher land use correlates more strongly with increased emissions.
 
-This specific dataset appears to show a subset of food that may not represent the full spectrum of animal and plant-based products. Typical comprehensive studies by Our World in Data (n.d) generally show animal products requiring substantially more land on average than plant-based alternatives. The outlier plant-based food with extremely high land use and emissions may be representing a specific crop grown in particularly resource-intensive conditions.
+This specific dataset appears to show a subset of food that may not represent the full spectrum of animal and plant-based products. Typical comprehensive studies by Our World in Data (n.d..) generally show animal products requiring substantially more land on average than plant-based alternatives. The outlier plant-based food with extremely high land use and emissions may be representing a specific crop grown in particularly resource-intensive conditions.
 
 **Environmental Implications**\
 Despite the specific data patterns shown here, transitioning from animal-based to most plant-based proteins would generally benefit emission reduction efforts, as the majority of plant-based options cluster in the low-emissions range.
 
 **Supporting Research**\
-Global Food Institute stated that, by using plants, fermentation or cell cultivation instead of livestock, the production of alternative proteins does not emit the same toxic air pollutants that is, ammonia, particulate matter and hydrogen sulfide; as conventional meat production. Similarly, because there is no animal waste to discharge and fewer crops and fertilisers are needed, alternative proteins reduce the discharge of nitrogen and phosphorus, which stimulate the growth of algal blooms that impair water quality. A shift toward alternative proteins can keep our air and water clean, improving the health of communities and ecosystems while meeting increasing protein demand.
+Global Food Institute stated that, by using plants, fermentation or cell cultivation instead of livestock, the production of alternative proteins does not emit the same toxic air pollutants that are ammonia, particulate matter and hydrogen sulfide as conventional meat production. Similarly, because there is no animal waste to discharge and fewer crops and fertilisers are needed, alternative proteins reduce the discharge of nitrogen and phosphorus, which stimulate the growth of algal blooms that impair water quality. A shift toward alternative proteins can keep our air and water clean, improving the health of communities and ecosystems while meeting increasing protein demand.
 
-This visualisation highlights the importance of considering multiple environmental metrics when evaluating food sustainability. While most plant-based foods offer environmental benefits, the data shows significant variability within both categories. For optimal environmental outcomes, focus should be placed on plant-based options with both low land use and low emissions profiles, while avoiding the outlier plant-based options that may be environmentally intensive on both metrics.
+This visualisation highlights the importance of considering multiple environmental metrics when evaluating food sustainability. While most plant-based foods offer environmental benefits, the data shows significant variability within both categories. For optimal environmental outcomes, focus should be placed on plant-based options with both low land use and low emissions profiles while avoiding the outlier plant-based options that may be environmentally intensive on both metrics.
 
 #### Summary of greenhouse gas emission (kg CO₂-eq per 100g protein)
 
@@ -187,13 +187,13 @@ Skewness: The Mean is higher than the median, suggesting a right-skewed distribu
 
 3Rd Quartile: 75% of the food have emissions of about 15.69 kg CO₂-eq.
 
-Maximum: The highest emission food products produces 93.3 kg CO₂-eq which is far above the mean, confirming outliers.
+Maximum: The highest emission food products produce 93.3 kg CO₂-eq, which is far above the mean, confirming outliers.
 
 Most food have emissions below 16 kg CO₂-eq, but a few high-impact food (an example is beef) push the mean much higher.
 
 #### Summary Land Use (m² per 100g protein)
 
-The minimum land use is just 3 m² per 100g protein.
+The minimum land use is just 3 m² per 100g of protein.
 
 1St Quartile: 25% of the food product requires 5.132 m².
 
@@ -203,13 +203,13 @@ Mean: Again, much higher than the median, indicating a some food products take u
 
 3Rd Quartile: 75% of food require 24.83 m²
 
-Maximum: Food products require almost 185 m² per 100g protein which is massively higher than the rest (likely beef).
+Maximum: Food products require almost 185 m² per 100g protein, which is massively higher than the rest (likely beef).
 
 #### Box plot to detect outliers in Greenhouse Gas Emissions (kg CO₂-eq per 100g protein)
 
 ![image](https://github.com/user-attachments/assets/e7c25b8d-f17a-4e3f-bf7f-be323bb1fad1)
 
-The box plot compares greenhouse gas emissions by category. The box is for animal and plant-based food that are quite similar. Both categories have high emission outliers, but the most extreme values is in the plant-based category (one point above 70 kg CO₂-eq). There's also an outlier in the animal-based category at 50 kg CO₂-eq.
+The box plot compares greenhouse gas emissions by category. The box is for animal and plant-based food that are quite similar. Both categories have high emission outliers, but the most extreme values are in the plant-based category (one point above 70 kg CO₂-eq). There's also an outlier in the animal-based category at 50 kg CO₂-eq.
 
 #### Box plot to detect outliers in Land Use (m² per 100g protein)
 
@@ -245,7 +245,7 @@ Lamb & Mutton require even more land than beef. Beef (beef herd) is high due to 
 
 #### Exploratory Data Analysis On Water Use (Freshwater Withdrawals & Scarcity-Weighted Water Use)
 
-#### Data Visualisation on top freshwater consuming food products litres per 1000kcal
+#### Data Visualisation on top freshwater consuming food products in litres per 1000kcal
 
 ![image](https://github.com/user-attachments/assets/1a94aa27-2668-4e30-bd2a-5db1725cf107)
 
@@ -253,15 +253,15 @@ The bar chart depicts the distribution of the top ten water-consuming food produ
 
 Cheese, Milk, Beef (dairy herd), Pig, Milk and Farmed Fish are the most water-intensive animal-based food products in this ranking.
 
-While all food production requires water, plant-based food generally require significantly less water than animal products, making them a more water-efficient choice (Colorado Sun, 2022). Animal agriculture consumes high amounts of water and pollutes freshwater ecosystems (Livvie, 2025) also, raising livestock, especially beef, requires vast amounts of water for feed production, drinking water, and cleaning (Livvie, 2025).
+While all food production requires water, plant-based food generally requires significantly less water than animal products, making them a more water-efficient choice (Colorado Sun, 2022). Animal agriculture consumes high amounts of water and pollutes freshwater ecosystems (Livvie, 2025). Also, raising livestock, especially beef, requires vast amounts of water for feed production, drinking water, and cleaning (Livvie, 2025).
 
 From the chart, tomatoes are the most water-consuming plant-based food product, which is supported by EOS (2025), stating that tomato cultivation can be water-intensive, with some studies suggesting that producing 1 kg of tomatoes can require anywhere from 4 to 300 litres of water, depending on the growing method and efficiency.
 
-#### Box plot on plant-based versus animal-based freshwater use litres per 1000kcal
+#### Box plot on plant-based versus animal-based freshwater use in litres per 1000 kcal
 
 ![image](https://github.com/user-attachments/assets/2730de17-d78c-4b46-82d4-c5c7587b932e)
 
-The box plot compares freshwater use by food category. Animal-based food has a higher median land use than plant-based food per 1000kcal. Plant-based food exhibit a wider range, with some food product requiring very little water, while others require more. Outliers in both categories suggest extreme water consumption for specific food products.
+The box plot compares freshwater use by food category. Animal-based food has a higher median land use than plant-based food per 1000 kcal. Plant-based food exhibits a wider range, with some food product requiring very little water, while others require more. Outliers in both categories suggest extreme water consumption for specific food products.
 
 Animal-based food production uses significantly more freshwater than plant-based food production, with studies showing that shifting to a plant-based diet could reduce water consumption by up to 50% (Humane World, 2019).
 
@@ -269,11 +269,11 @@ Animal-based food production uses significantly more freshwater than plant-based
 
 ![Image](https://github.com/user-attachments/assets/9aa957e3-b2c6-4ffc-92df-00648ba81373)
 
-This visualisation highlights the outliers in freshwater withdrawals (litres per 1000 kcal). Fish (farmed) is the highest outlier among animal-based food product. Tomatoes is the highest outlier among plant-based food product. Both require significantly more water than the median food product.
+This visualisation highlights the outliers in freshwater withdrawals (litres per 1000 kcal). Fish (Farmed) is the highest outlier among animal-based food products. Tomatoes are the highest outlier among plant-based food products. Both require significantly more water than the median food product.
 
 #### Environmental Impact
 
-Excessive freshwater withdrawal can lead to depletion of water sources that is reduced water availability for other uses and ecosystems. It can also lead to water quality degradation; pollution from fish farm effluent (waste) can contaminate water sources. Changes in flow of water and quality can harm aquatic habitats and species which can lead to ecosystem disruption.
+Excessive freshwater withdrawal can lead to the depletion of water sources, that is, reduced water availability for other uses and ecosystems. It can also lead to water quality degradation; pollution from fish farm effluent (waste) can contaminate water sources. Changes in the flow of water and water quality can harm aquatic habitats and species, which can lead to ecosystem disruption.
 
 #### Supporting Research
 
@@ -285,9 +285,9 @@ Fish farming relies heavily on freshwater resources and the intensity of freshwa
 
 This box plot compares scarcity-weighted water use (litres per 1000 kcal) for animal-based and plant-based food categories.
 
-Animal-based food have a higher median and spread of scarcity-weighted water use than plant-based food.The variation within plant-based food shows relatively low water use while others have values close to animal-based food.
+Animal-based food have a higher median and spread of scarcity-weighted water use than plant-based food. The variation within plant-based food shows relatively low water use, while others have values close to animal-based food.
 
-The scarcity-weighted water use box-plot doesn't show distinct outliers. The distribution suggests that both animal-based and plant-based food have a wide range, but no extreme points that fall significantly outside the whiskers.
+The scarcity-weighted water use box-plot doesn't show distinct outliers. The distribution suggests that both animal-based and plant-based food have a wide range but no extreme points that fall significantly outside the whiskers.
 
 **Supporting Research\
 **Plant-based food require less water than animal-based food. This is because raising livestock needs large amounts of water for animal consumption and feed production (Livvie, n.d).
@@ -296,33 +296,33 @@ The scarcity-weighted water use box-plot doesn't show distinct outliers. The dis
 
 ![image](https://github.com/user-attachments/assets/b8b48290-4dcc-4e27-a69d-b83f3fab5d70)
 
-The scatter plot shows a distribution of freshwater withdrawals versus scarcity weighted water use.
+The scatter plot shows a distribution of freshwater withdrawals versus scarcity-weighted water use.
 
-Freshwater withdrawals (litres per 1000kcal) measures the total amount of water taken from sources, while scarcity-weighted water use (litres per 1000kcal) considers the water's availability and stress levels in the region where it's used.
+Freshwater withdrawals (litres per 1000kcal) measure the total amount of water taken from sources, while scarcity-weighted water use (litres per 1000kcal) considers the water's availability and stress levels in the region where it's used.
 
 Both plant-based and animal-based food show variation in how their water use translates into environmental stress.
 
 #### **Exploratory Data Analysis (EDA) on Eutrophication (g PO4eq per 100g protein)**
 
-Eutrophication is the pollution of water bodies and ecosystems with excess nutrients mostly nitrogen and phosphorus, leading to algal blooms (Wikipedia). Eutrophication is a major environmental problem. The runoff of nitrogen and other nutrients from agricultural production systems is a leading contributor.\
+Eutrophication is the pollution of water bodies and ecosystems with excess nutrients, mostly nitrogen and phosphorus, leading to algal blooms (Wikipedia). Eutrophication is a major environmental problem. The runoff of nitrogen and other nutrients from agricultural production systems is a leading contributor.\
 \
-According to wikipedia, the algal blooms can deplete the level of oxygen in the water, creating what is called "dead zones" that harm aquatic life. The degradation of these algae also leads to oxygen consumption in lake bottoms, which causes problems for fish and other aquatic species.
+According to Wikipedia, the algal blooms can deplete the level of oxygen in the water, creating what is called "dead zones" that harm aquatic life. The degradation of these algae also leads to oxygen consumption in lake bottoms, which causes problems for fish and other aquatic species.
 
 **Data visualisation on the top 10 food products with the highest eutrophication impact.**
 
 ![Image](https://github.com/user-attachments/assets/d762c705-de45-47bd-9330-aae2f8f0a5e6)
 
-Eutrophying emissions represent run-off of excess nutrients into the surrounding environment and waterways, which affect and pollute ecosystems (Our World in Data, 2025). They are measured in grams of phosphate equivalents (PO₄eq).
+Eutrophying emissions represent the runoff of excess nutrients into the surrounding environment and waterways, which affect and pollute ecosystems (Our World in Data, 2025). They are measured in grams of phosphate equivalents (PO₄eq).
 
-This bar chart shows the top 10 food with the highest eutrophication impact, measured in g PO₄eq per 100g protein. Beef (dairy herd) has the highest eutrophication impact, making it the most significant contributor to nutrient pollution. Dark chocolate and coffee, both plant-based, rank among the top contributors, indicating that some plant food also have high eutrophication footprint.
+This bar chart shows the top 10 food with the highest eutrophication impact, measured in g PO₄eq per 100g protein. Beef (dairy herd) has the highest eutrophication impact, making it the most significant contributor to nutrient pollution. Dark chocolate and coffee, both plant-based, rank among the top contributors, indicating that some plant food also has a high eutrophication footprint.
 
 Beef (beef herd) and farmed fish continue to show high impacts, reinforcing the significant role of animal-based products.
 
 Tomatoes, berries & grapes, rice and apples highlight that certain crops also have notable eutrophication impacts, likely due to fertilizer use.\
 \
-Eutrophying emissions represent run-off of excess nutrients into the surrounding environment and waterways, which affect and pollute ecosystems (Our World in Data, 2025). They are measured in grams of phosphate equivalents (PO₄eq).
+Eutrophying emissions represent the runoff of excess nutrients into the surrounding environment and waterways, which affect and pollute ecosystems (Our World in Data, 2025). They are measured in grams of phosphate equivalents (PO₄eq).
 
-This bar chart shows the top 10 food with the highest eutrophication impact, measured in g PO₄eq per 100g protein. Beef (dairy herd) has the highest eutrophication impact, making it the most significant contributor to nutrient pollution. Dark chocolate and coffee, both plant-based, rank among the top contributors, indicating that some plant food also have high eutrophication footprint.
+This bar chart shows the top 10 food with the highest eutrophication impact, measured in g PO₄eq per 100g protein. Beef (dairy herd) has the highest eutrophication impact, making it the most significant contributor to nutrient pollution. Dark chocolate and coffee, both plant-based, rank among the top contributors, indicating that some plant food also has a high eutrophication footprint.
 
 Beef (beef herd) and farmed fish continue to show high impacts, reinforcing the significant role of animal-based products.
 
@@ -331,26 +331,26 @@ Tomatoes, berries & grapes, rice and apples highlight that certain crops also ha
 **Environmental Impact of Beef**\
 Beef production is associated with high eutrophication, which is due to runoff from manure and the overall environmental impact of livestock farming, especially compared to plant-based alternatives.
 
-**Manure Runoff** Large amounts of water are generated for beef production, which has high nitrogen and phosphorus levels. Eutrophication is caused when this manure runs off into waterways. Eutrophication is 59 times higher than beef in terms of kilograms due to it runoff from manure (Poore & Nemeck, 2018).
+**Manure Runoff** Large amounts of water are generated for beef production, which has high nitrogen and phosphorus levels. Eutrophication is caused when this manure runs off into waterways. Eutrophication is 59 times higher than beef in terms of kilograms due to runoff from manure (Poore & Nemeck, 2018).
 
-**Land Use** Beef production needs extensive land for grazing and feed crops, leading to deforestation and land degradation. This can also be a factor to soil erosion and nutrient runoff.\
+**Land Use** Beef production needs extensive land for grazing and feed crops, leading to deforestation and land degradation. This can also be a factor in soil erosion and nutrient runoff.\
 \
-**Greenhouse Gas Emissions** Cattle product a significant amount of methane, a greenhouse gas that contributes to change in climate and also heightening eutrophication issues.
+**Greenhouse Gas Emissions** Cattle products a significant amount of methane, a greenhouse gas that contributes to changes in climate and also heightens eutrophication issues.
 
 **Environmental Impact of Coffee**\
 Ohio State Pressbooks states that coffee production and processing is a factor that contributes to eutrophication. Coffee processing generates a large amount of organic waste, including pulp and other residues, which are often discharged into nearby waterways (Hugo Coffee). This organic waste contains nutrients such as nitrogen and phosphorus; when entering water bodies, it can lead to excessive growth of algae (eutrophication).
 
-Coffee processing and the consumption of coffee has contributed to caffeine contamination in water, which has negative impacts on aquatic ecosystems (Butler, R.A., 2022).\
+Coffee processing and the consumption of coffee have contributed to caffeine contamination in water, which has negative impacts on aquatic ecosystems (Butler, R.A., 2022).\
 \
 **Environmental Impact of Dark Chocolate**\
-Chocolate in itself does not directly cause eutrophication, its consumption and production contribute to it through the environmental impacts of cocoa farming, chocolate manufacturing and packaging with it main concern in water usage, deforestation and energy consumption.
+Chocolate in itself does not directly cause eutrophication, but its consumption and production contribute to it through the environmental impacts of cocoa farming, chocolate manufacturing and packaging, with its main concerns in water usage, deforestation and energy consumption.
 
 **A Breakdown of how chocolate contributes to eutrophication:\
 Raw Material Production:** A major component of chocolate production is cocoa farming, which leads to deforestation, soil degradation and the use of fertilisers and other agrochemical products, all of which can contribute to nutrient runoff into waterways, leading to eutrophication.\
 \
-**Manufacturing Processes:** In chocolate manufacturing, the intensive processes such as drying, roasting and refining can contribute to greenhouse gas emissions and energy consumption.\
+**Manufacturing Processes** In chocolate manufacturing, the intensive processes such as drying, roasting and refining can contribute to greenhouse gas emissions and energy consumption.\
 \
-**Packaging and Transportation** The packaging materials used for chocolate and the transportation of cocoa beans and finished products can have impact on the environment, which includes the depletion of resources and waste generation.
+**Packaging and Transportation** The packaging materials used for chocolate and the transportation of cocoa beans and finished products can have an impact on the environment, which includes the depletion of resources and waste generation.
 
 **Water Footprint** The production of cocoa and chocolate needs a lot of water and water pollution from agricultural runoff and industrial processes contributes to eutrophication.\
 \
@@ -360,7 +360,7 @@ Raw Material Production:** A major component of chocolate production is cocoa fa
 
 ![Image](https://github.com/user-attachments/assets/b29a4f2d-3936-4e7f-928a-efdb97f964ef)
 
-This boxplot compares the eutrophication impact of animal-based and plant-based food, measured in g PO₄eq per 100g protein. Animal-based food have a higher median eutrophication impact than plant-based food. The interquartile range (IQR) for animal-based food is wider, indicating greater variability in eutrophication impact.
+This box plot compares the eutrophication impact of animal-based and plant-based food, measured in g PO₄eq per 100g protein. Animal-based food has a higher median eutrophication impact than plant-based food. The interquartile range (IQR) for animal-based food is wider, indicating greater variability in eutrophication impact.
 
 Outliers in plant-based food suggest that certain plant products have exceptionally high eutrophication impacts.
 
@@ -386,11 +386,11 @@ Coffee – A plant-based outlier, indicating that coffee cultivation has a signi
 
 The scatter plot shows the relationship between Eutrophication (g PO₄eq per 100g protein) and Greenhouse Gas (GHG) Emissions (kg CO₂-eq per 100g protein).
 
-There appears to be a positive correlation between eutrophication and GHG emissions. A few food products (most likely beef (dairy and beef herd)) are extreme outliers, having both high eutrophication and high GHG emissions. Most food have relatively low eutrophication and GHG emissions, staying in the bottom-left region.
+There appears to be a positive correlation between eutrophication and GHG emissions. A few food products (most likely beef (dairy and beef herd)) are extreme outliers, having both high eutrophication and high GHG emissions. Most food has relatively low eutrophication and GHG emissions, staying in the bottom-left region.
 
 **Supporting Research** 
 
-Higher levels of eutrophication increases greenhouse gas emissions to the atmosphere, the emission of CH~4~ have been observed to increase with eutrphication (DelSontro et al., 2018).
+Higher levels of eutrophication increase greenhouse gas emissions to the atmosphere; the emission of CH~4~ has been observed to increase with eutrphication (DelSontro et al., 2018).
 
 **How eutrophication affects greenhouse gas emission:**
 
@@ -404,13 +404,13 @@ This visualisation displays the eutrophication impact before and after by 75% fo
 
 The chart also shows some plant-based products having a notable eutrophication reduction impact. Dark chocolate, Coffee, Tomatoes, Berries & Grapes and Rice show substantial eutrophication values, although they are generally lower than the animal products. 
 
-The reduction effect by 75% is proportional since high-impact food shows a more noticeable reduction, but they still maintain a significant eutrophication footprint
+The reduction effect by 75% is proportional since high-impact food shows a more noticeable reduction, but they still maintain a significant eutrophication footprint.
 
 **Visualisation of the efficiency of freshwater withdrawal across all food products** 
 
 ![image](https://github.com/user-attachments/assets/1c50d945-4ec1-487a-883e-f240ac4a1d5d)
 
-This is visualisation shows the impact of freshwater withdrawal before and after reduction by 50% across various food products. Fish (farmed) dominates the freshwater reduction and even before. 
+This visualisation shows the impact of freshwater withdrawal before and after by 50% reduction across various food products. Fish (farmed) dominates the freshwater reduction and even before. 
 
 # Recommendations & Conclusion
 
@@ -420,9 +420,9 @@ This section outlines evidence-based strategies to reduce the environmental impa
 
 ### 1.1 Beef Production
 
-Beef production contributes significantly to global greenhouse gas emissions and requires extensive land use. Global Food Institute (2025) states that using alternative proteins helps reduce air and water pollution significantly. With the use of plants, fermentation and cell cultivation instead of livestock, the production of alternative proteins does not emit the toxic air pollutants, including ammonia, hydrogen sulfide and particulate matter, as conventional meat production. Also,there will be no discharge of animal waste. The discharge of nitrogen and phosphorus, which stimulates the growth of algal blooms that impair water quality ,is reduced by using alternative proteins.
+Beef production contributes significantly to global greenhouse gas emissions and requires extensive land use. Global Food Institute (2025) states that using alternative proteins helps reduce air and water pollution significantly. With the use of plants, fermentation and cell cultivation instead of livestock, the production of alternative proteins does not emit the toxic air pollutants, including ammonia, hydrogen sulfide and particulate matter, as conventional meat production. Also, there will be no discharge of animal waste. The discharge of nitrogen and phosphorus, which stimulates the growth of algal blooms that impair water quality,is reduced by using alternative proteins.
 
-Moving towards alternative proteins will promote clean water and air as well as improving ecosystems and the health of communities as it also meets increasing protein demand.
+Moving towards alternative proteins will promote clean water and air as well as improve ecosystems and the health of communities as it also meets increasing protein demand.
 
 ### 1.2 Alternative Proteins
 
@@ -458,7 +458,7 @@ Implementing sustainable agricultural methods represents a crucial approach to m
 
 ### 2.2 Organic Farming Practices
 
-Another sustainable practice is organic coffee bean farming, that can drastically reduce coffee's environmental impact. Organic methods avoid the use of synthetic fertilisers and pesticides, unlike traditional coffee farming. According to Green Bean Coffee (2025), these chemicals pose a threat to aquatic life and contaminate water bodies. Organic farming not only protect the ecological balance of the various areas coffee is grown in but also helps to preserves our water sources.
+Another sustainable practice is organic coffee bean farming, which can drastically reduce coffee's environmental impact. Organic methods avoid the use of synthetic fertilisers and pesticides, unlike traditional coffee farming. According to Green Bean Coffee (2025), these chemicals pose a threat to aquatic life and contaminate water bodies. Organic farming not only protects the ecological balance of the various areas coffee is grown in but also helps to preserve our water sources.
 
 ## 3. Freshwater Conservation Strategies
 
@@ -472,7 +472,7 @@ According to Food and Agriculture Organisation (FAO), sustainable fish farming r
 
 Water Treatment: Implementing effective water treatment technologies and practices is crucial for minimising environmental impact and ensuring fish health.
 
-Water Reuse: Exploring responsible water reuse opportunities, such as using treated waste water, can help reduce the demand on freshwater sources.
+Water Reuse: Exploring responsible water reuse opportunities, such as using treated wastewater, can help reduce the demand on freshwater sources.
 
 Selection of Sustainable Species and Farming Methods: Prioritising the cultivation of species that are native to the region and using less water-intensive farming methods can help reduce the overall environmental footprint.
 
@@ -484,7 +484,7 @@ Promoting Awareness: Educating fish farmers and the public about the importance 
 
 ### **4.1 The Global Water Crisis**
 
-According to the Global Food Institute, only 0.003 percent of Earth's water is available as freshwater, a precious resource that is becoming increasingly scarce. More than two billion people currently live in countries experiencing inadequate water supply, highlighting the urgency of conservation efforts. Agriculture stands as the largest consumer of freshwater globally, accounting for approximately 70 percent of all withdrawals worldwide.
+According to the Global Food Institute, only 0.003 percent of Earth's water is available as fresh water, a precious resource that is becoming increasingly scarce. More than two billion people currently live in countries experiencing inadequate water supply, highlighting the urgency of conservation efforts. Agriculture stands as the largest consumer of freshwater globally, accounting for approximately 70 percent of all withdrawals worldwide.
 
 ### **4.2 Alternative Proteins as Water Conservation Solutions**
 
@@ -519,9 +519,9 @@ As water becomes an increasingly limited resource due to climate change, populat
 
 ## 5. **Eutrophication Strategies**
 
-**5.1 Eutrophication Strategies On Dark Chocolate**
+**5.1 Eutrophication Strategies on Dark Chocolate**
 
-Chocolate in itself does not directly cause eutrophication, its consumption and production contribute to it through the environmental impacts of cocoa farming, chocolate manufacturing and packaging with it main concern in water usage, deforestation and energy consumption. Life Cycle Assessment (LCA) can help identify environmental hotpsots along the chocolate chain, that includes raw materials, production of chocolate and packaging.
+Chocolate in itself does not directly cause eutrophication, but its consumption and production contribute to it through the environmental impacts of cocoa farming, chocolate manufacturing and packaging, with it main concerns in water usage, deforestation and energy consumption. Life Cycle Assessment (LCA) can help identify environmental hotspots along the chocolate chain, which includes raw materials, production of chocolate and packaging.
 
 **5.2 Eutrophication Strategies On Beef**
 
@@ -529,9 +529,9 @@ Sustainable beef production practices, such as reducing manure runoff, improving
 
 Shifting towards more plant-based diets can also help reduce the overall environmental burden of food production.
 
-**Mitigation on Eutrophication and Greenhouse Gas Emissions**
+**Mitigation of Eutrophication and Greenhouse Gas Emissions**
 
-Reducing nutrient runoff into water bodies (e.g., from agricultural fertilizers and sewage) is crucial to mitigate eutrophication and its impact on GHG emissions. Restoring and managing freshwater ecosystems can also help reduce GHG emissions. Transitioning to renewable energy sources, improving energy efficiency and reducing deforestation are key to mitigating GHG emissions and addressing climate change
+Reducing nutrient runoff into water bodies (e.g., from agricultural fertilizers and sewage) is crucial to mitigating eutrophication and its impact on GHG emissions. Restoring and managing freshwater ecosystems can also help reduce GHG emissions. Transitioning to renewable energy sources, improving energy efficiency and reducing deforestation are key to mitigating GHG emissions and addressing climate change
 
 ## Policy Recommendations
 
@@ -587,7 +587,7 @@ Addressing both eutrophication and GHG emissions needs a multifaceted approach, 
 
 -   Ritchie, H., & Roser, M. (n.d.). *Land use and diets*. Our World in Data. Retrieved March 24, 2025, from <https://ourworldindata.org/land-use-diets#:~:text=The%20land%20use%20of%20livestock,for%20biodiversity%20and%20carbon%20sequestration.&text=In%20an%20upcoming%20article%20we,shift%20towards%20plant%2Dbased%20diets>.
 
--   Hannah Ritchie (2021) - “If the world adopted a plant-based diet, we would reduce global agricultural land use from 4 to 1 billion hectares” Published online at OurWorldinData.org. Retrieved from: '<https://ourworldindata.org/land-use-diets>' [Online Resource]
+-   Hannah Ritchie (2021) - “If the world adopted a plant-based diet, we would reduce global agricultural land use from 4 to 1 billion hectares.” Published online at OurWorldinData.org. Retrieved from: '<https://ourworldindata.org/land-use-diets>' [Online Resource]
 
 -   Green Element. (n.d.). Why is eating meat bad for the environment? *Green Element*. Retrieved March 27, 2025, from <https://www.greenelement.co.uk/blog/why-is-eating-meat-bad-for-the-environment/>
 
@@ -603,7 +603,7 @@ Addressing both eutrophication and GHG emissions needs a multifaceted approach, 
 
 -   Eutrophication. (2025, March 27). In *Wikipedia, The Free Encyclopedia*. <https://en.wikipedia.org/wiki/Eutrophication#:~:text=In%20such%20areas%20the%20density,as%20a%20%22summer%20kill%22>.
 
--   Science Daily. (2019, March 26). The greening or eutrophication of the earth: Nitrogen emissions more potent than carbon dioxide. *Science Daily*. <https://www.sciencedaily.com/releases/2019/03/190326081426.htm#:~:text=The%20greening%20or%20eutrophication%20of,more%20potent%20than%20carbon%20dioxide>.
+-   Science Daily. (2019, March 26). The greening or eutrophication of the earth: Nitrogen emissions are more potent than carbon dioxide. *Science Daily*. <https://www.sciencedaily.com/releases/2019/03/190326081426.htm#:~:text=The%20greening%20or%20eutrophication%20of,more%20potent%20than%20carbon%20dioxide>.
 
 
 
