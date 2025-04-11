@@ -156,7 +156,7 @@ Cattle ranching is a major driver of deforestation, especially in regions like t
 
 The scatter plot examines the relationship between land use (x-axis, measured in m² per 100g protein) and greenhouse gas emissions (y-axis, measured in kg CO₂eq per 100g protein) across different food categories. The visualisation separates animal-based foods (red points with a dashed red trend line) from plant-based foods (blue points with a dashed blue trend line).
 
-According to the specific dataset presented in this scatter plot, the animal-based category shown appears to use less land per 100g of protein than some plant-based categories. The red points are clustered primarily in the lower range of the x-axis (0-150 m² per 100g protein).
+According to the specific dataset presented in this scatter plot, the animal-based category shown appears to use less land per 100g of protein than some plant-based categories. The red points are clustered primarily in the lower range of the x-axis (0-50 m² per 100g protein).
 
 The relatively flat trend line for the animal-based category suggests that within this category, increasing land use does not correspond to proportionally higher emissions. However, several animal-based categories still show moderate to high greenhouse gas emissions despite their lower land use footprint in this dataset.
 
