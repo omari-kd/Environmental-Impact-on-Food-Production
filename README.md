@@ -140,7 +140,7 @@ As stated by the Beef Research Council, beef production requires vast amounts of
 
 #### Greenhouse Gas Emissions:
 
-Cattle are a major source of greenhouse gas emissions, particularly methan,e which is a potent greenhouse gas. Methane is released during the digestive process of cattle and also from manure management. The production of feed crops for cattle also contributes to greenhouse gas emissions (Beef Research Council, 2025).
+Cattle are a major source of greenhouse gas emissions, particularly methane, which is a potent greenhouse gas. Methane is released during the digestive process of cattle and also from manure management. The production of feed crops for cattle also contributes to greenhouse gas emissions (Beef Research Council, 2025).
 
 #### Water Pollution:
 
