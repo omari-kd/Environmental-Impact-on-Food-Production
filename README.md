@@ -253,7 +253,7 @@ The bar chart depicts the distribution of the top ten water-consuming food produ
 
 Cheese, Milk, Beef (dairy herd), Pig, Milk and Farmed Fish are the most water-intensive animal-based food products in this ranking.
 
-While all food production requires water, plant-based food generally requires significantly less water than animal products, making them a more water-efficient choice (Colorado Sun, 2022). Animal agriculture consumes high amounts of water and pollutes freshwater ecosystems (Livvie, 2025). Also, raising livestock, especially beef, requires vast amounts of water for feed production, drinking water, and cleaning (Livvie, 2025).
+While all food production requires water, plant-based food generally requires significantly less water than animal products, making them a more water-efficient choice (Colorado Sun, 2022). Animal agriculture consumes high amounts of water and pollutes freshwater ecosystems (Livvie, 2025). Also, raising livestock, especially beef, requires vast amounts of water for feed production, drinking water and cleaning (Livvie, 2025).
 
 From the chart, tomatoes are the most water-consuming plant-based food product, which is supported by EOS (2025), stating that tomato cultivation can be water-intensive, with some studies suggesting that producing 1 kg of tomatoes can require anywhere from 4 to 300 litres of water, depending on the growing method and efficiency.
 
@@ -261,7 +261,7 @@ From the chart, tomatoes are the most water-consuming plant-based food product, 
 
 ![image](https://github.com/user-attachments/assets/2730de17-d78c-4b46-82d4-c5c7587b932e)
 
-The box plot compares freshwater use by food category. Animal-based food has a higher median land use than plant-based food per 1000 kcal. Plant-based food exhibits a wider range, with some food products requiring very little water, while others require more. Outliers in both categories suggest extreme water consumption for specific food products.
+The box plot compares freshwater use by food category. Animal-based food has a higher median land use than plant-based food per 1000 kcal. Plant-based food exhibits a wider range, with some food products requiring very little water while others require more. Outliers in both categories suggest extreme water consumption for specific food products.
 
 Animal-based food production uses significantly more freshwater than plant-based food production, with studies showing that shifting to a plant-based diet could reduce water consumption by up to 50% (Humane World, 2019).
 
