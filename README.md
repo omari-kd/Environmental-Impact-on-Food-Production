@@ -128,7 +128,7 @@ The missing values were dropped from the dataset to maintain data integrity and 
 
 The bar chart depicts the distribution of the top ten total emissions by food products. The y-axis shows total emissions whilst the x-axis lists different food products. Each food product is represented by a unique colour in the legend on the right.
 
-From the chart, Beef (beef herd) demonstrates the highest emissions by a considerable margin followed by Beef (dairy herd), which also has significant emissions but substantially lower in comparison. The remaining food products have relatively minor emissions compared to beef.
+From the chart, Beef (beef herd) demonstrates the highest emissions by a considerable margin followed by Lamb & Mutton, which also has significant emissions but substantially lower in comparison. The remaining food products have relatively minor emissions compared to beef.
 
 This indicates that beef production has a significantly higher environmental impact regarding emissions compared to other food products.
 
